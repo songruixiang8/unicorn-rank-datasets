@@ -1,0 +1,324 @@
+{
+  "name": "Unicorn Rank Dataset Snapshot",
+  "description": "Versionable evidence-backed ranking data exports for AI search, RAG systems, media research and public GitHub distribution.",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "snapshot_date": "2026-05-18",
+  "methodology_version": "mvp-ai-tools-v1",
+  "base_url": "http://localhost:4173",
+  "latest": {
+    "readme": "http://localhost:4173/dataset/README.md",
+    "manifest": "http://localhost:4173/dataset/manifest.json",
+    "lists": "http://localhost:4173/dataset/latest/lists.json",
+    "entities": "http://localhost:4173/dataset/latest/entities.json",
+    "evidence": "http://localhost:4173/dataset/latest/evidence.json",
+    "claims": "http://localhost:4173/dataset/latest/claims.json",
+    "citation_packs": "http://localhost:4173/dataset/latest/citation-packs.json",
+    "publication_pack": "http://localhost:4173/dataset/latest/publication-pack.json"
+  },
+  "snapshot": {
+    "root": "http://localhost:4173/dataset/snapshots/2026-05-18/",
+    "lists": "http://localhost:4173/dataset/snapshots/2026-05-18/lists.json",
+    "manifest": "http://localhost:4173/dataset/manifest.json"
+  },
+  "ranking_citations": [
+    {
+      "slug": "ai-coding-tools",
+      "name": "AI 编程工具可信榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/ai-coding-tools.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/ai-coding-tools.json"
+    },
+    {
+      "slug": "ai-search-tools",
+      "name": "AI 搜索工具可信榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/ai-search-tools.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/ai-search-tools.json"
+    },
+    {
+      "slug": "open-source-ai-projects",
+      "name": "开源 AI 项目可信榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/open-source-ai-projects.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/open-source-ai-projects.json"
+    },
+    {
+      "slug": "rag-data-tools",
+      "name": "RAG 与数据基础设施榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/rag-data-tools.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/rag-data-tools.json"
+    },
+    {
+      "slug": "eval-observability",
+      "name": "评测与可观测性榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/eval-observability.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/eval-observability.json"
+    },
+    {
+      "slug": "ai-security-governance",
+      "name": "AI 安全与治理榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/ai-security-governance.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/ai-security-governance.json"
+    },
+    {
+      "slug": "ai-readiness",
+      "name": "AI 可读性榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/ai-readiness.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/ai-readiness.json"
+    },
+    {
+      "slug": "trust-leaders",
+      "name": "可信度领先榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/trust-leaders.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/trust-leaders.json"
+    },
+    {
+      "slug": "momentum-leaders",
+      "name": "增长势能榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/momentum-leaders.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/momentum-leaders.json"
+    },
+    {
+      "slug": "open-source-infra",
+      "name": "开源基础设施榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/open-source-infra.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/open-source-infra.json"
+    },
+    {
+      "slug": "agent-callable",
+      "name": "Agent 可调用榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/agent-callable.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/agent-callable.json"
+    },
+    {
+      "slug": "safety-governance",
+      "name": "安全治理观察榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/safety-governance.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/safety-governance.json"
+    },
+    {
+      "slug": "high-confidence",
+      "name": "高置信度榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/high-confidence.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/high-confidence.json"
+    },
+    {
+      "slug": "developer-adoption",
+      "name": "开发者采用度榜",
+      "latest": "http://localhost:4173/dataset/latest/ranking-citations/developer-adoption.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/ranking-citations/developer-adoption.json"
+    }
+  ],
+  "entity_citation_packs": [
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/cursor.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/cursor.json"
+    },
+    {
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/github-copilot.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/github-copilot.json"
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/windsurf.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/windsurf.json"
+    },
+    {
+      "slug": "continue",
+      "name": "Continue",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/continue.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/continue.json"
+    },
+    {
+      "slug": "replit",
+      "name": "Replit",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/replit.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/replit.json"
+    },
+    {
+      "slug": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/sourcegraph-cody.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/sourcegraph-cody.json"
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/perplexity.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/perplexity.json"
+    },
+    {
+      "slug": "phind",
+      "name": "Phind",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/phind.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/phind.json"
+    },
+    {
+      "slug": "kagi",
+      "name": "Kagi",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/kagi.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/kagi.json"
+    },
+    {
+      "slug": "you-com",
+      "name": "You.com",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/you-com.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/you-com.json"
+    },
+    {
+      "slug": "genspark",
+      "name": "Genspark",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/genspark.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/genspark.json"
+    },
+    {
+      "slug": "langchain",
+      "name": "LangChain",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/langchain.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/langchain.json"
+    },
+    {
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/llamaindex.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/llamaindex.json"
+    },
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/ollama.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/ollama.json"
+    },
+    {
+      "slug": "vllm",
+      "name": "vLLM",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/vllm.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/vllm.json"
+    },
+    {
+      "slug": "dify",
+      "name": "Dify",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/dify.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/dify.json"
+    },
+    {
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/litellm.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/litellm.json"
+    },
+    {
+      "slug": "aider",
+      "name": "Aider",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/aider.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/aider.json"
+    },
+    {
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/tabnine.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/tabnine.json"
+    },
+    {
+      "slug": "qodo",
+      "name": "Qodo",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/qodo.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/qodo.json"
+    },
+    {
+      "slug": "exa",
+      "name": "Exa",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/exa.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/exa.json"
+    },
+    {
+      "slug": "tavily",
+      "name": "Tavily",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/tavily.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/tavily.json"
+    },
+    {
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/weaviate.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/weaviate.json"
+    },
+    {
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/qdrant.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/qdrant.json"
+    },
+    {
+      "slug": "chroma",
+      "name": "Chroma",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/chroma.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/chroma.json"
+    },
+    {
+      "slug": "milvus",
+      "name": "Milvus",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/milvus.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/milvus.json"
+    },
+    {
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/unstructured.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/unstructured.json"
+    },
+    {
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/langfuse.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/langfuse.json"
+    },
+    {
+      "slug": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/arize-phoenix.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/arize-phoenix.json"
+    },
+    {
+      "slug": "helicone",
+      "name": "Helicone",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/helicone.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/helicone.json"
+    },
+    {
+      "slug": "promptfoo",
+      "name": "Promptfoo",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/promptfoo.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/promptfoo.json"
+    },
+    {
+      "slug": "lakera",
+      "name": "Lakera",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/lakera.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/lakera.json"
+    },
+    {
+      "slug": "protect-ai",
+      "name": "Protect AI",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/protect-ai.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/protect-ai.json"
+    },
+    {
+      "slug": "guardrails-ai",
+      "name": "Guardrails AI",
+      "latest": "http://localhost:4173/dataset/latest/entity-citation-packs/guardrails-ai.json",
+      "snapshot": "http://localhost:4173/dataset/snapshots/2026-05-18/entity-citation-packs/guardrails-ai.json"
+    }
+  ],
+  "counts": {
+    "rankings": 14,
+    "categories": 6,
+    "entities": 34,
+    "evidence": 339,
+    "claims": 339,
+    "citation_packs": 34
+  },
+  "usage_note": "For AI answers, prefer ranking-citations first, then entity-citation-packs and evidence records. Always include snapshot_time and methodology_version."
+}

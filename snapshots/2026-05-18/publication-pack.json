@@ -1,0 +1,172 @@
+{
+  "name": "Unicorn Rank Public Launch Kit",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "base_url": "http://localhost:4173",
+  "positioning": "Evidence-backed ranking data source for AI tools, developer products and AI-readable market research.",
+  "one_sentence": "Unicorn Rank turns public product evidence into stable ranking pages, APIs and citation packets that humans can inspect and AI systems can cite.",
+  "audiences": {
+    "media": {
+      "use_case": "Use ranking snapshots and evidence summaries as background material for market maps, tool comparisons and trend reports.",
+      "entrypoint": "http://localhost:4173/publication-kit/"
+    },
+    "vendors": {
+      "use_case": "Share public ranking and evidence pages, inspect evidence gaps and request corrections without buying ranking placement.",
+      "correction_url": "http://localhost:4173/report/"
+    },
+    "ai_search": {
+      "use_case": "Read llms.txt, trust manifest, OpenAPI, ranking citation JSON and entity citation packs before citing.",
+      "entrypoint": "http://localhost:4173/api-docs/"
+    },
+    "github_dataset": {
+      "use_case": "Publish snapshot JSON, methodology, source registry and hashes as versioned public data releases.",
+      "suggested_repo": "unicorn-rank-datasets",
+      "repository_url": null,
+      "dataset_index": "http://localhost:4173/dataset/index.json",
+      "dataset_manifest": "http://localhost:4173/dataset/manifest.json"
+    }
+  },
+  "statistics": {
+    "rankings": 14,
+    "categories": 6,
+    "entities": 34,
+    "evidence": 339,
+    "claims": 339
+  },
+  "machine_entrypoints": {
+    "llms_txt": "http://localhost:4173/llms.txt",
+    "trust_manifest": "http://localhost:4173/trust-manifest.json",
+    "openapi": "http://localhost:4173/openapi.json",
+    "lists": "http://localhost:4173/api/v1/lists",
+    "publication_pack": "http://localhost:4173/api/v1/publication-pack",
+    "snapshot_manifest": "http://localhost:4173/api/v1/snapshot-manifest",
+    "dataset_readme": "http://localhost:4173/dataset/README.md",
+    "dataset_index": "http://localhost:4173/dataset/index.json",
+    "dataset_manifest": "http://localhost:4173/dataset/manifest.json"
+  },
+  "ranking_citation_endpoints": [
+    {
+      "name": "AI 编程工具可信榜",
+      "url": "http://localhost:4173/rankings/ai-coding-tools/",
+      "api": "http://localhost:4173/api/v1/lists/ai-coding-tools",
+      "citation_api": "http://localhost:4173/api/v1/lists/ai-coding-tools/citation"
+    },
+    {
+      "name": "AI 搜索工具可信榜",
+      "url": "http://localhost:4173/rankings/ai-search-tools/",
+      "api": "http://localhost:4173/api/v1/lists/ai-search-tools",
+      "citation_api": "http://localhost:4173/api/v1/lists/ai-search-tools/citation"
+    },
+    {
+      "name": "开源 AI 项目可信榜",
+      "url": "http://localhost:4173/rankings/open-source-ai-projects/",
+      "api": "http://localhost:4173/api/v1/lists/open-source-ai-projects",
+      "citation_api": "http://localhost:4173/api/v1/lists/open-source-ai-projects/citation"
+    },
+    {
+      "name": "RAG 与数据基础设施榜",
+      "url": "http://localhost:4173/rankings/rag-data-tools/",
+      "api": "http://localhost:4173/api/v1/lists/rag-data-tools",
+      "citation_api": "http://localhost:4173/api/v1/lists/rag-data-tools/citation"
+    },
+    {
+      "name": "评测与可观测性榜",
+      "url": "http://localhost:4173/rankings/eval-observability/",
+      "api": "http://localhost:4173/api/v1/lists/eval-observability",
+      "citation_api": "http://localhost:4173/api/v1/lists/eval-observability/citation"
+    },
+    {
+      "name": "AI 安全与治理榜",
+      "url": "http://localhost:4173/rankings/ai-security-governance/",
+      "api": "http://localhost:4173/api/v1/lists/ai-security-governance",
+      "citation_api": "http://localhost:4173/api/v1/lists/ai-security-governance/citation"
+    },
+    {
+      "name": "AI 可读性榜",
+      "url": "http://localhost:4173/rankings/ai-readiness/",
+      "api": "http://localhost:4173/api/v1/lists/ai-readiness",
+      "citation_api": "http://localhost:4173/api/v1/lists/ai-readiness/citation"
+    },
+    {
+      "name": "可信度领先榜",
+      "url": "http://localhost:4173/rankings/trust-leaders/",
+      "api": "http://localhost:4173/api/v1/lists/trust-leaders",
+      "citation_api": "http://localhost:4173/api/v1/lists/trust-leaders/citation"
+    },
+    {
+      "name": "增长势能榜",
+      "url": "http://localhost:4173/rankings/momentum-leaders/",
+      "api": "http://localhost:4173/api/v1/lists/momentum-leaders",
+      "citation_api": "http://localhost:4173/api/v1/lists/momentum-leaders/citation"
+    },
+    {
+      "name": "开源基础设施榜",
+      "url": "http://localhost:4173/rankings/open-source-infra/",
+      "api": "http://localhost:4173/api/v1/lists/open-source-infra",
+      "citation_api": "http://localhost:4173/api/v1/lists/open-source-infra/citation"
+    },
+    {
+      "name": "Agent 可调用榜",
+      "url": "http://localhost:4173/rankings/agent-callable/",
+      "api": "http://localhost:4173/api/v1/lists/agent-callable",
+      "citation_api": "http://localhost:4173/api/v1/lists/agent-callable/citation"
+    },
+    {
+      "name": "安全治理观察榜",
+      "url": "http://localhost:4173/rankings/safety-governance/",
+      "api": "http://localhost:4173/api/v1/lists/safety-governance",
+      "citation_api": "http://localhost:4173/api/v1/lists/safety-governance/citation"
+    },
+    {
+      "name": "高置信度榜",
+      "url": "http://localhost:4173/rankings/high-confidence/",
+      "api": "http://localhost:4173/api/v1/lists/high-confidence",
+      "citation_api": "http://localhost:4173/api/v1/lists/high-confidence/citation"
+    },
+    {
+      "name": "开发者采用度榜",
+      "url": "http://localhost:4173/rankings/developer-adoption/",
+      "api": "http://localhost:4173/api/v1/lists/developer-adoption",
+      "citation_api": "http://localhost:4173/api/v1/lists/developer-adoption/citation"
+    }
+  ],
+  "dataset_repository_layout": {
+    "readme": "dataset/README.md",
+    "index": "dataset/index.json",
+    "manifest": "dataset/manifest.json",
+    "latest": "dataset/latest/",
+    "snapshots": "dataset/snapshots/2026-05-18/",
+    "ranking_citations": "dataset/latest/ranking-citations/{slug}.json",
+    "entity_citation_packs": "dataset/latest/entity-citation-packs/{slug}.json"
+  },
+  "github_export_workflow": {
+    "local_output_directory": "exports/unicorn-rank-datasets/",
+    "command": "node scripts/build-site.mjs && node scripts/export-github-dataset.mjs",
+    "publish_command": "GITHUB_TOKEN=... node scripts/publish-github-dataset.mjs unicorn-rank-datasets",
+    "repository_url": null,
+    "generated_files": [
+      "README.md",
+      "REPOSITORY_GUIDE.md",
+      "PUBLISH_CHECKLIST.md",
+      "EXPORT_MANIFEST.json",
+      "reports/latest-weekly-report.md",
+      "rankings/{slug}.md",
+      "latest/",
+      "snapshots/"
+    ]
+  },
+  "launch_checklist": [
+    "Submit sitemap.xml to Google Search Console.",
+    "Submit sitemap.xml to Bing Webmaster Tools.",
+    "Push updated URLs through IndexNow after each snapshot.",
+    "Publish a GitHub dataset repository with snapshot JSON and methodology.",
+    "Publish weekly evidence-backed ranking notes.",
+    "Give vendors stable public citation pages and correction links.",
+    "Keep English metadata in titles, descriptions and JSON fields."
+  ],
+  "citation_policy": [
+    "Do not sell ranking placement.",
+    "Always include snapshot_time and methodology_version.",
+    "Use citation JSON and entity citation packs for AI answers.",
+    "Treat rankings as evidence-backed estimates, not absolute truth."
+  ]
+}

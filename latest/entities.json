@@ -1,0 +1,5210 @@
+{
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entities": [
+    {
+      "id": "ent_cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Anysphere",
+      "region": "US",
+      "website": "https://cursor.com",
+      "summary": "AI-first code editor focused on pair programming, repository understanding and code generation.",
+      "tags": [
+        "AI 编程",
+        "IDE",
+        "开发者工具"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 88,
+        "momentum": 83.9,
+        "quality": 82.5,
+        "trust": 77.6,
+        "aiReadiness": 82.9
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 94,
+          "momentum": 92,
+          "quality": 88,
+          "trust": 84,
+          "aiReadiness": 91
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 88,
+          "momentum": 83.9,
+          "quality": 82.5,
+          "trust": 77.6,
+          "aiReadiness": 82.9
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 83.8,
+        "delta": -6.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "公开官网、文档、价格和产品定位清晰，AI 编程工具类别相关性高；仍需持续监测闭源产品的数据可验证性。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 2,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 9,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 9,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 2,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 5,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 7,
+          "total_score": 83.8,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 3,
+          "total_score": 83.8,
+          "confidence": 0.77
+        }
+      ],
+      "evidence_count": 9,
+      "claim_count": 9,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/cursor/",
+      "claims_url": "http://localhost:4173/api/v1/entities/cursor/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/cursor/citation-pack"
+    },
+    {
+      "id": "ent_github_copilot",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "GitHub / Microsoft",
+      "region": "US",
+      "website": "https://github.com/features/copilot",
+      "summary": "AI coding assistant integrated with GitHub, IDEs and enterprise developer workflows.",
+      "tags": [
+        "AI 编程",
+        "企业开发",
+        "IDE 插件"
+      ],
+      "open_source": false,
+      "pricing": "paid",
+      "dimensions": {
+        "adoption": 94.8,
+        "momentum": 79.3,
+        "quality": 87.3,
+        "trust": 86.4,
+        "aiReadiness": 86.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 98,
+          "momentum": 84,
+          "quality": 90,
+          "trust": 88,
+          "aiReadiness": 89
+        },
+        "live_dimensions": {
+          "adoption": 83.3,
+          "momentum": 62.8,
+          "quality": 77.9,
+          "trust": 80.6,
+          "aiReadiness": 78
+        },
+        "final_dimensions": {
+          "adoption": 94.8,
+          "momentum": 79.3,
+          "quality": 87.3,
+          "trust": 86.4,
+          "aiReadiness": 86.6
+        },
+        "live_signals": {
+          "okRate": 0.2222222222222222,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": true,
+          "generatedCount": 19,
+          "sourceCount": 5
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 87.3,
+        "delta": -3.2,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.7
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -3.2
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -2.7
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：5 类来源",
+          "采集成功率偏低：22%"
+        ]
+      },
+      "ai_trust_summary": "采用度和企业可见度强，官方文档和产品页丰富；闭源模型细节降低了完全可审计性。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 1,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 2,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 1,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 8,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 1,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 1,
+          "total_score": 87.3,
+          "confidence": 0.863
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 1,
+          "total_score": 87.3,
+          "confidence": 0.863
+        }
+      ],
+      "evidence_count": 23,
+      "claim_count": 23,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/github-copilot/",
+      "claims_url": "http://localhost:4173/api/v1/entities/github-copilot/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/github-copilot/citation-pack"
+    },
+    {
+      "id": "ent_windsurf",
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Codeium",
+      "region": "US",
+      "website": "https://windsurf.com",
+      "summary": "Agentic IDE for AI-assisted software development.",
+      "tags": [
+        "AI 编程",
+        "Agentic IDE",
+        "开发者工具"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 80.2,
+        "momentum": 85.4,
+        "quality": 79.4,
+        "trust": 72.9,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 84,
+          "momentum": 94,
+          "quality": 84,
+          "trust": 78,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 80.2,
+          "momentum": 85.4,
+          "quality": 79.4,
+          "trust": 72.9,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 85.8,
+        "current_score": 80.1,
+        "delta": -5.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "增长势能强、定位清晰；可信度需要更多第三方长期证据补强。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 3,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 20,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 24,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 1,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 13,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 24,
+          "total_score": 80.1,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 11,
+          "total_score": 80.1,
+          "confidence": 0.757
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/windsurf/",
+      "claims_url": "http://localhost:4173/api/v1/entities/windsurf/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/windsurf/citation-pack"
+    },
+    {
+      "id": "ent_continue",
+      "slug": "continue",
+      "name": "Continue",
+      "category": "ai-coding-tools",
+      "entity_type": "open_source_project",
+      "company": "Continue",
+      "region": "US",
+      "website": "https://continue.dev",
+      "summary": "Open-source AI code assistant that connects IDEs with configurable models and context.",
+      "tags": [
+        "开源",
+        "AI 编程",
+        "IDE 插件"
+      ],
+      "open_source": true,
+      "pricing": "open-source",
+      "dimensions": {
+        "adoption": 75.5,
+        "momentum": 76.8,
+        "quality": 80.2,
+        "trust": 77.3,
+        "aiReadiness": 83.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 78,
+          "momentum": 83,
+          "quality": 85,
+          "trust": 87,
+          "aiReadiness": 92
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 75.5,
+          "momentum": 76.8,
+          "quality": 80.2,
+          "trust": 77.3,
+          "aiReadiness": 83.6
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.4,
+        "current_score": 77.8,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9.7
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源仓库和文档提升可审计性，AI 可读性强；市场采用度低于头部商业产品。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 5,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 6,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 10,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 19,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 11,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 6,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 17,
+          "total_score": 77.8,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 17,
+          "total_score": 77.8,
+          "confidence": 0.761
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/continue/",
+      "claims_url": "http://localhost:4173/api/v1/entities/continue/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/continue/citation-pack"
+    },
+    {
+      "id": "ent_replit",
+      "slug": "replit",
+      "name": "Replit",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Replit",
+      "region": "US",
+      "website": "https://replit.com",
+      "summary": "Cloud development platform with AI-assisted coding, deployment and collaboration.",
+      "tags": [
+        "云 IDE",
+        "AI 编程",
+        "部署"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 85.6,
+        "momentum": 72.9,
+        "quality": 77.8,
+        "trust": 76.1,
+        "aiReadiness": 77.4
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 91,
+          "momentum": 78,
+          "quality": 82,
+          "trust": 82,
+          "aiReadiness": 84
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 85.6,
+          "momentum": 72.9,
+          "quality": 77.8,
+          "trust": 76.1,
+          "aiReadiness": 77.4
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.9,
+        "current_score": 78.6,
+        "delta": -5.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.6
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.9
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "采用度和云开发场景强，AI 能力需要与平台能力区分评估。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 4,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 26,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 12,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 28,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 8,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 22,
+          "total_score": 78.6,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 5,
+          "total_score": 78.6,
+          "confidence": 0.758
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/replit/",
+      "claims_url": "http://localhost:4173/api/v1/entities/replit/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/replit/citation-pack"
+    },
+    {
+      "id": "ent_sourcegraph_cody",
+      "slug": "sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Sourcegraph",
+      "region": "US",
+      "website": "https://sourcegraph.com/cody",
+      "summary": "AI coding assistant with code search and large repository context.",
+      "tags": [
+        "代码搜索",
+        "AI 编程",
+        "企业开发"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 73.9,
+        "momentum": 71.4,
+        "quality": 79.4,
+        "trust": 78.5,
+        "aiReadiness": 80.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 76,
+          "quality": 84,
+          "trust": 84,
+          "aiReadiness": 88
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 59,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 73.9,
+          "momentum": 71.4,
+          "quality": 79.4,
+          "trust": 78.5,
+          "aiReadiness": 80.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 80,
+        "current_score": 75.7,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "代码搜索和上下文能力明确，企业信任材料较强；采用度信号需更多第三方补充。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 7,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 18,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 8,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 31,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 4,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 26,
+          "total_score": 75.7,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 20,
+          "total_score": 75.7,
+          "confidence": 0.757
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/sourcegraph-cody/",
+      "claims_url": "http://localhost:4173/api/v1/entities/sourcegraph-cody/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/sourcegraph-cody/citation-pack"
+    },
+    {
+      "id": "ent_perplexity",
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Perplexity AI",
+      "region": "US",
+      "website": "https://www.perplexity.ai",
+      "summary": "Answer engine that combines search, citations and conversational AI.",
+      "tags": [
+        "AI 搜索",
+        "答案引擎",
+        "引用"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 83.5,
+        "momentum": 80.7,
+        "quality": 77,
+        "trust": 72.7,
+        "aiReadiness": 75.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 93,
+          "momentum": 88,
+          "quality": 86,
+          "trust": 80,
+          "aiReadiness": 87
+        },
+        "live_dimensions": {
+          "adoption": 50,
+          "momentum": 55,
+          "quality": 45,
+          "trust": 47,
+          "aiReadiness": 35
+        },
+        "final_dimensions": {
+          "adoption": 83.5,
+          "momentum": 80.7,
+          "quality": 77,
+          "trust": 72.7,
+          "aiReadiness": 75.6
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": false,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 6,
+          "sourceCount": 3
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 87.8,
+        "current_score": 79.1,
+        "delta": -8.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -11.4
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -9.5
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -9
+          }
+        ],
+        "drivers": [
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "引用型答案产品定位清晰，采用度高；出版商争议和来源呈现方式需要持续监测。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 1,
+          "total_score": 79.1,
+          "confidence": 0.657
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 28,
+          "total_score": 79.1,
+          "confidence": 0.657
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 25,
+          "total_score": 79.1,
+          "confidence": 0.657
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 5,
+          "total_score": 79.1,
+          "confidence": 0.657
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 34,
+          "total_score": 79.1,
+          "confidence": 0.657
+        }
+      ],
+      "evidence_count": 9,
+      "claim_count": 9,
+      "quarantine": [
+        {
+          "reason": "出版商与内容使用争议需要独立跟踪",
+          "severity": "medium",
+          "status": "monitoring"
+        }
+      ],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/perplexity/",
+      "claims_url": "http://localhost:4173/api/v1/entities/perplexity/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/perplexity/citation-pack"
+    },
+    {
+      "id": "ent_phind",
+      "slug": "phind",
+      "name": "Phind",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Phind",
+      "region": "US",
+      "website": "https://www.phind.com",
+      "summary": "AI answer engine for developers with search-backed technical responses.",
+      "tags": [
+        "AI 搜索",
+        "开发者",
+        "技术问答"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 70.3,
+        "momentum": 69,
+        "quality": 73.9,
+        "trust": 71.2,
+        "aiReadiness": 74.8
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 73,
+          "quality": 82,
+          "trust": 78,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 50,
+          "momentum": 55,
+          "quality": 45,
+          "trust": 47,
+          "aiReadiness": 35
+        },
+        "final_dimensions": {
+          "adoption": 70.3,
+          "momentum": 69,
+          "quality": 73.9,
+          "trust": 71.2,
+          "aiReadiness": 74.8
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": false,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 6,
+          "sourceCount": 3
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 71.3,
+        "delta": -6.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -11.2
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -8.1
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开发者搜索场景明确，技术答案体验强；公开企业信号和第三方采用数据有限。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 6,
+          "total_score": 71.3,
+          "confidence": 0.678
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 29,
+          "total_score": 71.3,
+          "confidence": 0.678
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 32,
+          "total_score": 71.3,
+          "confidence": 0.678
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 33,
+          "total_score": 71.3,
+          "confidence": 0.678
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 33,
+          "total_score": 71.3,
+          "confidence": 0.678
+        }
+      ],
+      "evidence_count": 9,
+      "claim_count": 9,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/phind/",
+      "claims_url": "http://localhost:4173/api/v1/entities/phind/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/phind/citation-pack"
+    },
+    {
+      "id": "ent_kagi",
+      "slug": "kagi",
+      "name": "Kagi",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Kagi",
+      "region": "US",
+      "website": "https://kagi.com",
+      "summary": "Paid search engine with AI summarization and privacy-oriented product positioning.",
+      "tags": [
+        "搜索",
+        "AI 摘要",
+        "隐私"
+      ],
+      "open_source": false,
+      "pricing": "paid",
+      "dimensions": {
+        "adoption": 69.3,
+        "momentum": 68.3,
+        "quality": 76.2,
+        "trust": 85,
+        "aiReadiness": 70.4
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 70,
+          "momentum": 72,
+          "quality": 85,
+          "trust": 89,
+          "aiReadiness": 79
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 45,
+          "trust": 71,
+          "aiReadiness": 40
+        },
+        "final_dimensions": {
+          "adoption": 69.3,
+          "momentum": 68.3,
+          "quality": 76.2,
+          "trust": 85,
+          "aiReadiness": 70.4
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": false,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.3,
+        "current_score": 72.9,
+        "delta": -4.4,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.6
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4
+          }
+        ],
+        "drivers": [
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "隐私和付费模式提升信任表达，采用度有限但质量和透明度较好。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 5,
+          "total_score": 72.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 34,
+          "total_score": 72.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 3,
+          "total_score": 72.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 34,
+          "total_score": 72.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 13,
+          "total_score": 72.9,
+          "confidence": 0.769
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/kagi/",
+      "claims_url": "http://localhost:4173/api/v1/entities/kagi/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/kagi/citation-pack"
+    },
+    {
+      "id": "ent_you",
+      "slug": "you-com",
+      "name": "You.com",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "You.com",
+      "region": "US",
+      "website": "https://you.com",
+      "summary": "AI search and productivity assistant with conversational answers and agents.",
+      "tags": [
+        "AI 搜索",
+        "助手",
+        "Agent"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 69.5,
+        "momentum": 72.4,
+        "quality": 77.5,
+        "trust": 75.9,
+        "aiReadiness": 80.8
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 75,
+          "momentum": 74,
+          "quality": 77,
+          "trust": 76,
+          "aiReadiness": 83
+        },
+        "live_dimensions": {
+          "adoption": 50,
+          "momentum": 66.7,
+          "quality": 79.3,
+          "trust": 75.3,
+          "aiReadiness": 73
+        },
+        "final_dimensions": {
+          "adoption": 69.5,
+          "momentum": 72.4,
+          "quality": 77.5,
+          "trust": 75.9,
+          "aiReadiness": 80.8
+        },
+        "live_signals": {
+          "okRate": 0.3333333333333333,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": true,
+          "generatedCount": 16,
+          "sourceCount": 3
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 76.1,
+        "current_score": 73.9,
+        "delta": -2.2,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -2.2
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -1.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "采集成功率偏低：33%"
+        ]
+      },
+      "ai_trust_summary": "AI 搜索定位清晰，功能较广；需区分搜索、聊天、Agent 场景的评分信号。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 3,
+          "total_score": 73.9,
+          "confidence": 0.729
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 14,
+          "total_score": 73.9,
+          "confidence": 0.729
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 13,
+          "total_score": 73.9,
+          "confidence": 0.729
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 30,
+          "total_score": 73.9,
+          "confidence": 0.729
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 11,
+          "total_score": 73.9,
+          "confidence": 0.729
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 31,
+          "total_score": 73.9,
+          "confidence": 0.729
+        }
+      ],
+      "evidence_count": 19,
+      "claim_count": 19,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/you-com/",
+      "claims_url": "http://localhost:4173/api/v1/entities/you-com/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/you-com/citation-pack"
+    },
+    {
+      "id": "ent_genspark",
+      "slug": "genspark",
+      "name": "Genspark",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Genspark",
+      "region": "US",
+      "website": "https://www.genspark.ai",
+      "summary": "AI search and generated page product for synthesized research tasks.",
+      "tags": [
+        "AI 搜索",
+        "研究",
+        "生成页面"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 62.5,
+        "momentum": 78,
+        "quality": 74.2,
+        "trust": 67.2,
+        "aiReadiness": 76.7
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 66,
+          "momentum": 82,
+          "quality": 73,
+          "trust": 70,
+          "aiReadiness": 80
+        },
+        "live_dimensions": {
+          "adoption": 50,
+          "momentum": 63.8,
+          "quality": 78.3,
+          "trust": 57.3,
+          "aiReadiness": 65
+        },
+        "final_dimensions": {
+          "adoption": 62.5,
+          "momentum": 78,
+          "quality": 74.2,
+          "trust": 67.2,
+          "aiReadiness": 76.7
+        },
+        "live_signals": {
+          "okRate": 0.25,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 7,
+          "sourceCount": 3
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 73.4,
+        "current_score": 70.8,
+        "delta": -2.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -3.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -3.3
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "ai_trust_summary": "增长和新颖性较强，但公开长期采用和治理信息仍偏少。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 7,
+          "total_score": 70.8,
+          "confidence": 0.716
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 27,
+          "total_score": 70.8,
+          "confidence": 0.716
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 34,
+          "total_score": 70.8,
+          "confidence": 0.716
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 14,
+          "total_score": 70.8,
+          "confidence": 0.716
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 32,
+          "total_score": 70.8,
+          "confidence": 0.716
+        }
+      ],
+      "evidence_count": 10,
+      "claim_count": 10,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/genspark/",
+      "claims_url": "http://localhost:4173/api/v1/entities/genspark/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/genspark/citation-pack"
+    },
+    {
+      "id": "ent_langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "LangChain",
+      "region": "US",
+      "website": "https://www.langchain.com",
+      "summary": "Framework and ecosystem for building LLM applications and agents.",
+      "tags": [
+        "开源",
+        "LLM 应用",
+        "Agent"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 89.5,
+        "momentum": 78.7,
+        "quality": 81.6,
+        "trust": 82.8,
+        "aiReadiness": 88.7
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 96,
+          "momentum": 84,
+          "quality": 83,
+          "trust": 84,
+          "aiReadiness": 94
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 60,
+          "quality": 76.9,
+          "trust": 78.6,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 89.5,
+          "momentum": 78.7,
+          "quality": 81.6,
+          "trust": 82.8,
+          "aiReadiness": 88.7
+        },
+        "live_signals": {
+          "okRate": 0.14285714285714285,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 11,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 88.4,
+        "current_score": 84.1,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -6.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.3
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.3
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：14%"
+        ]
+      },
+      "ai_trust_summary": "开源采用度强、文档和生态丰富，AI 可读性高；项目范围大导致质量评分需按子模块细化。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 2,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 1,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 4,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 12,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 2,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 1,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 6,
+          "total_score": 84.1,
+          "confidence": 0.78
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 2,
+          "total_score": 84.1,
+          "confidence": 0.78
+        }
+      ],
+      "evidence_count": 14,
+      "claim_count": 14,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/langchain/",
+      "claims_url": "http://localhost:4173/api/v1/entities/langchain/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/langchain/citation-pack"
+    },
+    {
+      "id": "ent_llamaindex",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "LlamaIndex",
+      "region": "US",
+      "website": "https://www.llamaindex.ai",
+      "summary": "Data framework for LLM applications, retrieval, indexing and agent workflows.",
+      "tags": [
+        "开源",
+        "RAG",
+        "数据框架"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 83.3,
+        "momentum": 76.1,
+        "quality": 79.4,
+        "trust": 75,
+        "aiReadiness": 84.4
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 88,
+          "momentum": 82,
+          "quality": 84,
+          "trust": 84,
+          "aiReadiness": 93
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 83.3,
+          "momentum": 76.1,
+          "quality": 79.4,
+          "trust": 75,
+          "aiReadiness": 84.4
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 85.6,
+        "current_score": 79.6,
+        "delta": -6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.6
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "RAG 和数据连接场景清晰，文档结构和开源仓库增强 AI 可信引用。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 5,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 5,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 15,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 21,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 6,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 4,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 15,
+          "total_score": 79.6,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 7,
+          "total_score": 79.6,
+          "confidence": 0.761
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/llamaindex/",
+      "claims_url": "http://localhost:4173/api/v1/entities/llamaindex/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/llamaindex/citation-pack"
+    },
+    {
+      "id": "ent_ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "Ollama",
+      "region": "US",
+      "website": "https://ollama.com",
+      "summary": "Local model runtime for running and managing open language models.",
+      "tags": [
+        "开源",
+        "本地模型",
+        "开发者工具"
+      ],
+      "open_source": true,
+      "pricing": "open-source",
+      "dimensions": {
+        "adoption": 87.2,
+        "momentum": 82.9,
+        "quality": 83.6,
+        "trust": 85.2,
+        "aiReadiness": 85.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 93,
+          "momentum": 88,
+          "quality": 85,
+          "trust": 86,
+          "aiReadiness": 90
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 65,
+          "quality": 78.7,
+          "trust": 82.1,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 87.2,
+          "momentum": 82.9,
+          "quality": 83.6,
+          "trust": 85.2,
+          "aiReadiness": 85.6
+        },
+        "live_signals": {
+          "okRate": 0.2857142857142857,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 15,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 88.8,
+        "current_score": 84.9,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -4.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：29%"
+        ]
+      },
+      "ai_trust_summary": "本地模型运行场景明确，开源采用度强，API 和文档提升 Agent 集成价值。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 1,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 3,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 2,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 3,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 1,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 2,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 3,
+          "total_score": 84.9,
+          "confidence": 0.792
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 4,
+          "total_score": 84.9,
+          "confidence": 0.792
+        }
+      ],
+      "evidence_count": 18,
+      "claim_count": 18,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/ollama/",
+      "claims_url": "http://localhost:4173/api/v1/entities/ollama/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/ollama/citation-pack"
+    },
+    {
+      "id": "ent_vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "vLLM Project",
+      "region": "US",
+      "website": "https://www.vllm.ai",
+      "summary": "High-throughput and memory-efficient inference engine for LLM serving.",
+      "tags": [
+        "开源",
+        "推理服务",
+        "LLM 基础设施"
+      ],
+      "open_source": true,
+      "pricing": "open-source",
+      "dimensions": {
+        "adoption": 81.7,
+        "momentum": 79.2,
+        "quality": 80.9,
+        "trust": 75.8,
+        "aiReadiness": 80.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 86,
+          "momentum": 86,
+          "quality": 86,
+          "trust": 85,
+          "aiReadiness": 88
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 81.7,
+          "momentum": 79.2,
+          "quality": 80.9,
+          "trust": 75.8,
+          "aiReadiness": 80.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 86,
+        "current_score": 79.9,
+        "delta": -6.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9.2
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "基础设施定位明确，开源仓库和文档支持可信评分；用户体验维度不适合与应用类工具直接比较。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 4,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 15,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 14,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 9,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 5,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 12,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 19,
+          "total_score": 79.9,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 8,
+          "total_score": 79.9,
+          "confidence": 0.76
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/vllm/",
+      "claims_url": "http://localhost:4173/api/v1/entities/vllm/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/vllm/citation-pack"
+    },
+    {
+      "id": "ent_dify",
+      "slug": "dify",
+      "name": "Dify",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "Dify",
+      "region": "Global",
+      "website": "https://dify.ai",
+      "summary": "Open-source platform for building LLM apps, workflows and agents.",
+      "tags": [
+        "开源",
+        "LLM 应用平台",
+        "Workflow"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 83.3,
+        "momentum": 82.3,
+        "quality": 77.8,
+        "trust": 73.4,
+        "aiReadiness": 82.9
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 88,
+          "momentum": 90,
+          "quality": 82,
+          "trust": 82,
+          "aiReadiness": 91
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 83.3,
+          "momentum": 82.3,
+          "quality": 77.8,
+          "trust": 73.4,
+          "aiReadiness": 82.9
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 86.7,
+        "current_score": 80.4,
+        "delta": -6.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -7.7
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源应用平台采用度和增长势能强，文档/API 适合 AI 读取；商业云和开源边界需清晰标注。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 3,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 10,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 21,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 4,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 3,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 7,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 18,
+          "total_score": 80.4,
+          "confidence": 0.76
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 6,
+          "total_score": 80.4,
+          "confidence": 0.76
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/dify/",
+      "claims_url": "http://localhost:4173/api/v1/entities/dify/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/dify/citation-pack"
+    },
+    {
+      "id": "ent_litellm",
+      "slug": "litellm",
+      "name": "LiteLLM",
+      "category": "open-source-ai-projects",
+      "entity_type": "open_source_project",
+      "company": "LiteLLM",
+      "region": "US",
+      "website": "https://www.litellm.ai",
+      "summary": "Open-source proxy and SDK for routing requests across LLM providers.",
+      "tags": [
+        "开源",
+        "LLM 网关",
+        "API"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-enterprise",
+      "dimensions": {
+        "adoption": 77.8,
+        "momentum": 77.6,
+        "quality": 78.6,
+        "trust": 74.2,
+        "aiReadiness": 85.2
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 81,
+          "momentum": 84,
+          "quality": 83,
+          "trust": 83,
+          "aiReadiness": 94
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 77.8,
+          "momentum": 77.6,
+          "quality": 78.6,
+          "trust": 74.2,
+          "aiReadiness": 85.2
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.8,
+        "current_score": 78.1,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "API 网关定位与 AI 系统高度相关，文档和开源仓库增强可引用性。",
+      "rankings": [
+        {
+          "list_id": "open-source-ai-projects",
+          "list_name": "开源 AI 项目可信榜",
+          "rank": 6,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 4,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 19,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 16,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 9,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 3,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 11,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 16,
+          "total_score": 78.1,
+          "confidence": 0.761
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 14,
+          "total_score": 78.1,
+          "confidence": 0.761
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/litellm/",
+      "claims_url": "http://localhost:4173/api/v1/entities/litellm/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/litellm/citation-pack"
+    },
+    {
+      "id": "ent_aider",
+      "slug": "aider",
+      "name": "Aider",
+      "category": "ai-coding-tools",
+      "entity_type": "open_source_project",
+      "company": "Aider",
+      "region": "US",
+      "website": "https://aider.chat",
+      "summary": "Open-source command-line AI coding assistant that edits local repositories with LLMs.",
+      "tags": [
+        "开源",
+        "AI 编程",
+        "CLI",
+        "开发者工具"
+      ],
+      "open_source": true,
+      "pricing": "open-source",
+      "dimensions": {
+        "adoption": 73.9,
+        "momentum": 76.8,
+        "quality": 77.8,
+        "trust": 75,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 83,
+          "quality": 82,
+          "trust": 84,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 73.9,
+          "momentum": 76.8,
+          "quality": 77.8,
+          "trust": 75,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 81.1,
+        "current_score": 76.1,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源仓库和文档清晰，适合开发者自动化场景；商业采用和企业材料仍需更多证据。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 6,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 23,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 18,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 20,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 15,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 10,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 12,
+          "total_score": 76.1,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 19,
+          "total_score": 76.1,
+          "confidence": 0.769
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/aider/",
+      "claims_url": "http://localhost:4173/api/v1/entities/aider/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/aider/citation-pack"
+    },
+    {
+      "id": "ent_tabnine",
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Tabnine",
+      "region": "US",
+      "website": "https://www.tabnine.com",
+      "summary": "AI code assistant focused on code completion, team context and enterprise deployment.",
+      "tags": [
+        "AI 编程",
+        "企业开发",
+        "IDE 插件"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 77.1,
+        "momentum": 69.8,
+        "quality": 75.5,
+        "trust": 76.2,
+        "aiReadiness": 74.3
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 80,
+          "momentum": 74,
+          "quality": 79,
+          "trust": 81,
+          "aiReadiness": 80
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 59,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 77.1,
+          "momentum": 69.8,
+          "quality": 75.5,
+          "trust": 76.2,
+          "aiReadiness": 74.3
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 78.5,
+        "current_score": 74.5,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "企业定位和公开文档较完整，适合安全敏感团队比较；采用增长需持续观察。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 8,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 31,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 11,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 32,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 7,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 28,
+          "total_score": 74.5,
+          "confidence": 0.755
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 15,
+          "total_score": 74.5,
+          "confidence": 0.755
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/tabnine/",
+      "claims_url": "http://localhost:4173/api/v1/entities/tabnine/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/tabnine/citation-pack"
+    },
+    {
+      "id": "ent_qodo",
+      "slug": "qodo",
+      "name": "Qodo",
+      "category": "ai-coding-tools",
+      "entity_type": "software_application",
+      "company": "Qodo",
+      "region": "US",
+      "website": "https://www.qodo.ai",
+      "summary": "AI coding platform focused on code quality, tests, reviews and agentic development workflows.",
+      "tags": [
+        "AI 编程",
+        "代码质量",
+        "测试",
+        "企业开发"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 69.3,
+        "momentum": 76.1,
+        "quality": 77,
+        "trust": 71.4,
+        "aiReadiness": 73.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 70,
+          "momentum": 82,
+          "quality": 81,
+          "trust": 76,
+          "aiReadiness": 79
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 69.3,
+          "momentum": 76.1,
+          "quality": 77,
+          "trust": 71.4,
+          "aiReadiness": 73.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77,
+        "current_score": 73.3,
+        "delta": -3.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "代码质量和测试定位清晰，适合质量导向榜单；仍需更多第三方采用证据。",
+      "rankings": [
+        {
+          "list_id": "ai-coding-tools",
+          "list_name": "AI 编程工具可信榜",
+          "rank": 9,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 32,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 31,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 25,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 17,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 30,
+          "total_score": 73.3,
+          "confidence": 0.753
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 26,
+          "total_score": 73.3,
+          "confidence": 0.753
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/qodo/",
+      "claims_url": "http://localhost:4173/api/v1/entities/qodo/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/qodo/citation-pack"
+    },
+    {
+      "id": "ent_exa",
+      "slug": "exa",
+      "name": "Exa",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Exa",
+      "region": "US",
+      "website": "https://exa.ai",
+      "summary": "Search API built for AI applications, web retrieval and agent workflows.",
+      "tags": [
+        "AI 搜索",
+        "API",
+        "Agent",
+        "检索"
+      ],
+      "open_source": false,
+      "pricing": "paid",
+      "dimensions": {
+        "adoption": 70.8,
+        "momentum": 79.2,
+        "quality": 77.8,
+        "trust": 72.2,
+        "aiReadiness": 83.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 72,
+          "momentum": 86,
+          "quality": 82,
+          "trust": 77,
+          "aiReadiness": 92
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 70.8,
+          "momentum": 79.2,
+          "quality": 77.8,
+          "trust": 72.2,
+          "aiReadiness": 83.6
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 80.3,
+        "current_score": 75.8,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "面向 Agent 和搜索 API 的定位很强，机器可调用性突出；市场采用度需要更多公开证据。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 2,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 7,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 27,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 11,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 5,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 15,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 25,
+          "total_score": 75.8,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 23,
+          "total_score": 75.8,
+          "confidence": 0.757
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/exa/",
+      "claims_url": "http://localhost:4173/api/v1/entities/exa/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/exa/citation-pack"
+    },
+    {
+      "id": "ent_tavily",
+      "slug": "tavily",
+      "name": "Tavily",
+      "category": "ai-search-tools",
+      "entity_type": "software_application",
+      "company": "Tavily",
+      "region": "US",
+      "website": "https://www.tavily.com",
+      "summary": "Search API for AI agents and LLM applications.",
+      "tags": [
+        "AI 搜索",
+        "API",
+        "Agent",
+        "检索"
+      ],
+      "open_source": false,
+      "pricing": "freemium",
+      "dimensions": {
+        "adoption": 67.7,
+        "momentum": 77.6,
+        "quality": 76.3,
+        "trust": 70.6,
+        "aiReadiness": 82.9
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 68,
+          "momentum": 84,
+          "quality": 80,
+          "trust": 75,
+          "aiReadiness": 91
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 67.7,
+          "momentum": 77.6,
+          "quality": 76.3,
+          "trust": 70.6,
+          "aiReadiness": 82.9
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.8,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "Agent 搜索 API 定位明确，文档和接口对 AI 友好；需要补强长期稳定性和第三方采用证据。",
+      "rankings": [
+        {
+          "list_id": "ai-search-tools",
+          "list_name": "AI 搜索工具可信榜",
+          "rank": 4,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 11,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 33,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 18,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 8,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 18,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 29,
+          "total_score": 73.8,
+          "confidence": 0.754
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 27,
+          "total_score": 73.8,
+          "confidence": 0.754
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/tavily/",
+      "claims_url": "http://localhost:4173/api/v1/entities/tavily/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/tavily/citation-pack"
+    },
+    {
+      "id": "ent_weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "category": "rag-data-tools",
+      "entity_type": "open_source_project",
+      "company": "Weaviate",
+      "region": "Netherlands",
+      "website": "https://weaviate.io",
+      "summary": "Open-source vector database for AI-native search and RAG applications.",
+      "tags": [
+        "开源",
+        "RAG",
+        "向量数据库",
+        "API"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 81.7,
+        "momentum": 76.1,
+        "quality": 80.9,
+        "trust": 75,
+        "aiReadiness": 82.1
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 86,
+          "momentum": 82,
+          "quality": 86,
+          "trust": 84,
+          "aiReadiness": 90
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 81.7,
+          "momentum": 76.1,
+          "quality": 80.9,
+          "trust": 75,
+          "aiReadiness": 82.1
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 85.1,
+        "current_score": 79.2,
+        "delta": -5.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.9
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "向量数据库定位成熟，开源和文档证据强；云服务与开源边界需持续标注。",
+      "rankings": [
+        {
+          "list_id": "rag-data-tools",
+          "list_name": "RAG 与数据基础设施榜",
+          "rank": 2,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 12,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 16,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 22,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 7,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 9,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 9,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 8,
+          "total_score": 79.2,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 9,
+          "total_score": 79.2,
+          "confidence": 0.77
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/weaviate/",
+      "claims_url": "http://localhost:4173/api/v1/entities/weaviate/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/weaviate/citation-pack"
+    },
+    {
+      "id": "ent_qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "category": "rag-data-tools",
+      "entity_type": "open_source_project",
+      "company": "Qdrant",
+      "region": "Germany",
+      "website": "https://qdrant.tech",
+      "summary": "Open-source vector database and search engine for semantic retrieval.",
+      "tags": [
+        "开源",
+        "RAG",
+        "向量数据库",
+        "检索"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 80.2,
+        "momentum": 77.6,
+        "quality": 80.2,
+        "trust": 75,
+        "aiReadiness": 81.3
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 84,
+          "momentum": 84,
+          "quality": 85,
+          "trust": 84,
+          "aiReadiness": 89
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 80.2,
+          "momentum": 77.6,
+          "quality": 80.2,
+          "trust": 75,
+          "aiReadiness": 81.3
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 84.7,
+        "current_score": 78.9,
+        "delta": -5.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源仓库、文档和 API 入口清晰，适合作为 RAG 基础设施榜单核心实体。",
+      "rankings": [
+        {
+          "list_id": "rag-data-tools",
+          "list_name": "RAG 与数据基础设施榜",
+          "rank": 3,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 13,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 17,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 15,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 8,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 10,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 9,
+          "total_score": 78.9,
+          "confidence": 0.77
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 12,
+          "total_score": 78.9,
+          "confidence": 0.77
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/qdrant/",
+      "claims_url": "http://localhost:4173/api/v1/entities/qdrant/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/qdrant/citation-pack"
+    },
+    {
+      "id": "ent_chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "category": "rag-data-tools",
+      "entity_type": "open_source_project",
+      "company": "Chroma",
+      "region": "US",
+      "website": "https://www.trychroma.com",
+      "summary": "Open-source embedding database for AI applications and retrieval workflows.",
+      "tags": [
+        "开源",
+        "RAG",
+        "向量数据库",
+        "开发者工具"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 78.6,
+        "momentum": 74.5,
+        "quality": 76.3,
+        "trust": 71.9,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 82,
+          "momentum": 80,
+          "quality": 80,
+          "trust": 80,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 78.6,
+          "momentum": 74.5,
+          "quality": 76.3,
+          "trust": 71.9,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 81.2,
+        "current_score": 76.2,
+        "delta": -5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.5
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开发者采用和开源证据较强，适合轻量 RAG 应用；企业治理材料仍需补强。",
+      "rankings": [
+        {
+          "list_id": "rag-data-tools",
+          "list_name": "RAG 与数据基础设施榜",
+          "rank": 4,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 21,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 28,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 27,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 13,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 14,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 20,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 13,
+          "total_score": 76.2,
+          "confidence": 0.759
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/chroma/",
+      "claims_url": "http://localhost:4173/api/v1/entities/chroma/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/chroma/citation-pack"
+    },
+    {
+      "id": "ent_milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "category": "rag-data-tools",
+      "entity_type": "open_source_project",
+      "company": "Zilliz",
+      "region": "US",
+      "website": "https://milvus.io",
+      "summary": "Open-source vector database built for scalable similarity search and AI applications.",
+      "tags": [
+        "开源",
+        "RAG",
+        "向量数据库",
+        "LLM 基础设施"
+      ],
+      "open_source": true,
+      "pricing": "open-source",
+      "dimensions": {
+        "adoption": 81,
+        "momentum": 75.5,
+        "quality": 83,
+        "trust": 81.2,
+        "aiReadiness": 83.3
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 85,
+          "momentum": 78,
+          "quality": 84,
+          "trust": 84,
+          "aiReadiness": 87
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 66.7,
+          "quality": 79.3,
+          "trust": 71.3,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 81,
+          "momentum": 75.5,
+          "quality": 83,
+          "trust": 81.2,
+          "aiReadiness": 83.3
+        },
+        "live_signals": {
+          "okRate": 0.3333333333333333,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 12,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.1,
+        "current_score": 80.3,
+        "delta": -2.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -4
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -3.7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -2.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：33%"
+        ]
+      },
+      "ai_trust_summary": "开源项目成熟度较高，文档和生态材料充足；近期增长势能需持续监测。",
+      "rankings": [
+        {
+          "list_id": "rag-data-tools",
+          "list_name": "RAG 与数据基础设施榜",
+          "rank": 1,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 8,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 6,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 26,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 4,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 6,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 2,
+          "total_score": 80.3,
+          "confidence": 0.798
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 10,
+          "total_score": 80.3,
+          "confidence": 0.798
+        }
+      ],
+      "evidence_count": 15,
+      "claim_count": 15,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/milvus/",
+      "claims_url": "http://localhost:4173/api/v1/entities/milvus/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/milvus/citation-pack"
+    },
+    {
+      "id": "ent_unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "category": "rag-data-tools",
+      "entity_type": "open_source_project",
+      "company": "Unstructured",
+      "region": "US",
+      "website": "https://unstructured.io",
+      "summary": "Document processing platform and open-source tooling for preparing enterprise data for LLMs.",
+      "tags": [
+        "开源",
+        "RAG",
+        "文档解析",
+        "企业数据"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 72.4,
+        "momentum": 76.1,
+        "quality": 77.8,
+        "trust": 71.9,
+        "aiReadiness": 78.2
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 74,
+          "momentum": 82,
+          "quality": 82,
+          "trust": 80,
+          "aiReadiness": 85
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 72.4,
+          "momentum": 76.1,
+          "quality": 77.8,
+          "trust": 71.9,
+          "aiReadiness": 78.2
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 79.6,
+        "current_score": 74.9,
+        "delta": -4.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "RAG 数据准备场景明确，开源工具和文档具备可引用性；商业云材料需继续补证。",
+      "rankings": [
+        {
+          "list_id": "rag-data-tools",
+          "list_name": "RAG 与数据基础设施榜",
+          "rank": 5,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 24,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 29,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 23,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 16,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 15,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 23,
+          "total_score": 74.9,
+          "confidence": 0.758
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 22,
+          "total_score": 74.9,
+          "confidence": 0.758
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/unstructured/",
+      "claims_url": "http://localhost:4173/api/v1/entities/unstructured/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/unstructured/citation-pack"
+    },
+    {
+      "id": "ent_langfuse",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "category": "eval-observability",
+      "entity_type": "open_source_project",
+      "company": "Langfuse",
+      "region": "Germany",
+      "website": "https://langfuse.com",
+      "summary": "Open-source LLM engineering platform for tracing, evaluation, prompt management and metrics.",
+      "tags": [
+        "开源",
+        "评测",
+        "可观测性",
+        "Tracing"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 75.5,
+        "momentum": 80.7,
+        "quality": 79.4,
+        "trust": 74.2,
+        "aiReadiness": 80.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 78,
+          "momentum": 88,
+          "quality": 84,
+          "trust": 83,
+          "aiReadiness": 88
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 75.5,
+          "momentum": 80.7,
+          "quality": 79.4,
+          "trust": 74.2,
+          "aiReadiness": 80.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.5,
+        "current_score": 77.9,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -7.3
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源、Tracing 和评测定位明确，是评测可观测榜单的关键实体。",
+      "rankings": [
+        {
+          "list_id": "eval-observability",
+          "list_name": "评测与可观测性榜",
+          "rank": 1,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 16,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 20,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 6,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 10,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 10,
+          "total_score": 77.9,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 16,
+          "total_score": 77.9,
+          "confidence": 0.769
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/langfuse/",
+      "claims_url": "http://localhost:4173/api/v1/entities/langfuse/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/langfuse/citation-pack"
+    },
+    {
+      "id": "ent_arize_phoenix",
+      "slug": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "category": "eval-observability",
+      "entity_type": "open_source_project",
+      "company": "Arize",
+      "region": "US",
+      "website": "https://phoenix.arize.com",
+      "summary": "Open-source AI observability and evaluation platform for LLM applications.",
+      "tags": [
+        "开源",
+        "评测",
+        "可观测性",
+        "Tracing"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 73.9,
+        "momentum": 77.6,
+        "quality": 78.6,
+        "trust": 73.4,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 84,
+          "quality": 83,
+          "trust": 82,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 73.9,
+          "momentum": 77.6,
+          "quality": 78.6,
+          "trust": 73.4,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 81.3,
+        "current_score": 76.2,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "开源可观测和评测信号完整，适合 LLM 应用质量监控场景。",
+      "rankings": [
+        {
+          "list_id": "eval-observability",
+          "list_name": "评测与可观测性榜",
+          "rank": 3,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 22,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 23,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 17,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 14,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 21,
+          "total_score": 76.2,
+          "confidence": 0.759
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 18,
+          "total_score": 76.2,
+          "confidence": 0.759
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/arize-phoenix/",
+      "claims_url": "http://localhost:4173/api/v1/entities/arize-phoenix/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/arize-phoenix/citation-pack"
+    },
+    {
+      "id": "ent_helicone",
+      "slug": "helicone",
+      "name": "Helicone",
+      "category": "eval-observability",
+      "entity_type": "open_source_project",
+      "company": "Helicone",
+      "region": "US",
+      "website": "https://www.helicone.ai",
+      "summary": "Open-source observability platform for LLM API usage, cost, latency and prompt traces.",
+      "tags": [
+        "开源",
+        "可观测性",
+        "LLM 网关",
+        "API"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 70.8,
+        "momentum": 76.1,
+        "quality": 76.3,
+        "trust": 71.9,
+        "aiReadiness": 79.7
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 72,
+          "momentum": 82,
+          "quality": 80,
+          "trust": 80,
+          "aiReadiness": 87
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 70.8,
+          "momentum": 76.1,
+          "quality": 76.3,
+          "trust": 71.9,
+          "aiReadiness": 79.7
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 78.8,
+        "current_score": 74.3,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.3
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "LLM API 监控与成本观测定位明确，开源证据增强可信度。",
+      "rankings": [
+        {
+          "list_id": "eval-observability",
+          "list_name": "评测与可观测性榜",
+          "rank": 4,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 19,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 30,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 24,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 17,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "agent-callable",
+          "list_name": "Agent 可调用榜",
+          "rank": 13,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 16,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 27,
+          "total_score": 74.3,
+          "confidence": 0.757
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 24,
+          "total_score": 74.3,
+          "confidence": 0.757
+        }
+      ],
+      "evidence_count": 8,
+      "claim_count": 8,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/helicone/",
+      "claims_url": "http://localhost:4173/api/v1/entities/helicone/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/helicone/citation-pack"
+    },
+    {
+      "id": "ent_promptfoo",
+      "slug": "promptfoo",
+      "name": "Promptfoo",
+      "category": "eval-observability",
+      "entity_type": "open_source_project",
+      "company": "Promptfoo",
+      "region": "US",
+      "website": "https://www.promptfoo.dev",
+      "summary": "Open-source framework for testing, evaluating and red-teaming LLM applications.",
+      "tags": [
+        "开源",
+        "评测",
+        "AI 安全",
+        "红队测试"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 72.4,
+        "momentum": 79.2,
+        "quality": 78.6,
+        "trust": 73.4,
+        "aiReadiness": 80.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 74,
+          "momentum": 86,
+          "quality": 83,
+          "trust": 82,
+          "aiReadiness": 88
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 72.4,
+          "momentum": 79.2,
+          "quality": 78.6,
+          "trust": 73.4,
+          "aiReadiness": 80.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 81.4,
+        "current_score": 76.3,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "评测和红队测试结合紧密，适合同时进入评测与安全视角。",
+      "rankings": [
+        {
+          "list_id": "eval-observability",
+          "list_name": "评测与可观测性榜",
+          "rank": 2,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 17,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 22,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 10,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 12,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 12,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 11,
+          "total_score": 76.3,
+          "confidence": 0.769
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 21,
+          "total_score": 76.3,
+          "confidence": 0.769
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/promptfoo/",
+      "claims_url": "http://localhost:4173/api/v1/entities/promptfoo/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/promptfoo/citation-pack"
+    },
+    {
+      "id": "ent_lakera",
+      "slug": "lakera",
+      "name": "Lakera",
+      "category": "ai-security-governance",
+      "entity_type": "software_application",
+      "company": "Lakera",
+      "region": "Switzerland",
+      "website": "https://www.lakera.ai",
+      "summary": "AI security platform focused on prompt injection, LLM vulnerabilities and GenAI protection.",
+      "tags": [
+        "AI 安全",
+        "治理",
+        "Prompt 安全",
+        "企业开发"
+      ],
+      "open_source": false,
+      "pricing": "enterprise",
+      "dimensions": {
+        "adoption": 67.7,
+        "momentum": 79.5,
+        "quality": 79.6,
+        "trust": 81.8,
+        "aiReadiness": 74.7
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 68,
+          "momentum": 84,
+          "quality": 80,
+          "trust": 82,
+          "aiReadiness": 76
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 63.8,
+          "quality": 78.3,
+          "trust": 81.3,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 67.7,
+          "momentum": 79.5,
+          "quality": 79.6,
+          "trust": 81.8,
+          "aiReadiness": 74.7
+        },
+        "live_signals": {
+          "okRate": 0.25,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 16,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.3,
+        "current_score": 75.8,
+        "delta": -1.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -1.3
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -0.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "ai_trust_summary": "安全定位清晰，适合企业风险控制视角；闭源产品需持续关注公开评测证据。",
+      "rankings": [
+        {
+          "list_id": "ai-security-governance",
+          "list_name": "AI 安全与治理榜",
+          "rank": 1,
+          "total_score": 75.8,
+          "confidence": 0.787
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 30,
+          "total_score": 75.8,
+          "confidence": 0.787
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 5,
+          "total_score": 75.8,
+          "confidence": 0.787
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 7,
+          "total_score": 75.8,
+          "confidence": 0.787
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 2,
+          "total_score": 75.8,
+          "confidence": 0.787
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 4,
+          "total_score": 75.8,
+          "confidence": 0.787
+        }
+      ],
+      "evidence_count": 19,
+      "claim_count": 19,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/lakera/",
+      "claims_url": "http://localhost:4173/api/v1/entities/lakera/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/lakera/citation-pack"
+    },
+    {
+      "id": "ent_protect_ai",
+      "slug": "protect-ai",
+      "name": "Protect AI",
+      "category": "ai-security-governance",
+      "entity_type": "software_application",
+      "company": "Protect AI",
+      "region": "US",
+      "website": "https://protectai.com",
+      "summary": "AI and ML security platform for model, pipeline, supply-chain and application risks.",
+      "tags": [
+        "AI 安全",
+        "治理",
+        "模型风险",
+        "企业开发"
+      ],
+      "open_source": false,
+      "pricing": "enterprise",
+      "dimensions": {
+        "adoption": 69.3,
+        "momentum": 78,
+        "quality": 79.6,
+        "trust": 79.2,
+        "aiReadiness": 73.1
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 70,
+          "momentum": 82,
+          "quality": 80,
+          "trust": 82,
+          "aiReadiness": 74
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 63.8,
+          "quality": 78.3,
+          "trust": 69.3,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 69.3,
+          "momentum": 78,
+          "quality": 79.6,
+          "trust": 79.2,
+          "aiReadiness": 73.1
+        },
+        "live_signals": {
+          "okRate": 0.25,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 14,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.2,
+        "current_score": 75.4,
+        "delta": -1.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -2.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -0.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "ai_trust_summary": "AI/ML 安全覆盖范围较广，适合企业治理榜单；公开产品证据需要定期复核。",
+      "rankings": [
+        {
+          "list_id": "ai-security-governance",
+          "list_name": "AI 安全与治理榜",
+          "rank": 2,
+          "total_score": 75.4,
+          "confidence": 0.783
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 33,
+          "total_score": 75.4,
+          "confidence": 0.783
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 7,
+          "total_score": 75.4,
+          "confidence": 0.783
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 13,
+          "total_score": 75.4,
+          "confidence": 0.783
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 3,
+          "total_score": 75.4,
+          "confidence": 0.783
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 5,
+          "total_score": 75.4,
+          "confidence": 0.783
+        }
+      ],
+      "evidence_count": 17,
+      "claim_count": 17,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/protect-ai/",
+      "claims_url": "http://localhost:4173/api/v1/entities/protect-ai/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/protect-ai/citation-pack"
+    },
+    {
+      "id": "ent_guardrails_ai",
+      "slug": "guardrails-ai",
+      "name": "Guardrails AI",
+      "category": "ai-security-governance",
+      "entity_type": "open_source_project",
+      "company": "Guardrails AI",
+      "region": "US",
+      "website": "https://www.guardrailsai.com",
+      "summary": "Open-source framework and platform for validating and controlling LLM outputs.",
+      "tags": [
+        "开源",
+        "AI 安全",
+        "治理",
+        "评测"
+      ],
+      "open_source": true,
+      "pricing": "open-source-and-cloud",
+      "dimensions": {
+        "adoption": 70.8,
+        "momentum": 72.9,
+        "quality": 76.3,
+        "trust": 72.6,
+        "aiReadiness": 78.2
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 72,
+          "momentum": 78,
+          "quality": 80,
+          "trust": 81,
+          "aiReadiness": 85
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 70.8,
+          "momentum": 72.9,
+          "quality": 76.3,
+          "trust": 72.6,
+          "aiReadiness": 78.2
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.4,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.4
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "ai_trust_summary": "输出校验和约束场景明确，开源仓库提升可审计性；云服务材料需继续补证。",
+      "rankings": [
+        {
+          "list_id": "ai-security-governance",
+          "list_name": "AI 安全与治理榜",
+          "rank": 3,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "ai-readiness",
+          "list_name": "AI 可读性榜",
+          "rank": 25,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "trust-leaders",
+          "list_name": "可信度领先榜",
+          "rank": 26,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "momentum-leaders",
+          "list_name": "增长势能榜",
+          "rank": 29,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "open-source-infra",
+          "list_name": "开源基础设施榜",
+          "rank": 18,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "safety-governance",
+          "list_name": "安全治理观察榜",
+          "rank": 14,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "high-confidence",
+          "list_name": "高置信度榜",
+          "rank": 14,
+          "total_score": 73.4,
+          "confidence": 0.766
+        },
+        {
+          "list_id": "developer-adoption",
+          "list_name": "开发者采用度榜",
+          "rank": 25,
+          "total_score": 73.4,
+          "confidence": 0.766
+        }
+      ],
+      "evidence_count": 7,
+      "claim_count": 7,
+      "quarantine": [],
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00",
+      "jsonld_url": "http://localhost:4173/entities/guardrails-ai/",
+      "claims_url": "http://localhost:4173/api/v1/entities/guardrails-ai/claims",
+      "citation_pack_url": "http://localhost:4173/api/v1/entities/guardrails-ai/citation-pack"
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "name": "Unicorn Rank Dataset Manifest",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "snapshot_date": "2026-05-18",
+  "methodology_version": "mvp-ai-tools-v1",
+  "generated_at": "2026-05-20T03:06:04.243Z",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3178,
+      "hash": "sha256:0db1546534cb5df83f22d0946d19998fcb472611d614a9a12571cba2c396aa8a"
+    },
+    {
+      "path": "index.json",
+      "bytes": 14584,
+      "hash": "sha256:f33f99acd3b92527d6ed202146398de4c8494d70080fa535145c8c7e939aeccb"
+    },
+    {
+      "path": "latest/lists.json",
+      "bytes": 729633,
+      "hash": "sha256:6a09c1482aedaddde16f059b872969a43c72055a5b9d83f9e2ba194ab73ea6e6"
+    },
+    {
+      "path": "snapshots/2026-05-18/lists.json",
+      "bytes": 729633,
+      "hash": "sha256:6a09c1482aedaddde16f059b872969a43c72055a5b9d83f9e2ba194ab73ea6e6"
+    },
+    {
+      "path": "latest/categories.json",
+      "bytes": 44254,
+      "hash": "sha256:a0a30b95a6cd8798c5b9e7f05f4dfcaabf742c2ff47ec80673b0c57bdfd2ef38"
+    },
+    {
+      "path": "snapshots/2026-05-18/categories.json",
+      "bytes": 44254,
+      "hash": "sha256:a0a30b95a6cd8798c5b9e7f05f4dfcaabf742c2ff47ec80673b0c57bdfd2ef38"
+    },
+    {
+      "path": "latest/entities.json",
+      "bytes": 149973,
+      "hash": "sha256:3c9a5d091c2e5cb6c79d51b7aed2582be83e96530a15d24f85d99bc985b5ac78"
+    },
+    {
+      "path": "snapshots/2026-05-18/entities.json",
+      "bytes": 149973,
+      "hash": "sha256:3c9a5d091c2e5cb6c79d51b7aed2582be83e96530a15d24f85d99bc985b5ac78"
+    },
+    {
+      "path": "latest/sources.json",
+      "bytes": 2637,
+      "hash": "sha256:0a02c4219fcde1c9bb174e8caf599ff52b0fedf68384ff8f031cbb55ee6ad87b"
+    },
+    {
+      "path": "snapshots/2026-05-18/sources.json",
+      "bytes": 2637,
+      "hash": "sha256:0a02c4219fcde1c9bb174e8caf599ff52b0fedf68384ff8f031cbb55ee6ad87b"
+    },
+    {
+      "path": "latest/evidence.json",
+      "bytes": 397632,
+      "hash": "sha256:7a73b979b6f4dac5c1008ddc3be66b8609b28924d3c3a368896a64f547379498"
+    },
+    {
+      "path": "snapshots/2026-05-18/evidence.json",
+      "bytes": 397632,
+      "hash": "sha256:7a73b979b6f4dac5c1008ddc3be66b8609b28924d3c3a368896a64f547379498"
+    },
+    {
+      "path": "latest/claims.json",
+      "bytes": 277318,
+      "hash": "sha256:15f5ff58ae8a0e94806395225aa3c8afc5fe61461f50b314e1db8a929e8d2f4f"
+    },
+    {
+      "path": "snapshots/2026-05-18/claims.json",
+      "bytes": 277318,
+      "hash": "sha256:15f5ff58ae8a0e94806395225aa3c8afc5fe61461f50b314e1db8a929e8d2f4f"
+    },
+    {
+      "path": "latest/citation-packs.json",
+      "bytes": 246552,
+      "hash": "sha256:06fa88f684b42ce65a3a538f566a029c0be4c625df5c4dd2757a531f2bd41576"
+    },
+    {
+      "path": "snapshots/2026-05-18/citation-packs.json",
+      "bytes": 246552,
+      "hash": "sha256:06fa88f684b42ce65a3a538f566a029c0be4c625df5c4dd2757a531f2bd41576"
+    },
+    {
+      "path": "latest/publication-pack.json",
+      "bytes": 7696,
+      "hash": "sha256:84ec8e95a473bd5556d3a3b0343fc8cb51f4aa67e2e3d4a4eae74451743484f8"
+    },
+    {
+      "path": "snapshots/2026-05-18/publication-pack.json",
+      "bytes": 7696,
+      "hash": "sha256:84ec8e95a473bd5556d3a3b0343fc8cb51f4aa67e2e3d4a4eae74451743484f8"
+    },
+    {
+      "path": "latest/methodology.json",
+      "bytes": 2055,
+      "hash": "sha256:d0e9aa08c44497368ab14de97a142a2d33237053fb0030fcf7049cd86c2a0372"
+    },
+    {
+      "path": "snapshots/2026-05-18/methodology.json",
+      "bytes": 2055,
+      "hash": "sha256:d0e9aa08c44497368ab14de97a142a2d33237053fb0030fcf7049cd86c2a0372"
+    },
+    {
+      "path": "latest/trust-manifest.json",
+      "bytes": 7037,
+      "hash": "sha256:e94def07c3a6213a24eb93d6567fa5450035f02b19ac926cc9c77a94d57a1ef5"
+    },
+    {
+      "path": "snapshots/2026-05-18/trust-manifest.json",
+      "bytes": 7037,
+      "hash": "sha256:e94def07c3a6213a24eb93d6567fa5450035f02b19ac926cc9c77a94d57a1ef5"
+    },
+    {
+      "path": "latest/rankings/ai-coding-tools.json",
+      "bytes": 24763,
+      "hash": "sha256:ab8aa2187908cbf2e7c09ca281d90edc6abf5cb69748f1f38c09da36bb011d8b"
+    },
+    {
+      "path": "latest/ranking-citations/ai-coding-tools.json",
+      "bytes": 35852,
+      "hash": "sha256:18b270519f3e190d095a4ad226dec15d04be6d85d92f9b7e699fe0bab6330517"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/ai-coding-tools.json",
+      "bytes": 24763,
+      "hash": "sha256:ab8aa2187908cbf2e7c09ca281d90edc6abf5cb69748f1f38c09da36bb011d8b"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/ai-coding-tools.json",
+      "bytes": 35852,
+      "hash": "sha256:18b270519f3e190d095a4ad226dec15d04be6d85d92f9b7e699fe0bab6330517"
+    },
+    {
+      "path": "latest/rankings/ai-search-tools.json",
+      "bytes": 19634,
+      "hash": "sha256:b24e69a4d69cef538509abbf889fac93e9f4ba4c6e5da139ff761ba2be083a0e"
+    },
+    {
+      "path": "latest/ranking-citations/ai-search-tools.json",
+      "bytes": 28313,
+      "hash": "sha256:17ab9dbfb8833b9023dbee78539a1613753e7b737f225001cfc6dc7786f4c41a"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/ai-search-tools.json",
+      "bytes": 19634,
+      "hash": "sha256:b24e69a4d69cef538509abbf889fac93e9f4ba4c6e5da139ff761ba2be083a0e"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/ai-search-tools.json",
+      "bytes": 28313,
+      "hash": "sha256:17ab9dbfb8833b9023dbee78539a1613753e7b737f225001cfc6dc7786f4c41a"
+    },
+    {
+      "path": "latest/rankings/open-source-ai-projects.json",
+      "bytes": 17661,
+      "hash": "sha256:cd277b5f7a01b6a2d8e7ef3a68908fcffcde900d9917ed890dfd51448f653c75"
+    },
+    {
+      "path": "latest/ranking-citations/open-source-ai-projects.json",
+      "bytes": 24624,
+      "hash": "sha256:a32bc11fc38028036a126581253024b6d833343fc8985bd8e39130d662a1d888"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/open-source-ai-projects.json",
+      "bytes": 17661,
+      "hash": "sha256:cd277b5f7a01b6a2d8e7ef3a68908fcffcde900d9917ed890dfd51448f653c75"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/open-source-ai-projects.json",
+      "bytes": 24624,
+      "hash": "sha256:a32bc11fc38028036a126581253024b6d833343fc8985bd8e39130d662a1d888"
+    },
+    {
+      "path": "latest/rankings/rag-data-tools.json",
+      "bytes": 15175,
+      "hash": "sha256:e79c88dbad0a71237514f6e3bb7fac73147d36e1ff70055dd4d8b09a4b47988e"
+    },
+    {
+      "path": "latest/ranking-citations/rag-data-tools.json",
+      "bytes": 21028,
+      "hash": "sha256:4f8284773d1910f835625e8e9d4d0eac1b56a5844ff27dba05dc54fe4f0b7ddf"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/rag-data-tools.json",
+      "bytes": 15175,
+      "hash": "sha256:e79c88dbad0a71237514f6e3bb7fac73147d36e1ff70055dd4d8b09a4b47988e"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/rag-data-tools.json",
+      "bytes": 21028,
+      "hash": "sha256:4f8284773d1910f835625e8e9d4d0eac1b56a5844ff27dba05dc54fe4f0b7ddf"
+    },
+    {
+      "path": "latest/rankings/eval-observability.json",
+      "bytes": 12486,
+      "hash": "sha256:6b31c773fe3fb82e6a7e857d5ba3b39f8bb1ba73beda38f9e414c5c184a4043b"
+    },
+    {
+      "path": "latest/ranking-citations/eval-observability.json",
+      "bytes": 17360,
+      "hash": "sha256:395dc06a429391c3be50c23334c98378ac1dbeec04e3c4513e39e3198d794118"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/eval-observability.json",
+      "bytes": 12486,
+      "hash": "sha256:6b31c773fe3fb82e6a7e857d5ba3b39f8bb1ba73beda38f9e414c5c184a4043b"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/eval-observability.json",
+      "bytes": 17360,
+      "hash": "sha256:395dc06a429391c3be50c23334c98378ac1dbeec04e3c4513e39e3198d794118"
+    },
+    {
+      "path": "latest/rankings/ai-security-governance.json",
+      "bytes": 10034,
+      "hash": "sha256:2cbefbaa170af69f2aa4a2a260045052e1c88fbe9545c6fe4ce1ab071e9ac352"
+    },
+    {
+      "path": "latest/ranking-citations/ai-security-governance.json",
+      "bytes": 13840,
+      "hash": "sha256:b9420ce3aa2718283fefb49f12e597701a7ee40e5d429d90b90247e793481f8f"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/ai-security-governance.json",
+      "bytes": 10034,
+      "hash": "sha256:2cbefbaa170af69f2aa4a2a260045052e1c88fbe9545c6fe4ce1ab071e9ac352"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/ai-security-governance.json",
+      "bytes": 13840,
+      "hash": "sha256:b9420ce3aa2718283fefb49f12e597701a7ee40e5d429d90b90247e793481f8f"
+    },
+    {
+      "path": "latest/rankings/ai-readiness.json",
+      "bytes": 84568,
+      "hash": "sha256:1b14b7be3140c8283b11b290f60f1c12ba2f61507bcefe7ecab2c6811ca36544"
+    },
+    {
+      "path": "latest/ranking-citations/ai-readiness.json",
+      "bytes": 127096,
+      "hash": "sha256:949da056757beaa3cb0b02b370ca4847de66453dae464b5a3f7ca1e5f8ba96f3"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/ai-readiness.json",
+      "bytes": 84568,
+      "hash": "sha256:1b14b7be3140c8283b11b290f60f1c12ba2f61507bcefe7ecab2c6811ca36544"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/ai-readiness.json",
+      "bytes": 127096,
+      "hash": "sha256:949da056757beaa3cb0b02b370ca4847de66453dae464b5a3f7ca1e5f8ba96f3"
+    },
+    {
+      "path": "latest/rankings/trust-leaders.json",
+      "bytes": 84578,
+      "hash": "sha256:c3a1f4d15921ece1c92cdf55623638d7d873a71bcf1c573f4b675062b04cdea1"
+    },
+    {
+      "path": "latest/ranking-citations/trust-leaders.json",
+      "bytes": 127089,
+      "hash": "sha256:93cf0e333d51f3d07b7d01ccdd6d720041ca7b6f6152c0fcadd9e5d31884ad0e"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/trust-leaders.json",
+      "bytes": 84578,
+      "hash": "sha256:c3a1f4d15921ece1c92cdf55623638d7d873a71bcf1c573f4b675062b04cdea1"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/trust-leaders.json",
+      "bytes": 127089,
+      "hash": "sha256:93cf0e333d51f3d07b7d01ccdd6d720041ca7b6f6152c0fcadd9e5d31884ad0e"
+    },
+    {
+      "path": "latest/rankings/momentum-leaders.json",
+      "bytes": 84558,
+      "hash": "sha256:e5ab2a8cc75f2781f5dede6b57813163ec5e2d307db4a2e7437a8d8089a624f5"
+    },
+    {
+      "path": "latest/ranking-citations/momentum-leaders.json",
+      "bytes": 127079,
+      "hash": "sha256:be6109f3e27676b085cf95b7e4b60cc906c383863f98b80bb45cad116e374fd2"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/momentum-leaders.json",
+      "bytes": 84558,
+      "hash": "sha256:e5ab2a8cc75f2781f5dede6b57813163ec5e2d307db4a2e7437a8d8089a624f5"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/momentum-leaders.json",
+      "bytes": 127079,
+      "hash": "sha256:be6109f3e27676b085cf95b7e4b60cc906c383863f98b80bb45cad116e374fd2"
+    },
+    {
+      "path": "latest/rankings/open-source-infra.json",
+      "bytes": 46259,
+      "hash": "sha256:d7ca43d3d282098ba8879ca434ba32ed6b08738830ab861e3439be8865cdfe4c"
+    },
+    {
+      "path": "latest/ranking-citations/open-source-infra.json",
+      "bytes": 68294,
+      "hash": "sha256:aab494834e2a205c32642d357778ebd4d6a1f08ac8081254e4ede201bf5bbe7d"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/open-source-infra.json",
+      "bytes": 46259,
+      "hash": "sha256:d7ca43d3d282098ba8879ca434ba32ed6b08738830ab861e3439be8865cdfe4c"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/open-source-infra.json",
+      "bytes": 68294,
+      "hash": "sha256:aab494834e2a205c32642d357778ebd4d6a1f08ac8081254e4ede201bf5bbe7d"
+    },
+    {
+      "path": "latest/rankings/agent-callable.json",
+      "bytes": 39096,
+      "hash": "sha256:120469ec560db6fe47f8d73be51726b13c6218e687cf0037f87c547576f7e574"
+    },
+    {
+      "path": "latest/ranking-citations/agent-callable.json",
+      "bytes": 57227,
+      "hash": "sha256:b94c4f08d864e71db4b43ba4a37b20c094338447574a2d62a134a3dae68a19d0"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/agent-callable.json",
+      "bytes": 39096,
+      "hash": "sha256:120469ec560db6fe47f8d73be51726b13c6218e687cf0037f87c547576f7e574"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/agent-callable.json",
+      "bytes": 57227,
+      "hash": "sha256:b94c4f08d864e71db4b43ba4a37b20c094338447574a2d62a134a3dae68a19d0"
+    },
+    {
+      "path": "latest/rankings/safety-governance.json",
+      "bytes": 46382,
+      "hash": "sha256:071d3311482363920f4652fdd2dc6ebb7735bf5bb71b2bad0a114fe5876e92c0"
+    },
+    {
+      "path": "latest/ranking-citations/safety-governance.json",
+      "bytes": 68824,
+      "hash": "sha256:19063dd805d603b34d9863210a4024d99c59f37941e70a9d1377ecc836a2c5b4"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/safety-governance.json",
+      "bytes": 46382,
+      "hash": "sha256:071d3311482363920f4652fdd2dc6ebb7735bf5bb71b2bad0a114fe5876e92c0"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/safety-governance.json",
+      "bytes": 68824,
+      "hash": "sha256:19063dd805d603b34d9863210a4024d99c59f37941e70a9d1377ecc836a2c5b4"
+    },
+    {
+      "path": "latest/rankings/high-confidence.json",
+      "bytes": 84568,
+      "hash": "sha256:2eb243c6c8214ddd477a6465dcf1cbd41159a7e15ec6d1ed6fc99ad6bf7e7905"
+    },
+    {
+      "path": "latest/ranking-citations/high-confidence.json",
+      "bytes": 127100,
+      "hash": "sha256:6647cd8d9a2106c6986930654d68432d8dd8f11eaf4c7a5b5dbfa44c9ced8d09"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/high-confidence.json",
+      "bytes": 84568,
+      "hash": "sha256:2eb243c6c8214ddd477a6465dcf1cbd41159a7e15ec6d1ed6fc99ad6bf7e7905"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/high-confidence.json",
+      "bytes": 127100,
+      "hash": "sha256:6647cd8d9a2106c6986930654d68432d8dd8f11eaf4c7a5b5dbfa44c9ced8d09"
+    },
+    {
+      "path": "latest/rankings/developer-adoption.json",
+      "bytes": 67869,
+      "hash": "sha256:30c8870918cada15b2087fa6b273b60d5d2a88e3f6aeaa679aa5c454167f07e8"
+    },
+    {
+      "path": "latest/ranking-citations/developer-adoption.json",
+      "bytes": 101167,
+      "hash": "sha256:e6acec36747bcf51f16831cdbde7ee8b9ac5f18d91c2e3c94ea6273e91fa0aba"
+    },
+    {
+      "path": "snapshots/2026-05-18/rankings/developer-adoption.json",
+      "bytes": 67869,
+      "hash": "sha256:30c8870918cada15b2087fa6b273b60d5d2a88e3f6aeaa679aa5c454167f07e8"
+    },
+    {
+      "path": "snapshots/2026-05-18/ranking-citations/developer-adoption.json",
+      "bytes": 101167,
+      "hash": "sha256:e6acec36747bcf51f16831cdbde7ee8b9ac5f18d91c2e3c94ea6273e91fa0aba"
+    },
+    {
+      "path": "latest/entity-citation-packs/cursor.json",
+      "bytes": 5653,
+      "hash": "sha256:e7511b12f29aebff97b3670cf07850d4f85b9386df4057a0d93ea27b9528ff63"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/cursor.json",
+      "bytes": 5653,
+      "hash": "sha256:e7511b12f29aebff97b3670cf07850d4f85b9386df4057a0d93ea27b9528ff63"
+    },
+    {
+      "path": "latest/entity-citation-packs/github-copilot.json",
+      "bytes": 12887,
+      "hash": "sha256:58e689bb51839b52c646ac1a620c8d1c6637a064037ad2eb7a8f361fa33a267a"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/github-copilot.json",
+      "bytes": 12887,
+      "hash": "sha256:58e689bb51839b52c646ac1a620c8d1c6637a064037ad2eb7a8f361fa33a267a"
+    },
+    {
+      "path": "latest/entity-citation-packs/windsurf.json",
+      "bytes": 4983,
+      "hash": "sha256:ae5c4cdb36e40d551e7a0ee4f2e5aa06d248cee849e305674e0faabcaf305fd2"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/windsurf.json",
+      "bytes": 4983,
+      "hash": "sha256:ae5c4cdb36e40d551e7a0ee4f2e5aa06d248cee849e305674e0faabcaf305fd2"
+    },
+    {
+      "path": "latest/entity-citation-packs/continue.json",
+      "bytes": 5233,
+      "hash": "sha256:94d7303ebb16d4eef49516ba333e25d7a3f94eba34c7bcf17a691de3803b5310"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/continue.json",
+      "bytes": 5233,
+      "hash": "sha256:94d7303ebb16d4eef49516ba333e25d7a3f94eba34c7bcf17a691de3803b5310"
+    },
+    {
+      "path": "latest/entity-citation-packs/replit.json",
+      "bytes": 4926,
+      "hash": "sha256:27876f7a8193fed0c071460f77935be8fe0b27dbed1fbcc6c2bab7d76b9550e7"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/replit.json",
+      "bytes": 4926,
+      "hash": "sha256:27876f7a8193fed0c071460f77935be8fe0b27dbed1fbcc6c2bab7d76b9550e7"
+    },
+    {
+      "path": "latest/entity-citation-packs/sourcegraph-cody.json",
+      "bytes": 5236,
+      "hash": "sha256:73a344b9ae9e567de42d11c99c916479bcf3a551568adf5c8668cada7802f79f"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/sourcegraph-cody.json",
+      "bytes": 5236,
+      "hash": "sha256:73a344b9ae9e567de42d11c99c916479bcf3a551568adf5c8668cada7802f79f"
+    },
+    {
+      "path": "latest/entity-citation-packs/perplexity.json",
+      "bytes": 4619,
+      "hash": "sha256:c7e0bc3a423828bcf3f05a1bf88bf6692c85d02c5045ca1ef4d110cb43e3226c"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/perplexity.json",
+      "bytes": 4619,
+      "hash": "sha256:c7e0bc3a423828bcf3f05a1bf88bf6692c85d02c5045ca1ef4d110cb43e3226c"
+    },
+    {
+      "path": "latest/entity-citation-packs/phind.json",
+      "bytes": 4488,
+      "hash": "sha256:3f492210641be2f0c03361da53f662c60a879b713512dbb66c8d447b782eec00"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/phind.json",
+      "bytes": 4488,
+      "hash": "sha256:3f492210641be2f0c03361da53f662c60a879b713512dbb66c8d447b782eec00"
+    },
+    {
+      "path": "latest/entity-citation-packs/kagi.json",
+      "bytes": 4368,
+      "hash": "sha256:0900a1f56927f6a4fdd256d15e344a6f40f44dd1e1434155d5d98c81ff7588a4"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/kagi.json",
+      "bytes": 4368,
+      "hash": "sha256:0900a1f56927f6a4fdd256d15e344a6f40f44dd1e1434155d5d98c81ff7588a4"
+    },
+    {
+      "path": "latest/entity-citation-packs/you-com.json",
+      "bytes": 11764,
+      "hash": "sha256:727c53e30c4bd7f55963b9e2ec1362d44c6f41031734e799fb0966f653fc3a4e"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/you-com.json",
+      "bytes": 11764,
+      "hash": "sha256:727c53e30c4bd7f55963b9e2ec1362d44c6f41031734e799fb0966f653fc3a4e"
+    },
+    {
+      "path": "latest/entity-citation-packs/genspark.json",
+      "bytes": 7834,
+      "hash": "sha256:b8137a0fda0992e34a6f23580f28dce47bd134fa8433492b6c19a30369d1894f"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/genspark.json",
+      "bytes": 7834,
+      "hash": "sha256:b8137a0fda0992e34a6f23580f28dce47bd134fa8433492b6c19a30369d1894f"
+    },
+    {
+      "path": "latest/entity-citation-packs/langchain.json",
+      "bytes": 9432,
+      "hash": "sha256:fae5cdb5aa59dca8f27b630d66b242750d66232ba6b16d91490f4c21c89c5ceb"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/langchain.json",
+      "bytes": 9432,
+      "hash": "sha256:fae5cdb5aa59dca8f27b630d66b242750d66232ba6b16d91490f4c21c89c5ceb"
+    },
+    {
+      "path": "latest/entity-citation-packs/llamaindex.json",
+      "bytes": 5286,
+      "hash": "sha256:1d3435741d60e01daa14ee68ab70ab042e0eeebf1bac74fe3b7316d70f56a8ca"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/llamaindex.json",
+      "bytes": 5286,
+      "hash": "sha256:1d3435741d60e01daa14ee68ab70ab042e0eeebf1bac74fe3b7316d70f56a8ca"
+    },
+    {
+      "path": "latest/entity-citation-packs/ollama.json",
+      "bytes": 12653,
+      "hash": "sha256:f97c2747ca7ccb87f8d271a6849084155a856f4a885e8059471aa5bf88d3a120"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/ollama.json",
+      "bytes": 12653,
+      "hash": "sha256:f97c2747ca7ccb87f8d271a6849084155a856f4a885e8059471aa5bf88d3a120"
+    },
+    {
+      "path": "latest/entity-citation-packs/vllm.json",
+      "bytes": 5071,
+      "hash": "sha256:2ef009cf5da59c70a36b4b6091ad2bbe4f82050ae7187e47727680e7117a5b54"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/vllm.json",
+      "bytes": 5071,
+      "hash": "sha256:2ef009cf5da59c70a36b4b6091ad2bbe4f82050ae7187e47727680e7117a5b54"
+    },
+    {
+      "path": "latest/entity-citation-packs/dify.json",
+      "bytes": 5051,
+      "hash": "sha256:63706a4736577b8f50ae9f4a96aa7891a02502397065be82149f3491eea7e87e"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/dify.json",
+      "bytes": 5051,
+      "hash": "sha256:63706a4736577b8f50ae9f4a96aa7891a02502397065be82149f3491eea7e87e"
+    },
+    {
+      "path": "latest/entity-citation-packs/litellm.json",
+      "bytes": 5403,
+      "hash": "sha256:5bed8e76382d60e8e83dc0b835f09000a3dbcb2e9334be9d19ba247826415bc6"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/litellm.json",
+      "bytes": 5403,
+      "hash": "sha256:5bed8e76382d60e8e83dc0b835f09000a3dbcb2e9334be9d19ba247826415bc6"
+    },
+    {
+      "path": "latest/entity-citation-packs/aider.json",
+      "bytes": 5112,
+      "hash": "sha256:e03fb26b6c05066a7d453dec04eef43bd1ad8e74faa351f15e1f7ed54dc89e65"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/aider.json",
+      "bytes": 5112,
+      "hash": "sha256:e03fb26b6c05066a7d453dec04eef43bd1ad8e74faa351f15e1f7ed54dc89e65"
+    },
+    {
+      "path": "latest/entity-citation-packs/tabnine.json",
+      "bytes": 4978,
+      "hash": "sha256:095fdba7d67db55b4a33bc94a4ad86c22e2818b75a37a295ad9990196e5d24ec"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/tabnine.json",
+      "bytes": 4978,
+      "hash": "sha256:095fdba7d67db55b4a33bc94a4ad86c22e2818b75a37a295ad9990196e5d24ec"
+    },
+    {
+      "path": "latest/entity-citation-packs/qodo.json",
+      "bytes": 4871,
+      "hash": "sha256:0c4b62d91d736fda5508af88a1547c257259bc1f868f7e7294c424a99290ad2b"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/qodo.json",
+      "bytes": 4871,
+      "hash": "sha256:0c4b62d91d736fda5508af88a1547c257259bc1f868f7e7294c424a99290ad2b"
+    },
+    {
+      "path": "latest/entity-citation-packs/exa.json",
+      "bytes": 5054,
+      "hash": "sha256:a512166c7f11886a8611854a8aeb762fbc853055a3db73ac8442831077bcaa43"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/exa.json",
+      "bytes": 5054,
+      "hash": "sha256:a512166c7f11886a8611854a8aeb762fbc853055a3db73ac8442831077bcaa43"
+    },
+    {
+      "path": "latest/entity-citation-packs/tavily.json",
+      "bytes": 5163,
+      "hash": "sha256:7f7e05554af34e7a9cb9812868518a293260062a61bfd9d8fe624b62b24f3fcf"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/tavily.json",
+      "bytes": 5163,
+      "hash": "sha256:7f7e05554af34e7a9cb9812868518a293260062a61bfd9d8fe624b62b24f3fcf"
+    },
+    {
+      "path": "latest/entity-citation-packs/weaviate.json",
+      "bytes": 5426,
+      "hash": "sha256:6cb35fd085cab35a9fcdca80ea713e787e9200e82ef5a2e0af527f597bcfc408"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/weaviate.json",
+      "bytes": 5426,
+      "hash": "sha256:6cb35fd085cab35a9fcdca80ea713e787e9200e82ef5a2e0af527f597bcfc408"
+    },
+    {
+      "path": "latest/entity-citation-packs/qdrant.json",
+      "bytes": 5121,
+      "hash": "sha256:23c0d3c693c977d64ff03caa07ef1203b1616245cdfc0545f1e0c7b64630c101"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/qdrant.json",
+      "bytes": 5121,
+      "hash": "sha256:23c0d3c693c977d64ff03caa07ef1203b1616245cdfc0545f1e0c7b64630c101"
+    },
+    {
+      "path": "latest/entity-citation-packs/chroma.json",
+      "bytes": 5141,
+      "hash": "sha256:c39f4ab82f35f44828a2eca0499191266bbdebe4f8aacd6bc130a3d5d83eae29"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/chroma.json",
+      "bytes": 5141,
+      "hash": "sha256:c39f4ab82f35f44828a2eca0499191266bbdebe4f8aacd6bc130a3d5d83eae29"
+    },
+    {
+      "path": "latest/entity-citation-packs/milvus.json",
+      "bytes": 11609,
+      "hash": "sha256:e4d969d91c1eb87cbc7566475c9ced7d8ab7dfaadef64ad8b13e31a97bb2aea4"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/milvus.json",
+      "bytes": 11609,
+      "hash": "sha256:e4d969d91c1eb87cbc7566475c9ced7d8ab7dfaadef64ad8b13e31a97bb2aea4"
+    },
+    {
+      "path": "latest/entity-citation-packs/unstructured.json",
+      "bytes": 5339,
+      "hash": "sha256:04972cdc655474255089d3eb58afdfa269a65b59a0f62c1561833746ebc655fb"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/unstructured.json",
+      "bytes": 5339,
+      "hash": "sha256:04972cdc655474255089d3eb58afdfa269a65b59a0f62c1561833746ebc655fb"
+    },
+    {
+      "path": "latest/entity-citation-packs/langfuse.json",
+      "bytes": 4985,
+      "hash": "sha256:34375172ceb3aabc69fa939d84d9b8b3e684a3f05e5b040eb2b25795476dab0a"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/langfuse.json",
+      "bytes": 4985,
+      "hash": "sha256:34375172ceb3aabc69fa939d84d9b8b3e684a3f05e5b040eb2b25795476dab0a"
+    },
+    {
+      "path": "latest/entity-citation-packs/arize-phoenix.json",
+      "bytes": 5147,
+      "hash": "sha256:03d62f799c31d785418efd7ade0b8d49cb4eceb0f2cb111ac43521e9945b4ee1"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/arize-phoenix.json",
+      "bytes": 5147,
+      "hash": "sha256:03d62f799c31d785418efd7ade0b8d49cb4eceb0f2cb111ac43521e9945b4ee1"
+    },
+    {
+      "path": "latest/entity-citation-packs/helicone.json",
+      "bytes": 5437,
+      "hash": "sha256:dc18af95f8b07dd7c9ee03e9346893e38f2f5367117e94c08ff086aca56efbd3"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/helicone.json",
+      "bytes": 5437,
+      "hash": "sha256:dc18af95f8b07dd7c9ee03e9346893e38f2f5367117e94c08ff086aca56efbd3"
+    },
+    {
+      "path": "latest/entity-citation-packs/promptfoo.json",
+      "bytes": 5269,
+      "hash": "sha256:4236e015f1ee455f4a55b4884fb42e875fee0667a9e6231e4d220b6be483532c"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/promptfoo.json",
+      "bytes": 5269,
+      "hash": "sha256:4236e015f1ee455f4a55b4884fb42e875fee0667a9e6231e4d220b6be483532c"
+    },
+    {
+      "path": "latest/entity-citation-packs/lakera.json",
+      "bytes": 12001,
+      "hash": "sha256:9fbefac0651a016e71c36b0a23fa852f49dbced40e20ec7f88f3454019195f68"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/lakera.json",
+      "bytes": 12001,
+      "hash": "sha256:9fbefac0651a016e71c36b0a23fa852f49dbced40e20ec7f88f3454019195f68"
+    },
+    {
+      "path": "latest/entity-citation-packs/protect-ai.json",
+      "bytes": 11469,
+      "hash": "sha256:942f94327d4c1c69431c0d213ef49295abcb342808ebb487dc605cce19b3984a"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/protect-ai.json",
+      "bytes": 11469,
+      "hash": "sha256:942f94327d4c1c69431c0d213ef49295abcb342808ebb487dc605cce19b3984a"
+    },
+    {
+      "path": "latest/entity-citation-packs/guardrails-ai.json",
+      "bytes": 5404,
+      "hash": "sha256:5d628e47cf93a90138e4ad2d7032a6155b34d55d1d610eede5c6cdd4fec62d60"
+    },
+    {
+      "path": "snapshots/2026-05-18/entity-citation-packs/guardrails-ai.json",
+      "bytes": 5404,
+      "hash": "sha256:5d628e47cf93a90138e4ad2d7032a6155b34d55d1d610eede5c6cdd4fec62d60"
+    }
+  ],
+  "integrity_note": "Hashes are sha256 over emitted file contents. The manifest excludes itself."
+}

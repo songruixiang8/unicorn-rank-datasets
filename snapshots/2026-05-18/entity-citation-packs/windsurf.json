@@ -1,0 +1,143 @@
+{
+  "citation_pack_id": "cp_windsurf_59e104f13672",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_windsurf",
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "canonical_url": "https://windsurf.com",
+    "entity_url": "http://localhost:4173/entities/windsurf/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-coding-tools",
+      "list_name": "AI 编程工具可信榜",
+      "rank": 3,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/ai-coding-tools/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 20,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 24,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 1,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "safety-governance",
+      "list_name": "安全治理观察榜",
+      "rank": 13,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/safety-governance/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 24,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    },
+    {
+      "list_id": "developer-adoption",
+      "list_name": "开发者采用度榜",
+      "rank": 11,
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "url": "http://localhost:4173/rankings/developer-adoption/"
+    }
+  ],
+  "score": 80.1,
+  "confidence": 0.757,
+  "dimensions": {
+    "adoption": 80.2,
+    "momentum": 85.4,
+    "quality": 79.4,
+    "trust": 72.9,
+    "aiReadiness": 79
+  },
+  "recommended_citation": "Windsurf. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/windsurf/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_57426fbbdf42",
+      "entity_id": "ent_windsurf",
+      "entity_slug": "windsurf",
+      "entity_name": "Windsurf",
+      "claim_type": "official_positioning",
+      "claim_text": "Windsurf 属于 AI 编程工具。",
+      "claim_status": "supported",
+      "confidence": 0.86,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_windsurf_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_official_positioning",
+      "raw_url": "https://windsurf.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_windsurf_official_positioning_snapshot_20260518"
+    },
+    {
+      "id": "claim_164dace5af6f",
+      "entity_id": "ent_windsurf",
+      "entity_slug": "windsurf",
+      "entity_name": "Windsurf",
+      "claim_type": "docs_available",
+      "claim_text": "Windsurf 有公开文档。",
+      "claim_status": "supported",
+      "confidence": 0.82,
+      "source_id": "src_official_docs",
+      "source_name": "Official Documentation",
+      "evidence_id": "ev_ent_windsurf_docs_available",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_docs_available",
+      "raw_url": "https://docs.windsurf.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_windsurf_docs_available_snapshot_20260518"
+    },
+    {
+      "id": "claim_dd87712f8e17",
+      "entity_id": "ent_windsurf",
+      "entity_slug": "windsurf",
+      "entity_name": "Windsurf",
+      "claim_type": "pricing_public",
+      "claim_text": "Windsurf 价格信息可验证。",
+      "claim_status": "supported",
+      "confidence": 0.8,
+      "source_id": "src_pricing",
+      "source_name": "Pricing Page",
+      "evidence_id": "ev_ent_windsurf_pricing_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_pricing_public",
+      "raw_url": "https://windsurf.com/pricing",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_windsurf_pricing_public_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/windsurf/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/windsurf/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:f7afcd680e18b9f35973f96ee3313fb66628fb3cb4d488d8dc22491675335fcf"
+  }
+}

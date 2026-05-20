@@ -1,0 +1,105 @@
+{
+  "name": "Unicorn Rank GitHub Dataset Export",
+  "generated_at": "2026-05-20T03:07:12.942Z",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "snapshot_date": "2026-05-18",
+  "output_directory": "/Users/songruixiang/Desktop/数据外部真理器和免疫基座/unicorn-rank-mvp/exports/unicorn-rank-datasets",
+  "generated_files": [
+    {
+      "path": "README.md",
+      "bytes": 3519,
+      "hash": "sha256:07400314ce155aa802aa9288e5bf39e5102c6d0b83ee47a44acda46d1fbdf3d8"
+    },
+    {
+      "path": "REPOSITORY_GUIDE.md",
+      "bytes": 944,
+      "hash": "sha256:2a2bd7d462169dc74b8e1a84e52a1f8b7a78c664584944c1a6966b6a3c6d494d"
+    },
+    {
+      "path": "PUBLISH_CHECKLIST.md",
+      "bytes": 430,
+      "hash": "sha256:85fe83608febce915031020f54e2ff03770a42448fda23c1c11757afc45f5a29"
+    },
+    {
+      "path": "rankings/ai-coding-tools.md",
+      "bytes": 991,
+      "hash": "sha256:f54cba5ab4008bb4ad52e9964911fc1a13da7804482cf5177d0b79f74bde1703"
+    },
+    {
+      "path": "rankings/ai-search-tools.md",
+      "bytes": 908,
+      "hash": "sha256:51fe0f31ccdf0a6df38d9f6a080c9b0d4c81a6d85f5f976a1ead2a4cee56fae5"
+    },
+    {
+      "path": "rankings/open-source-ai-projects.md",
+      "bytes": 901,
+      "hash": "sha256:3a8de8ade03c3e6c7bec600bba7427e133b098bbdd988bce69e093890e572acd"
+    },
+    {
+      "path": "rankings/rag-data-tools.md",
+      "bytes": 879,
+      "hash": "sha256:20bfc49f92791ff91ad47140142daf71340d38efbcc9818ed7fb345a3611bbce"
+    },
+    {
+      "path": "rankings/eval-observability.md",
+      "bytes": 826,
+      "hash": "sha256:2e6093c2eec14a63c744a98605034da549c25af15110ca4d5aa1dd9c386dbc07"
+    },
+    {
+      "path": "rankings/ai-security-governance.md",
+      "bytes": 797,
+      "hash": "sha256:d1f53340bb4f2bcf8dfa5b56f9a91e2b7f17ab004207e1822bf9cca7d2983778"
+    },
+    {
+      "path": "rankings/ai-readiness.md",
+      "bytes": 998,
+      "hash": "sha256:c7fcccbde06434a59edde067e02f9a69ca958d9522db766a48d3b60778156cfd"
+    },
+    {
+      "path": "rankings/trust-leaders.md",
+      "bytes": 1039,
+      "hash": "sha256:06ea4504324118df246a786166252a064f169dc34ccbcfa1c7119adde8025161"
+    },
+    {
+      "path": "rankings/momentum-leaders.md",
+      "bytes": 1006,
+      "hash": "sha256:8cdb7886c773f13ba8a903f31a20908b9018405b2537d69a2d5670a2541b6d25"
+    },
+    {
+      "path": "rankings/open-source-infra.md",
+      "bytes": 1006,
+      "hash": "sha256:da5285bdf812aaed6fc9084012838be62d840893e27cd8984881df0f6aed10b2"
+    },
+    {
+      "path": "rankings/agent-callable.md",
+      "bytes": 1009,
+      "hash": "sha256:b2a4b2eb0af6fe0e1f8392db9e618eff6efb89cc11ccfc11cb788000bdba36da"
+    },
+    {
+      "path": "rankings/safety-governance.md",
+      "bytes": 1035,
+      "hash": "sha256:ef2dc623b644206b08510417eb5807cbd94e922c43117b39f74705400ad382dd"
+    },
+    {
+      "path": "rankings/high-confidence.md",
+      "bytes": 1010,
+      "hash": "sha256:ef55071b2ae00a488c3ed4061a1fb0a66280e148132a58b24e6c551c166a15d1"
+    },
+    {
+      "path": "rankings/developer-adoption.md",
+      "bytes": 1025,
+      "hash": "sha256:f921fede6e10d448fe85a4148b58c8746582237b14662aa9ad404f0272e263e3"
+    },
+    {
+      "path": "reports/2026-05-18-weekly-report.md",
+      "bytes": 1912,
+      "hash": "sha256:4dde7ce3275cdbca08a9d6f7996eb498442a4d63c8fa11f1018668c3520fbc84"
+    },
+    {
+      "path": "reports/latest-weekly-report.md",
+      "bytes": 1912,
+      "hash": "sha256:4dde7ce3275cdbca08a9d6f7996eb498442a4d63c8fa11f1018668c3520fbc84"
+    }
+  ],
+  "source_dataset_manifest": "manifest.json"
+}

@@ -1,0 +1,738 @@
+{
+  "ranking_id": "ai-search-tools",
+  "ranking_name": "AI 搜索工具可信榜",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "ranking_url": "http://localhost:4173/rankings/ai-search-tools/",
+  "ranking_api": "http://localhost:4173/api/v1/lists/ai-search-tools",
+  "citation_api": "http://localhost:4173/api/v1/lists/ai-search-tools/citation",
+  "evidence_count": 70,
+  "entity_count": 7,
+  "average_confidence": 0.723,
+  "top_entities": [
+    {
+      "rank": 1,
+      "name": "Perplexity",
+      "score": 79.1,
+      "confidence": 0.657,
+      "entity_url": "http://localhost:4173/entities/perplexity/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/perplexity/citation-pack"
+    },
+    {
+      "rank": 2,
+      "name": "Exa",
+      "score": 75.8,
+      "confidence": 0.757,
+      "entity_url": "http://localhost:4173/entities/exa/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/exa/citation-pack"
+    },
+    {
+      "rank": 3,
+      "name": "You.com",
+      "score": 73.9,
+      "confidence": 0.729,
+      "entity_url": "http://localhost:4173/entities/you-com/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/you-com/citation-pack"
+    },
+    {
+      "rank": 4,
+      "name": "Tavily",
+      "score": 73.8,
+      "confidence": 0.754,
+      "entity_url": "http://localhost:4173/entities/tavily/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/tavily/citation-pack"
+    },
+    {
+      "rank": 5,
+      "name": "Kagi",
+      "score": 72.9,
+      "confidence": 0.769,
+      "entity_url": "http://localhost:4173/entities/kagi/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/kagi/citation-pack"
+    }
+  ],
+  "recommended_citation": "AI 搜索工具可信榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/ai-search-tools/.",
+  "ai_use_cases": [
+    "Answering questions about AI 搜索工具可信榜",
+    "Comparing tools with evidence-backed scores",
+    "Building RAG or procurement research context with verifiable source URLs"
+  ],
+  "citation_rules": [
+    "Include ranking_name, snapshot_time and methodology_version.",
+    "Use entity citation-pack APIs for factual product claims.",
+    "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+    "Avoid disputed or needs_review claims unless discussing uncertainty."
+  ],
+  "methodology_url": "http://localhost:4173/methodology/",
+  "trust_manifest_url": "http://localhost:4173/trust-manifest.json",
+  "openapi_url": "http://localhost:4173/openapi.json",
+  "source_registry_api": "http://localhost:4173/api/v1/sources",
+  "items": [
+    {
+      "rank": 1,
+      "entity_id": "ent_perplexity",
+      "entity_slug": "perplexity",
+      "entity_name": "Perplexity",
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "evidence_count": 9,
+      "quarantine_count": 1,
+      "score_movement": {
+        "base_score": 87.8,
+        "current_score": 79.1,
+        "delta": -8.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -11.4
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -9.5
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -9
+          }
+        ],
+        "drivers": [
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/perplexity/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/perplexity/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/perplexity/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/perplexity/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_073dee9c2e9c",
+          "entity_id": "ent_perplexity",
+          "entity_slug": "perplexity",
+          "entity_name": "Perplexity",
+          "claim_type": "official_positioning",
+          "claim_text": "Perplexity 是 AI 搜索/答案引擎。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_perplexity_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_official_positioning",
+          "raw_url": "https://www.perplexity.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_perplexity_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_86cc4649ec1d",
+          "entity_id": "ent_perplexity",
+          "entity_slug": "perplexity",
+          "entity_name": "Perplexity",
+          "claim_type": "pricing_public",
+          "claim_text": "Perplexity 价格信息公开。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_perplexity_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_pricing_public",
+          "raw_url": "https://www.perplexity.ai/pro",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_perplexity_pricing_public_snapshot_20260518"
+        },
+        {
+          "id": "claim_e6863a2f258d",
+          "entity_id": "ent_perplexity",
+          "entity_slug": "perplexity",
+          "entity_name": "Perplexity",
+          "claim_type": "citation_behavior",
+          "claim_text": "Perplexity 对 AI 引用场景友好。",
+          "claim_status": "supported",
+          "confidence": 0.79,
+          "source_id": "src_llms_probe",
+          "source_name": "LLMs.txt / Structured Data Probe",
+          "evidence_id": "ev_ent_perplexity_citation_behavior",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_citation_behavior",
+          "raw_url": "https://www.perplexity.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_perplexity_citation_behavior_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "entity_id": "ent_exa",
+      "entity_slug": "exa",
+      "entity_name": "Exa",
+      "total_score": 75.8,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 80.3,
+        "current_score": 75.8,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/exa/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/exa/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/exa/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/exa/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_34e59066ee62",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "official_positioning",
+          "claim_text": "Exa 是面向 AI 应用的搜索 API。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_exa_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_official_positioning",
+          "raw_url": "https://exa.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_a358e4542b45",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "docs_available",
+          "claim_text": "Exa 文档适合 Agent 集成。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_exa_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_docs_available",
+          "raw_url": "https://docs.exa.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_4b9e11fb1b77",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "pricing_public",
+          "claim_text": "Exa 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_exa_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_pricing_public",
+          "raw_url": "https://exa.ai/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "entity_id": "ent_you",
+      "entity_slug": "you-com",
+      "entity_name": "You.com",
+      "total_score": 73.9,
+      "confidence": 0.729,
+      "evidence_count": 19,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 76.1,
+        "current_score": 73.9,
+        "delta": -2.2,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -2.2
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -1.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "采集成功率偏低：33%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/you-com/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/you-com/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/you-com/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/you-com/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_8baf50fa0191",
+          "entity_id": "ent_you",
+          "entity_slug": "you-com",
+          "entity_name": "You.com",
+          "claim_type": "official_positioning",
+          "claim_text": "You.com 是 AI 搜索和助手产品。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_you_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_you_official_positioning",
+          "raw_url": "https://you.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_you_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_af02eb8fda6d",
+          "entity_id": "ent_you",
+          "entity_slug": "you-com",
+          "entity_name": "You.com",
+          "claim_type": "page_identity",
+          "claim_text": "You.com 有可公开访问的页面，页面标题为“The Leading Web Search APIs for AI”。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_obs_ent_you_src_official_site_4140a6f2164a_page_identity",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_obs_ent_you_src_official_site_4140a6f2164a_page_identity",
+          "raw_url": "https://you.com",
+          "captured_at": "2026-05-18T16:09:15.883Z",
+          "content_hash": "sha256:1d3187bf5d8ebcc16faeba75bbbec1457e3448e019bcf65ada890b8b7ee5bd98"
+        },
+        {
+          "id": "claim_90bf21d19123",
+          "entity_id": "ent_you",
+          "entity_slug": "you-com",
+          "entity_name": "You.com",
+          "claim_type": "page_identity",
+          "claim_text": "You.com 有可公开访问的页面，页面标题为“Our Pricing Plans | You.com”。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_obs_ent_you_src_pricing_bad7a366a0c0_page_identity",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_obs_ent_you_src_pricing_bad7a366a0c0_page_identity",
+          "raw_url": "https://you.com/pricing",
+          "captured_at": "2026-05-18T16:10:53.558Z",
+          "content_hash": "sha256:ad7bf373ce13262c908f8f3e1d5a816b0ce09d6bbcf7609563aff78cfdd03f48"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "entity_id": "ent_tavily",
+      "entity_slug": "tavily",
+      "entity_name": "Tavily",
+      "total_score": 73.8,
+      "confidence": 0.754,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.8,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/tavily/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/tavily/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/tavily/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/tavily/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_7918590a6ec0",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "official_positioning",
+          "claim_text": "Tavily 是面向 AI Agent 的搜索 API。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_tavily_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_official_positioning",
+          "raw_url": "https://www.tavily.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_6af5a3136158",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "docs_available",
+          "claim_text": "Tavily 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_tavily_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_docs_available",
+          "raw_url": "https://docs.tavily.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_60c4dc4f0961",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "pricing_public",
+          "claim_text": "Tavily 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.74,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_tavily_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_pricing_public",
+          "raw_url": "https://www.tavily.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "entity_id": "ent_kagi",
+      "entity_slug": "kagi",
+      "entity_name": "Kagi",
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.3,
+        "current_score": 72.9,
+        "delta": -4.4,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.6
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4
+          }
+        ],
+        "drivers": [
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/kagi/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/kagi/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/kagi/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/kagi/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_386d7e6cb887",
+          "entity_id": "ent_kagi",
+          "entity_slug": "kagi",
+          "entity_name": "Kagi",
+          "claim_type": "pricing_public",
+          "claim_text": "Kagi 价格透明。",
+          "claim_status": "supported",
+          "confidence": 0.87,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_kagi_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_pricing_public",
+          "raw_url": "https://kagi.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_kagi_pricing_public_snapshot_20260518"
+        },
+        {
+          "id": "claim_6c055b06f72d",
+          "entity_id": "ent_kagi",
+          "entity_slug": "kagi",
+          "entity_name": "Kagi",
+          "claim_type": "privacy_public",
+          "claim_text": "Kagi 信任材料较强。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_security",
+          "source_name": "Security / Privacy Page",
+          "evidence_id": "ev_ent_kagi_privacy_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_privacy_public",
+          "raw_url": "https://kagi.com/privacy",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_kagi_privacy_public_snapshot_20260518"
+        },
+        {
+          "id": "claim_38cb9734721b",
+          "entity_id": "ent_kagi",
+          "entity_slug": "kagi",
+          "entity_name": "Kagi",
+          "claim_type": "official_positioning",
+          "claim_text": "Kagi 是搜索产品。",
+          "claim_status": "supported",
+          "confidence": 0.85,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_kagi_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_official_positioning",
+          "raw_url": "https://kagi.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_kagi_official_positioning_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "entity_id": "ent_phind",
+      "entity_slug": "phind",
+      "entity_name": "Phind",
+      "total_score": 71.3,
+      "confidence": 0.678,
+      "evidence_count": 9,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 71.3,
+        "delta": -6.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -11.2
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -8.1
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/phind/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/phind/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/phind/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/phind/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_665cf6e2f95e",
+          "entity_id": "ent_phind",
+          "entity_slug": "phind",
+          "entity_name": "Phind",
+          "claim_type": "official_positioning",
+          "claim_text": "Phind 是面向开发者的 AI 搜索工具。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_phind_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_phind_official_positioning",
+          "raw_url": "https://www.phind.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_phind_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_9cc2dcb5e963",
+          "entity_id": "ent_phind",
+          "entity_slug": "phind",
+          "entity_name": "Phind",
+          "claim_type": "pricing_public",
+          "claim_text": "Phind 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_phind_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_phind_pricing_public",
+          "raw_url": "https://www.phind.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_phind_pricing_public_snapshot_20260518"
+        },
+        {
+          "id": "claim_66b8abc06ef7",
+          "entity_id": "ent_phind",
+          "entity_slug": "phind",
+          "entity_name": "Phind",
+          "claim_type": "ai_readiness_probe",
+          "claim_text": "Phind 对开发者 Agent 有潜在可用性。",
+          "claim_status": "supported",
+          "confidence": 0.77,
+          "source_id": "src_llms_probe",
+          "source_name": "LLMs.txt / Structured Data Probe",
+          "evidence_id": "ev_ent_phind_ai_readiness_probe",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_phind_ai_readiness_probe",
+          "raw_url": "https://www.phind.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_phind_ai_readiness_probe_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "entity_id": "ent_genspark",
+      "entity_slug": "genspark",
+      "entity_name": "Genspark",
+      "total_score": 70.8,
+      "confidence": 0.716,
+      "evidence_count": 10,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 73.4,
+        "current_score": 70.8,
+        "delta": -2.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -3.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -3.3
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/genspark/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/genspark/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/genspark/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/genspark/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_a5a2e5d69b5a",
+          "entity_id": "ent_genspark",
+          "entity_slug": "genspark",
+          "entity_name": "Genspark",
+          "claim_type": "official_positioning",
+          "claim_text": "Genspark 是 AI 搜索产品。",
+          "claim_status": "supported",
+          "confidence": 0.8,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_genspark_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_genspark_official_positioning",
+          "raw_url": "https://www.genspark.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_genspark_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_94d0391a2443",
+          "entity_id": "ent_genspark",
+          "entity_slug": "genspark",
+          "entity_name": "Genspark",
+          "claim_type": "page_identity",
+          "claim_text": "Genspark 有可公开访问的页面，页面标题为“Genspark - Your All-in-One AI Workspace”。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_obs_ent_genspark_src_official_site_c6fc28d7b21f_page_identity",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_obs_ent_genspark_src_official_site_c6fc28d7b21f_page_identity",
+          "raw_url": "https://www.genspark.ai",
+          "captured_at": "2026-05-18T16:09:24.489Z",
+          "content_hash": "sha256:9902e0d9c13ef4cc8f770c5a7579d62c7c98d1e50d3e3a0c93965b7b4ca81a9a"
+        },
+        {
+          "id": "claim_2b8c0ce17cbb",
+          "entity_id": "ent_genspark",
+          "entity_slug": "genspark",
+          "entity_name": "Genspark",
+          "claim_type": "ai_readiness_probe",
+          "claim_text": "Genspark 有 AI 引用潜力。",
+          "claim_status": "supported",
+          "confidence": 0.74,
+          "source_id": "src_llms_probe",
+          "source_name": "LLMs.txt / Structured Data Probe",
+          "evidence_id": "ev_ent_genspark_ai_readiness_probe",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_genspark_ai_readiness_probe",
+          "raw_url": "https://www.genspark.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_genspark_ai_readiness_probe_snapshot_20260518"
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "content_hash": "sha256:151874da16a3db692cf31af29cf4d33968793f47faec5756e0720bb82e361d57"
+  }
+}

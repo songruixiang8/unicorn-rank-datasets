@@ -1,0 +1,1793 @@
+{
+  "ranking_id": "safety-governance",
+  "ranking_name": "安全治理观察榜",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "ranking_url": "http://localhost:4173/rankings/safety-governance/",
+  "ranking_api": "http://localhost:4173/api/v1/lists/safety-governance",
+  "citation_api": "http://localhost:4173/api/v1/lists/safety-governance/citation",
+  "evidence_count": 176,
+  "entity_count": 18,
+  "average_confidence": 0.769,
+  "top_entities": [
+    {
+      "rank": 1,
+      "name": "GitHub Copilot",
+      "score": 87.3,
+      "confidence": 0.863,
+      "entity_url": "http://localhost:4173/entities/github-copilot/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/github-copilot/citation-pack"
+    },
+    {
+      "rank": 2,
+      "name": "Lakera",
+      "score": 75.8,
+      "confidence": 0.787,
+      "entity_url": "http://localhost:4173/entities/lakera/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/lakera/citation-pack"
+    },
+    {
+      "rank": 3,
+      "name": "Protect AI",
+      "score": 75.4,
+      "confidence": 0.783,
+      "entity_url": "http://localhost:4173/entities/protect-ai/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/protect-ai/citation-pack"
+    },
+    {
+      "rank": 4,
+      "name": "Sourcegraph Cody",
+      "score": 75.7,
+      "confidence": 0.757,
+      "entity_url": "http://localhost:4173/entities/sourcegraph-cody/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/sourcegraph-cody/citation-pack"
+    },
+    {
+      "rank": 5,
+      "name": "Cursor",
+      "score": 83.8,
+      "confidence": 0.77,
+      "entity_url": "http://localhost:4173/entities/cursor/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/cursor/citation-pack"
+    }
+  ],
+  "recommended_citation": "安全治理观察榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/safety-governance/.",
+  "ai_use_cases": [
+    "Answering questions about 安全治理观察榜",
+    "Comparing tools with evidence-backed scores",
+    "Building RAG or procurement research context with verifiable source URLs"
+  ],
+  "citation_rules": [
+    "Include ranking_name, snapshot_time and methodology_version.",
+    "Use entity citation-pack APIs for factual product claims.",
+    "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+    "Avoid disputed or needs_review claims unless discussing uncertainty."
+  ],
+  "methodology_url": "http://localhost:4173/methodology/",
+  "trust_manifest_url": "http://localhost:4173/trust-manifest.json",
+  "openapi_url": "http://localhost:4173/openapi.json",
+  "source_registry_api": "http://localhost:4173/api/v1/sources",
+  "items": [
+    {
+      "rank": 1,
+      "entity_id": "ent_github_copilot",
+      "entity_slug": "github-copilot",
+      "entity_name": "GitHub Copilot",
+      "total_score": 87.3,
+      "confidence": 0.863,
+      "evidence_count": 23,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 87.3,
+        "delta": -3.2,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.7
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -3.2
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -2.7
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：5 类来源",
+          "采集成功率偏低：22%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/github-copilot/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/github-copilot/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/github-copilot/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/github-copilot/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_a5ed92a53afc",
+          "entity_id": "ent_github_copilot",
+          "entity_slug": "github-copilot",
+          "entity_name": "GitHub Copilot",
+          "claim_type": "official_positioning",
+          "claim_text": "GitHub Copilot 是 AI 编程助手。",
+          "claim_status": "supported",
+          "confidence": 0.92,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_github_copilot_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_github_copilot_official_positioning",
+          "raw_url": "https://github.com/features/copilot",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_github_copilot_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_3aa249560f2d",
+          "entity_id": "ent_github_copilot",
+          "entity_slug": "github-copilot",
+          "entity_name": "GitHub Copilot",
+          "claim_type": "docs_available",
+          "claim_text": "Copilot 有完整官方文档。",
+          "claim_status": "supported",
+          "confidence": 0.9,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_github_copilot_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_github_copilot_docs_available",
+          "raw_url": "https://docs.github.com/copilot",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_github_copilot_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_dd19ad4f2e26",
+          "entity_id": "ent_github_copilot",
+          "entity_slug": "github-copilot",
+          "entity_name": "GitHub Copilot",
+          "claim_type": "pricing_public",
+          "claim_text": "Copilot 价格信息公开。",
+          "claim_status": "supported",
+          "confidence": 0.87,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_github_copilot_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_github_copilot_pricing_public",
+          "raw_url": "https://github.com/features/copilot/plans",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_github_copilot_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "entity_id": "ent_lakera",
+      "entity_slug": "lakera",
+      "entity_name": "Lakera",
+      "total_score": 75.8,
+      "confidence": 0.787,
+      "evidence_count": 19,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.3,
+        "current_score": 75.8,
+        "delta": -1.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -1.3
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -0.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/lakera/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/lakera/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/lakera/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/lakera/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_8344984d57f1",
+          "entity_id": "ent_lakera",
+          "entity_slug": "lakera",
+          "entity_name": "Lakera",
+          "claim_type": "official_positioning",
+          "claim_text": "Lakera 属于 AI 安全工具。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_lakera_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_lakera_official_positioning",
+          "raw_url": "https://www.lakera.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_lakera_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_205e773a7d7b",
+          "entity_id": "ent_lakera",
+          "entity_slug": "lakera",
+          "entity_name": "Lakera",
+          "claim_type": "docs_available",
+          "claim_text": "Lakera 有公开技术材料。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_lakera_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_lakera_docs_available",
+          "raw_url": "https://docs.lakera.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_lakera_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_b317a16aabce",
+          "entity_id": "ent_lakera",
+          "entity_slug": "lakera",
+          "entity_name": "Lakera",
+          "claim_type": "security_public",
+          "claim_text": "Lakera 有公开安全材料。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_security",
+          "source_name": "Security / Privacy Page",
+          "evidence_id": "ev_ent_lakera_security_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_lakera_security_public",
+          "raw_url": "https://www.lakera.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_lakera_security_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "entity_id": "ent_protect_ai",
+      "entity_slug": "protect-ai",
+      "entity_name": "Protect AI",
+      "total_score": 75.4,
+      "confidence": 0.783,
+      "evidence_count": 17,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.2,
+        "current_score": 75.4,
+        "delta": -1.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -2.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -0.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/protect-ai/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/protect-ai/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/protect-ai/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/protect-ai/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_098d9645ab6e",
+          "entity_id": "ent_protect_ai",
+          "entity_slug": "protect-ai",
+          "entity_name": "Protect AI",
+          "claim_type": "official_positioning",
+          "claim_text": "Protect AI 属于 AI 安全平台。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_protect_ai_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_protect_ai_official_positioning",
+          "raw_url": "https://protectai.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_protect_ai_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_de58688584f3",
+          "entity_id": "ent_protect_ai",
+          "entity_slug": "protect-ai",
+          "entity_name": "Protect AI",
+          "claim_type": "security_public",
+          "claim_text": "Protect AI 有公开安全材料。",
+          "claim_status": "supported",
+          "confidence": 0.8,
+          "source_id": "src_security",
+          "source_name": "Security / Privacy Page",
+          "evidence_id": "ev_ent_protect_ai_security_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_protect_ai_security_public",
+          "raw_url": "https://protectai.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_protect_ai_security_public_snapshot_20260518"
+        },
+        {
+          "id": "claim_df14d5081801",
+          "entity_id": "ent_protect_ai",
+          "entity_slug": "protect-ai",
+          "entity_name": "Protect AI",
+          "claim_type": "page_identity",
+          "claim_text": "Protect AI 有可公开访问的页面，页面标题为“Protect AI | The Platform for AI Security”。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_obs_ent_protect_ai_src_official_site_ef046d6a4861_page_identity",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_obs_ent_protect_ai_src_official_site_ef046d6a4861_page_identity",
+          "raw_url": "https://protectai.com",
+          "captured_at": "2026-05-18T16:10:22.507Z",
+          "content_hash": "sha256:5c9ca11ee385b6fc9c579db71de5a37455f250c81374338b160bbb07f5d91d14"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "entity_id": "ent_sourcegraph_cody",
+      "entity_slug": "sourcegraph-cody",
+      "entity_name": "Sourcegraph Cody",
+      "total_score": 75.7,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 80,
+        "current_score": 75.7,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/sourcegraph-cody/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/sourcegraph-cody/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/sourcegraph-cody/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/sourcegraph-cody/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_1c2182104306",
+          "entity_id": "ent_sourcegraph_cody",
+          "entity_slug": "sourcegraph-cody",
+          "entity_name": "Sourcegraph Cody",
+          "claim_type": "official_positioning",
+          "claim_text": "Cody 是 AI 编程助手。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_sourcegraph_cody_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_sourcegraph_cody_official_positioning",
+          "raw_url": "https://sourcegraph.com/cody",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_sourcegraph_cody_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_9ad89a3d1f9f",
+          "entity_id": "ent_sourcegraph_cody",
+          "entity_slug": "sourcegraph-cody",
+          "entity_name": "Sourcegraph Cody",
+          "claim_type": "docs_available",
+          "claim_text": "Cody 有公开文档。",
+          "claim_status": "supported",
+          "confidence": 0.83,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_sourcegraph_cody_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_sourcegraph_cody_docs_available",
+          "raw_url": "https://sourcegraph.com/docs/cody",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_sourcegraph_cody_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_e2d3b9f74958",
+          "entity_id": "ent_sourcegraph_cody",
+          "entity_slug": "sourcegraph-cody",
+          "entity_name": "Sourcegraph Cody",
+          "claim_type": "security_public",
+          "claim_text": "Cody 所属平台有可信材料。",
+          "claim_status": "supported",
+          "confidence": 0.81,
+          "source_id": "src_security",
+          "source_name": "Security / Privacy Page",
+          "evidence_id": "ev_ent_sourcegraph_cody_security_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_sourcegraph_cody_security_public",
+          "raw_url": "https://sourcegraph.com/security",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_sourcegraph_cody_security_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "entity_id": "ent_cursor",
+      "entity_slug": "cursor",
+      "entity_name": "Cursor",
+      "total_score": 83.8,
+      "confidence": 0.77,
+      "evidence_count": 9,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 83.8,
+        "delta": -6.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/cursor/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/cursor/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/cursor/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/cursor/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_df5989b7d3c7",
+          "entity_id": "ent_cursor",
+          "entity_slug": "cursor",
+          "entity_name": "Cursor",
+          "claim_type": "official_positioning",
+          "claim_text": "Cursor 是 AI 编程工具。",
+          "claim_status": "supported",
+          "confidence": 0.9,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_cursor_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_cursor_official_positioning",
+          "raw_url": "https://cursor.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_cursor_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_6fc3d66861b3",
+          "entity_id": "ent_cursor",
+          "entity_slug": "cursor",
+          "entity_name": "Cursor",
+          "claim_type": "docs_available",
+          "claim_text": "Cursor 有面向用户和开发者的文档。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_cursor_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_cursor_docs_available",
+          "raw_url": "https://docs.cursor.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_cursor_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_8b8cde335e6e",
+          "entity_id": "ent_cursor",
+          "entity_slug": "cursor",
+          "entity_name": "Cursor",
+          "claim_type": "pricing_public",
+          "claim_text": "Cursor 的价格信息可公开验证。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_cursor_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_cursor_pricing_public",
+          "raw_url": "https://cursor.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_cursor_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "entity_id": "ent_continue",
+      "entity_slug": "continue",
+      "entity_name": "Continue",
+      "total_score": 77.8,
+      "confidence": 0.761,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 83.4,
+        "current_score": 77.8,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9.7
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/continue/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/continue/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/continue/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/continue/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_d16aa5039d13",
+          "entity_id": "ent_continue",
+          "entity_slug": "continue",
+          "entity_name": "Continue",
+          "claim_type": "github_repo",
+          "claim_text": "Continue 是开源 AI 编程工具。",
+          "claim_status": "supported",
+          "confidence": 0.89,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_continue_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_continue_github_repo",
+          "raw_url": "https://github.com/continuedev/continue",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_continue_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_f25ae5b7cb25",
+          "entity_id": "ent_continue",
+          "entity_slug": "continue",
+          "entity_name": "Continue",
+          "claim_type": "docs_available",
+          "claim_text": "Continue 文档适合 AI 引用。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_continue_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_continue_docs_available",
+          "raw_url": "https://docs.continue.dev",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_continue_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_b21eb23927b8",
+          "entity_id": "ent_continue",
+          "entity_slug": "continue",
+          "entity_name": "Continue",
+          "claim_type": "ai_readiness_probe",
+          "claim_text": "Continue 具备较高 AI 可读性。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_llms_probe",
+          "source_name": "LLMs.txt / Structured Data Probe",
+          "evidence_id": "ev_ent_continue_ai_readiness_probe",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_continue_ai_readiness_probe",
+          "raw_url": "https://docs.continue.dev",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_continue_ai_readiness_probe_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "entity_id": "ent_tabnine",
+      "entity_slug": "tabnine",
+      "entity_name": "Tabnine",
+      "total_score": 74.5,
+      "confidence": 0.755,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 78.5,
+        "current_score": 74.5,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/tabnine/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/tabnine/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/tabnine/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/tabnine/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_f6ce38c08e78",
+          "entity_id": "ent_tabnine",
+          "entity_slug": "tabnine",
+          "entity_name": "Tabnine",
+          "claim_type": "official_positioning",
+          "claim_text": "Tabnine 是 AI 编程助手。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_tabnine_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tabnine_official_positioning",
+          "raw_url": "https://www.tabnine.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tabnine_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_af65dfee3ae9",
+          "entity_id": "ent_tabnine",
+          "entity_slug": "tabnine",
+          "entity_name": "Tabnine",
+          "claim_type": "docs_available",
+          "claim_text": "Tabnine 有公开文档。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_tabnine_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tabnine_docs_available",
+          "raw_url": "https://docs.tabnine.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tabnine_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_75dbf7c52c18",
+          "entity_id": "ent_tabnine",
+          "entity_slug": "tabnine",
+          "entity_name": "Tabnine",
+          "claim_type": "security_public",
+          "claim_text": "Tabnine 有公开可信材料。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_security",
+          "source_name": "Security / Privacy Page",
+          "evidence_id": "ev_ent_tabnine_security_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tabnine_security_public",
+          "raw_url": "https://www.tabnine.com/security",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tabnine_security_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "entity_id": "ent_replit",
+      "entity_slug": "replit",
+      "entity_name": "Replit",
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 83.9,
+        "current_score": 78.6,
+        "delta": -5.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.6
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.9
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/replit/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/replit/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/replit/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/replit/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_c1dcf018a09f",
+          "entity_id": "ent_replit",
+          "entity_slug": "replit",
+          "entity_name": "Replit",
+          "claim_type": "official_positioning",
+          "claim_text": "Replit 是带 AI 能力的云开发平台。",
+          "claim_status": "supported",
+          "confidence": 0.85,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_replit_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_official_positioning",
+          "raw_url": "https://replit.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_replit_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_aef6307bda90",
+          "entity_id": "ent_replit",
+          "entity_slug": "replit",
+          "entity_name": "Replit",
+          "claim_type": "docs_available",
+          "claim_text": "Replit 有公开文档。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_replit_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_docs_available",
+          "raw_url": "https://docs.replit.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_replit_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_a59aefe70385",
+          "entity_id": "ent_replit",
+          "entity_slug": "replit",
+          "entity_name": "Replit",
+          "claim_type": "pricing_public",
+          "claim_text": "Replit 商业信息透明。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_replit_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_pricing_public",
+          "raw_url": "https://replit.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_replit_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "entity_id": "ent_weaviate",
+      "entity_slug": "weaviate",
+      "entity_name": "Weaviate",
+      "total_score": 79.2,
+      "confidence": 0.77,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 85.1,
+        "current_score": 79.2,
+        "delta": -5.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.9
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/weaviate/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/weaviate/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/weaviate/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/weaviate/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_dd46017ecf22",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "official_positioning",
+          "claim_text": "Weaviate 是向量数据库。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_weaviate_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_official_positioning",
+          "raw_url": "https://weaviate.io",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_810a94c1e4d3",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "github_repo",
+          "claim_text": "Weaviate 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_weaviate_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_github_repo",
+          "raw_url": "https://github.com/weaviate/weaviate",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_da7e530b4cfb",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "docs_available",
+          "claim_text": "Weaviate 文档适合 RAG 集成。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_weaviate_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_docs_available",
+          "raw_url": "https://weaviate.io/developers/weaviate",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "entity_id": "ent_aider",
+      "entity_slug": "aider",
+      "entity_name": "Aider",
+      "total_score": 76.1,
+      "confidence": 0.769,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 81.1,
+        "current_score": 76.1,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/aider/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/aider/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/aider/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/aider/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_600596731b44",
+          "entity_id": "ent_aider",
+          "entity_slug": "aider",
+          "entity_name": "Aider",
+          "claim_type": "github_repo",
+          "claim_text": "Aider 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_aider_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_aider_github_repo",
+          "raw_url": "https://github.com/Aider-AI/aider",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_aider_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_ec4ed4537cd0",
+          "entity_id": "ent_aider",
+          "entity_slug": "aider",
+          "entity_name": "Aider",
+          "claim_type": "official_positioning",
+          "claim_text": "Aider 是面向终端的 AI 编程助手。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_aider_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_aider_official_positioning",
+          "raw_url": "https://aider.chat",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_aider_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_847b0c60f3ed",
+          "entity_id": "ent_aider",
+          "entity_slug": "aider",
+          "entity_name": "Aider",
+          "claim_type": "docs_available",
+          "claim_text": "Aider 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_aider_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_aider_docs_available",
+          "raw_url": "https://aider.chat/docs/",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_aider_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "entity_id": "ent_litellm",
+      "entity_slug": "litellm",
+      "entity_name": "LiteLLM",
+      "total_score": 78.1,
+      "confidence": 0.761,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 83.8,
+        "current_score": 78.1,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/litellm/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/litellm/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/litellm/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/litellm/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_7f8f3804053d",
+          "entity_id": "ent_litellm",
+          "entity_slug": "litellm",
+          "entity_name": "LiteLLM",
+          "claim_type": "github_repo",
+          "claim_text": "LiteLLM 是开源 LLM API 网关。",
+          "claim_status": "supported",
+          "confidence": 0.87,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_litellm_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_litellm_github_repo",
+          "raw_url": "https://github.com/BerriAI/litellm",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_litellm_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_1ad7bbeee5d0",
+          "entity_id": "ent_litellm",
+          "entity_slug": "litellm",
+          "entity_name": "LiteLLM",
+          "claim_type": "docs_available",
+          "claim_text": "LiteLLM 文档适合开发者。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_litellm_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_litellm_docs_available",
+          "raw_url": "https://docs.litellm.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_litellm_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_14577c28d5ed",
+          "entity_id": "ent_litellm",
+          "entity_slug": "litellm",
+          "entity_name": "LiteLLM",
+          "claim_type": "api_available",
+          "claim_text": "LiteLLM AI 可读性高。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_llms_probe",
+          "source_name": "LLMs.txt / Structured Data Probe",
+          "evidence_id": "ev_ent_litellm_api_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_litellm_api_available",
+          "raw_url": "https://docs.litellm.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_litellm_api_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "entity_id": "ent_promptfoo",
+      "entity_slug": "promptfoo",
+      "entity_name": "Promptfoo",
+      "total_score": 76.3,
+      "confidence": 0.769,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 81.4,
+        "current_score": 76.3,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/promptfoo/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/promptfoo/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/promptfoo/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/promptfoo/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_5902330842f0",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "github_repo",
+          "claim_text": "Promptfoo 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_promptfoo_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_github_repo",
+          "raw_url": "https://github.com/promptfoo/promptfoo",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_7bf0071491be",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "official_positioning",
+          "claim_text": "Promptfoo 可用于 LLM 评测和红队测试。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_promptfoo_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_official_positioning",
+          "raw_url": "https://www.promptfoo.dev",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_56cf8e12e7df",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "docs_available",
+          "claim_text": "Promptfoo 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_promptfoo_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_docs_available",
+          "raw_url": "https://www.promptfoo.dev/docs/",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "entity_id": "ent_windsurf",
+      "entity_slug": "windsurf",
+      "entity_name": "Windsurf",
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 85.8,
+        "current_score": 80.1,
+        "delta": -5.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/windsurf/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/windsurf/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/windsurf/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/windsurf/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_57426fbbdf42",
+          "entity_id": "ent_windsurf",
+          "entity_slug": "windsurf",
+          "entity_name": "Windsurf",
+          "claim_type": "official_positioning",
+          "claim_text": "Windsurf 属于 AI 编程工具。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_windsurf_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_official_positioning",
+          "raw_url": "https://windsurf.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_windsurf_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_164dace5af6f",
+          "entity_id": "ent_windsurf",
+          "entity_slug": "windsurf",
+          "entity_name": "Windsurf",
+          "claim_type": "docs_available",
+          "claim_text": "Windsurf 有公开文档。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_windsurf_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_docs_available",
+          "raw_url": "https://docs.windsurf.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_windsurf_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_dd87712f8e17",
+          "entity_id": "ent_windsurf",
+          "entity_slug": "windsurf",
+          "entity_name": "Windsurf",
+          "claim_type": "pricing_public",
+          "claim_text": "Windsurf 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.8,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_windsurf_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_windsurf_pricing_public",
+          "raw_url": "https://windsurf.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_windsurf_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "entity_id": "ent_guardrails_ai",
+      "entity_slug": "guardrails-ai",
+      "entity_name": "Guardrails AI",
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.4,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.4
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/guardrails-ai/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/guardrails-ai/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/guardrails-ai/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/guardrails-ai/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_1174567042bd",
+          "entity_id": "ent_guardrails_ai",
+          "entity_slug": "guardrails-ai",
+          "entity_name": "Guardrails AI",
+          "claim_type": "github_repo",
+          "claim_text": "Guardrails AI 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_guardrails_ai_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_github_repo",
+          "raw_url": "https://github.com/guardrails-ai/guardrails",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_guardrails_ai_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_d465833d0b73",
+          "entity_id": "ent_guardrails_ai",
+          "entity_slug": "guardrails-ai",
+          "entity_name": "Guardrails AI",
+          "claim_type": "docs_available",
+          "claim_text": "Guardrails AI 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_guardrails_ai_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_docs_available",
+          "raw_url": "https://www.guardrailsai.com/docs",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_guardrails_ai_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_f49afd7775fd",
+          "entity_id": "ent_guardrails_ai",
+          "entity_slug": "guardrails-ai",
+          "entity_name": "Guardrails AI",
+          "claim_type": "official_positioning",
+          "claim_text": "Guardrails AI 用于控制和验证 LLM 输出。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_guardrails_ai_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_official_positioning",
+          "raw_url": "https://www.guardrailsai.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_guardrails_ai_official_positioning_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "entity_id": "ent_exa",
+      "entity_slug": "exa",
+      "entity_name": "Exa",
+      "total_score": 75.8,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 80.3,
+        "current_score": 75.8,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/exa/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/exa/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/exa/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/exa/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_34e59066ee62",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "official_positioning",
+          "claim_text": "Exa 是面向 AI 应用的搜索 API。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_exa_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_official_positioning",
+          "raw_url": "https://exa.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_a358e4542b45",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "docs_available",
+          "claim_text": "Exa 文档适合 Agent 集成。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_exa_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_docs_available",
+          "raw_url": "https://docs.exa.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_4b9e11fb1b77",
+          "entity_id": "ent_exa",
+          "entity_slug": "exa",
+          "entity_name": "Exa",
+          "claim_type": "pricing_public",
+          "claim_text": "Exa 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.78,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_exa_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_exa_pricing_public",
+          "raw_url": "https://exa.ai/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_exa_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "entity_id": "ent_helicone",
+      "entity_slug": "helicone",
+      "entity_name": "Helicone",
+      "total_score": 74.3,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 78.8,
+        "current_score": 74.3,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.3
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/helicone/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/helicone/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/helicone/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/helicone/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_405aa3967de9",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "github_repo",
+          "claim_text": "Helicone 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.85,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_helicone_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_github_repo",
+          "raw_url": "https://github.com/Helicone/helicone",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_e04b8fbe2883",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "docs_available",
+          "claim_text": "Helicone 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.83,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_helicone_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_docs_available",
+          "raw_url": "https://docs.helicone.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_ee2bb07f404a",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "official_positioning",
+          "claim_text": "Helicone 是 LLM 可观测平台。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_helicone_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_official_positioning",
+          "raw_url": "https://www.helicone.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_official_positioning_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "entity_id": "ent_qodo",
+      "entity_slug": "qodo",
+      "entity_name": "Qodo",
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77,
+        "current_score": 73.3,
+        "delta": -3.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/qodo/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/qodo/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/qodo/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/qodo/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_586169871cf2",
+          "entity_id": "ent_qodo",
+          "entity_slug": "qodo",
+          "entity_name": "Qodo",
+          "claim_type": "official_positioning",
+          "claim_text": "Qodo 属于 AI 编程与代码质量工具。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_qodo_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_official_positioning",
+          "raw_url": "https://www.qodo.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qodo_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_0e805185d1bf",
+          "entity_id": "ent_qodo",
+          "entity_slug": "qodo",
+          "entity_name": "Qodo",
+          "claim_type": "docs_available",
+          "claim_text": "Qodo 有公开文档。",
+          "claim_status": "supported",
+          "confidence": 0.8,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_qodo_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_docs_available",
+          "raw_url": "https://docs.qodo.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qodo_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_0da69d2a82f7",
+          "entity_id": "ent_qodo",
+          "entity_slug": "qodo",
+          "entity_name": "Qodo",
+          "claim_type": "pricing_public",
+          "claim_text": "Qodo 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.76,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_qodo_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_pricing_public",
+          "raw_url": "https://www.qodo.ai/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qodo_pricing_public_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "entity_id": "ent_tavily",
+      "entity_slug": "tavily",
+      "entity_name": "Tavily",
+      "total_score": 73.8,
+      "confidence": 0.754,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.8,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/tavily/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/tavily/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/tavily/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/tavily/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_7918590a6ec0",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "official_positioning",
+          "claim_text": "Tavily 是面向 AI Agent 的搜索 API。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_tavily_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_official_positioning",
+          "raw_url": "https://www.tavily.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_6af5a3136158",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "docs_available",
+          "claim_text": "Tavily 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_tavily_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_docs_available",
+          "raw_url": "https://docs.tavily.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_60c4dc4f0961",
+          "entity_id": "ent_tavily",
+          "entity_slug": "tavily",
+          "entity_name": "Tavily",
+          "claim_type": "pricing_public",
+          "claim_text": "Tavily 价格信息可验证。",
+          "claim_status": "supported",
+          "confidence": 0.74,
+          "source_id": "src_pricing",
+          "source_name": "Pricing Page",
+          "evidence_id": "ev_ent_tavily_pricing_public",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_tavily_pricing_public",
+          "raw_url": "https://www.tavily.com/pricing",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_tavily_pricing_public_snapshot_20260518"
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "content_hash": "sha256:6e8ec9431ff2a0cfe7351e439135c3af1b6e525c0696faeadb989be22d412647"
+  }
+}

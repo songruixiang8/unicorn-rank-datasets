@@ -1,0 +1,552 @@
+{
+  "ranking_id": "rag-data-tools",
+  "ranking_name": "RAG 与数据基础设施榜",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "ranking_url": "http://localhost:4173/rankings/rag-data-tools/",
+  "ranking_api": "http://localhost:4173/api/v1/lists/rag-data-tools",
+  "citation_api": "http://localhost:4173/api/v1/lists/rag-data-tools/citation",
+  "evidence_count": 45,
+  "entity_count": 5,
+  "average_confidence": 0.771,
+  "top_entities": [
+    {
+      "rank": 1,
+      "name": "Milvus",
+      "score": 80.3,
+      "confidence": 0.798,
+      "entity_url": "http://localhost:4173/entities/milvus/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/milvus/citation-pack"
+    },
+    {
+      "rank": 2,
+      "name": "Weaviate",
+      "score": 79.2,
+      "confidence": 0.77,
+      "entity_url": "http://localhost:4173/entities/weaviate/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/weaviate/citation-pack"
+    },
+    {
+      "rank": 3,
+      "name": "Qdrant",
+      "score": 78.9,
+      "confidence": 0.77,
+      "entity_url": "http://localhost:4173/entities/qdrant/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/qdrant/citation-pack"
+    },
+    {
+      "rank": 4,
+      "name": "Chroma",
+      "score": 76.2,
+      "confidence": 0.759,
+      "entity_url": "http://localhost:4173/entities/chroma/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/chroma/citation-pack"
+    },
+    {
+      "rank": 5,
+      "name": "Unstructured",
+      "score": 74.9,
+      "confidence": 0.758,
+      "entity_url": "http://localhost:4173/entities/unstructured/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/unstructured/citation-pack"
+    }
+  ],
+  "recommended_citation": "RAG 与数据基础设施榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/rag-data-tools/.",
+  "ai_use_cases": [
+    "Answering questions about RAG 与数据基础设施榜",
+    "Comparing tools with evidence-backed scores",
+    "Building RAG or procurement research context with verifiable source URLs"
+  ],
+  "citation_rules": [
+    "Include ranking_name, snapshot_time and methodology_version.",
+    "Use entity citation-pack APIs for factual product claims.",
+    "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+    "Avoid disputed or needs_review claims unless discussing uncertainty."
+  ],
+  "methodology_url": "http://localhost:4173/methodology/",
+  "trust_manifest_url": "http://localhost:4173/trust-manifest.json",
+  "openapi_url": "http://localhost:4173/openapi.json",
+  "source_registry_api": "http://localhost:4173/api/v1/sources",
+  "items": [
+    {
+      "rank": 1,
+      "entity_id": "ent_milvus",
+      "entity_slug": "milvus",
+      "entity_name": "Milvus",
+      "total_score": 80.3,
+      "confidence": 0.798,
+      "evidence_count": 15,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 83.1,
+        "current_score": 80.3,
+        "delta": -2.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -4
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -3.7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -2.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：33%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/milvus/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/milvus/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/milvus/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/milvus/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_555656bb2607",
+          "entity_id": "ent_milvus",
+          "entity_slug": "milvus",
+          "entity_name": "Milvus",
+          "claim_type": "github_repo",
+          "claim_text": "Milvus 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_milvus_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_milvus_github_repo",
+          "raw_url": "https://github.com/milvus-io/milvus",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_milvus_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_8c4e0e1217bf",
+          "entity_id": "ent_milvus",
+          "entity_slug": "milvus",
+          "entity_name": "Milvus",
+          "claim_type": "official_positioning",
+          "claim_text": "Milvus 是开源向量数据库。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_milvus_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_milvus_official_positioning",
+          "raw_url": "https://milvus.io",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_milvus_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_e7abf9c94049",
+          "entity_id": "ent_milvus",
+          "entity_slug": "milvus",
+          "entity_name": "Milvus",
+          "claim_type": "docs_available",
+          "claim_text": "Milvus 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_milvus_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_milvus_docs_available",
+          "raw_url": "https://milvus.io/docs",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_milvus_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "entity_id": "ent_weaviate",
+      "entity_slug": "weaviate",
+      "entity_name": "Weaviate",
+      "total_score": 79.2,
+      "confidence": 0.77,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 85.1,
+        "current_score": 79.2,
+        "delta": -5.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.9
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/weaviate/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/weaviate/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/weaviate/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/weaviate/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_dd46017ecf22",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "official_positioning",
+          "claim_text": "Weaviate 是向量数据库。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_weaviate_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_official_positioning",
+          "raw_url": "https://weaviate.io",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_810a94c1e4d3",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "github_repo",
+          "claim_text": "Weaviate 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_weaviate_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_github_repo",
+          "raw_url": "https://github.com/weaviate/weaviate",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_da7e530b4cfb",
+          "entity_id": "ent_weaviate",
+          "entity_slug": "weaviate",
+          "entity_name": "Weaviate",
+          "claim_type": "docs_available",
+          "claim_text": "Weaviate 文档适合 RAG 集成。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_weaviate_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_weaviate_docs_available",
+          "raw_url": "https://weaviate.io/developers/weaviate",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_weaviate_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "entity_id": "ent_qdrant",
+      "entity_slug": "qdrant",
+      "entity_name": "Qdrant",
+      "total_score": 78.9,
+      "confidence": 0.77,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 84.7,
+        "current_score": 78.9,
+        "delta": -5.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/qdrant/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/qdrant/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/qdrant/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/qdrant/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_777124753f78",
+          "entity_id": "ent_qdrant",
+          "entity_slug": "qdrant",
+          "entity_name": "Qdrant",
+          "claim_type": "official_positioning",
+          "claim_text": "Qdrant 是向量数据库。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_qdrant_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qdrant_official_positioning",
+          "raw_url": "https://qdrant.tech",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qdrant_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_d19e4224103b",
+          "entity_id": "ent_qdrant",
+          "entity_slug": "qdrant",
+          "entity_name": "Qdrant",
+          "claim_type": "github_repo",
+          "claim_text": "Qdrant 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_qdrant_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qdrant_github_repo",
+          "raw_url": "https://github.com/qdrant/qdrant",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qdrant_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_9309ecb0fc0d",
+          "entity_id": "ent_qdrant",
+          "entity_slug": "qdrant",
+          "entity_name": "Qdrant",
+          "claim_type": "docs_available",
+          "claim_text": "Qdrant 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_qdrant_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qdrant_docs_available",
+          "raw_url": "https://qdrant.tech/documentation/",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_qdrant_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "entity_id": "ent_chroma",
+      "entity_slug": "chroma",
+      "entity_name": "Chroma",
+      "total_score": 76.2,
+      "confidence": 0.759,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 81.2,
+        "current_score": 76.2,
+        "delta": -5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.5
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/chroma/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/chroma/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/chroma/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/chroma/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_c555bdf88cba",
+          "entity_id": "ent_chroma",
+          "entity_slug": "chroma",
+          "entity_name": "Chroma",
+          "claim_type": "github_repo",
+          "claim_text": "Chroma 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.87,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_chroma_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_chroma_github_repo",
+          "raw_url": "https://github.com/chroma-core/chroma",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_chroma_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_d00614bd3dbd",
+          "entity_id": "ent_chroma",
+          "entity_slug": "chroma",
+          "entity_name": "Chroma",
+          "claim_type": "official_positioning",
+          "claim_text": "Chroma 是嵌入数据库。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_chroma_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_chroma_official_positioning",
+          "raw_url": "https://www.trychroma.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_chroma_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_32cdc5ca3d28",
+          "entity_id": "ent_chroma",
+          "entity_slug": "chroma",
+          "entity_name": "Chroma",
+          "claim_type": "docs_available",
+          "claim_text": "Chroma 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_chroma_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_chroma_docs_available",
+          "raw_url": "https://docs.trychroma.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_chroma_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "entity_id": "ent_unstructured",
+      "entity_slug": "unstructured",
+      "entity_name": "Unstructured",
+      "total_score": 74.9,
+      "confidence": 0.758,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 79.6,
+        "current_score": 74.9,
+        "delta": -4.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/unstructured/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/unstructured/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/unstructured/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/unstructured/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_3d8618be055f",
+          "entity_id": "ent_unstructured",
+          "entity_slug": "unstructured",
+          "entity_name": "Unstructured",
+          "claim_type": "github_repo",
+          "claim_text": "Unstructured 有开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_unstructured_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_unstructured_github_repo",
+          "raw_url": "https://github.com/Unstructured-IO/unstructured",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_unstructured_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_1a86c97e6791",
+          "entity_id": "ent_unstructured",
+          "entity_slug": "unstructured",
+          "entity_name": "Unstructured",
+          "claim_type": "docs_available",
+          "claim_text": "Unstructured 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_unstructured_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_unstructured_docs_available",
+          "raw_url": "https://docs.unstructured.io",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_unstructured_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_e2da116764b9",
+          "entity_id": "ent_unstructured",
+          "entity_slug": "unstructured",
+          "entity_name": "Unstructured",
+          "claim_type": "official_positioning",
+          "claim_text": "Unstructured 服务于 LLM 数据准备。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_unstructured_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_unstructured_official_positioning",
+          "raw_url": "https://unstructured.io",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_unstructured_official_positioning_snapshot_20260518"
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "content_hash": "sha256:8cb99bbd35d5e72d6cee32dcb338362b01a64940128e575707ab791109b0b14a"
+  }
+}

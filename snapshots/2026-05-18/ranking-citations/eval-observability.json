@@ -1,0 +1,447 @@
+{
+  "ranking_id": "eval-observability",
+  "ranking_name": "评测与可观测性榜",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "ranking_url": "http://localhost:4173/rankings/eval-observability/",
+  "ranking_api": "http://localhost:4173/api/v1/lists/eval-observability",
+  "citation_api": "http://localhost:4173/api/v1/lists/eval-observability/citation",
+  "evidence_count": 30,
+  "entity_count": 4,
+  "average_confidence": 0.764,
+  "top_entities": [
+    {
+      "rank": 1,
+      "name": "Langfuse",
+      "score": 77.9,
+      "confidence": 0.769,
+      "entity_url": "http://localhost:4173/entities/langfuse/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/langfuse/citation-pack"
+    },
+    {
+      "rank": 2,
+      "name": "Promptfoo",
+      "score": 76.3,
+      "confidence": 0.769,
+      "entity_url": "http://localhost:4173/entities/promptfoo/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/promptfoo/citation-pack"
+    },
+    {
+      "rank": 3,
+      "name": "Arize Phoenix",
+      "score": 76.2,
+      "confidence": 0.759,
+      "entity_url": "http://localhost:4173/entities/arize-phoenix/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/arize-phoenix/citation-pack"
+    },
+    {
+      "rank": 4,
+      "name": "Helicone",
+      "score": 74.3,
+      "confidence": 0.757,
+      "entity_url": "http://localhost:4173/entities/helicone/",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/helicone/citation-pack"
+    }
+  ],
+  "recommended_citation": "评测与可观测性榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/eval-observability/.",
+  "ai_use_cases": [
+    "Answering questions about 评测与可观测性榜",
+    "Comparing tools with evidence-backed scores",
+    "Building RAG or procurement research context with verifiable source URLs"
+  ],
+  "citation_rules": [
+    "Include ranking_name, snapshot_time and methodology_version.",
+    "Use entity citation-pack APIs for factual product claims.",
+    "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+    "Avoid disputed or needs_review claims unless discussing uncertainty."
+  ],
+  "methodology_url": "http://localhost:4173/methodology/",
+  "trust_manifest_url": "http://localhost:4173/trust-manifest.json",
+  "openapi_url": "http://localhost:4173/openapi.json",
+  "source_registry_api": "http://localhost:4173/api/v1/sources",
+  "items": [
+    {
+      "rank": 1,
+      "entity_id": "ent_langfuse",
+      "entity_slug": "langfuse",
+      "entity_name": "Langfuse",
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 83.5,
+        "current_score": 77.9,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -7.3
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/langfuse/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/langfuse/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/langfuse/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/langfuse/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_9892e154ba29",
+          "entity_id": "ent_langfuse",
+          "entity_slug": "langfuse",
+          "entity_name": "Langfuse",
+          "claim_type": "github_repo",
+          "claim_text": "Langfuse 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_langfuse_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_github_repo",
+          "raw_url": "https://github.com/langfuse/langfuse",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_langfuse_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_f6615794be4f",
+          "entity_id": "ent_langfuse",
+          "entity_slug": "langfuse",
+          "entity_name": "Langfuse",
+          "claim_type": "official_positioning",
+          "claim_text": "Langfuse 是 LLM 可观测和评测平台。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_langfuse_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_official_positioning",
+          "raw_url": "https://langfuse.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_langfuse_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_e828dc972480",
+          "entity_id": "ent_langfuse",
+          "entity_slug": "langfuse",
+          "entity_name": "Langfuse",
+          "claim_type": "docs_available",
+          "claim_text": "Langfuse 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_langfuse_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_docs_available",
+          "raw_url": "https://langfuse.com/docs",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_langfuse_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "entity_id": "ent_promptfoo",
+      "entity_slug": "promptfoo",
+      "entity_name": "Promptfoo",
+      "total_score": 76.3,
+      "confidence": 0.769,
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 81.4,
+        "current_score": 76.3,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.8
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/promptfoo/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/promptfoo/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/promptfoo/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/promptfoo/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_5902330842f0",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "github_repo",
+          "claim_text": "Promptfoo 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.88,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_promptfoo_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_github_repo",
+          "raw_url": "https://github.com/promptfoo/promptfoo",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_7bf0071491be",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "official_positioning",
+          "claim_text": "Promptfoo 可用于 LLM 评测和红队测试。",
+          "claim_status": "supported",
+          "confidence": 0.86,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_promptfoo_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_official_positioning",
+          "raw_url": "https://www.promptfoo.dev",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_56cf8e12e7df",
+          "entity_id": "ent_promptfoo",
+          "entity_slug": "promptfoo",
+          "entity_name": "Promptfoo",
+          "claim_type": "docs_available",
+          "claim_text": "Promptfoo 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_promptfoo_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_promptfoo_docs_available",
+          "raw_url": "https://www.promptfoo.dev/docs/",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_promptfoo_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "entity_id": "ent_arize_phoenix",
+      "entity_slug": "arize-phoenix",
+      "entity_name": "Arize Phoenix",
+      "total_score": 76.2,
+      "confidence": 0.759,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 81.3,
+        "current_score": 76.2,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/arize-phoenix/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/arize-phoenix/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/arize-phoenix/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/arize-phoenix/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_cfb2f99f7bf4",
+          "entity_id": "ent_arize_phoenix",
+          "entity_slug": "arize-phoenix",
+          "entity_name": "Arize Phoenix",
+          "claim_type": "github_repo",
+          "claim_text": "Arize Phoenix 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.87,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_arize_phoenix_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_arize_phoenix_github_repo",
+          "raw_url": "https://github.com/Arize-ai/phoenix",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_arize_phoenix_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_35d0ad43c4f0",
+          "entity_id": "ent_arize_phoenix",
+          "entity_slug": "arize-phoenix",
+          "entity_name": "Arize Phoenix",
+          "claim_type": "official_positioning",
+          "claim_text": "Arize Phoenix 是 AI 可观测与评测平台。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_arize_phoenix_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_arize_phoenix_official_positioning",
+          "raw_url": "https://phoenix.arize.com",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_arize_phoenix_official_positioning_snapshot_20260518"
+        },
+        {
+          "id": "claim_7d0cd58bfa0b",
+          "entity_id": "ent_arize_phoenix",
+          "entity_slug": "arize-phoenix",
+          "entity_name": "Arize Phoenix",
+          "claim_type": "docs_available",
+          "claim_text": "Arize Phoenix 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.84,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_arize_phoenix_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_arize_phoenix_docs_available",
+          "raw_url": "https://docs.arize.com/phoenix",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_arize_phoenix_docs_available_snapshot_20260518"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "entity_id": "ent_helicone",
+      "entity_slug": "helicone",
+      "entity_name": "Helicone",
+      "total_score": 74.3,
+      "confidence": 0.757,
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "score_movement": {
+        "base_score": 78.8,
+        "current_score": 74.3,
+        "delta": -4.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.3
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "entity_url": "http://localhost:4173/entities/helicone/",
+      "evidence_api": "http://localhost:4173/api/v1/entities/helicone/evidence",
+      "claims_api": "http://localhost:4173/api/v1/entities/helicone/claims",
+      "citation_pack_api": "http://localhost:4173/api/v1/entities/helicone/citation-pack",
+      "supported_claims": [
+        {
+          "id": "claim_405aa3967de9",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "github_repo",
+          "claim_text": "Helicone 是开源项目。",
+          "claim_status": "supported",
+          "confidence": 0.85,
+          "source_id": "src_github",
+          "source_name": "GitHub",
+          "evidence_id": "ev_ent_helicone_github_repo",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_github_repo",
+          "raw_url": "https://github.com/Helicone/helicone",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_github_repo_snapshot_20260518"
+        },
+        {
+          "id": "claim_e04b8fbe2883",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "docs_available",
+          "claim_text": "Helicone 文档可验证。",
+          "claim_status": "supported",
+          "confidence": 0.83,
+          "source_id": "src_official_docs",
+          "source_name": "Official Documentation",
+          "evidence_id": "ev_ent_helicone_docs_available",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_docs_available",
+          "raw_url": "https://docs.helicone.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_docs_available_snapshot_20260518"
+        },
+        {
+          "id": "claim_ee2bb07f404a",
+          "entity_id": "ent_helicone",
+          "entity_slug": "helicone",
+          "entity_name": "Helicone",
+          "claim_type": "official_positioning",
+          "claim_text": "Helicone 是 LLM 可观测平台。",
+          "claim_status": "supported",
+          "confidence": 0.82,
+          "source_id": "src_official_site",
+          "source_name": "Official Website",
+          "evidence_id": "ev_ent_helicone_official_positioning",
+          "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_helicone_official_positioning",
+          "raw_url": "https://www.helicone.ai",
+          "captured_at": "2026-05-18T09:00:00+08:00",
+          "content_hash": "sha256:ent_helicone_official_positioning_snapshot_20260518"
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "content_hash": "sha256:b021e77f8124fa4ae0dffff54208d0e312e436035692f4de5df020ad892488fd"
+  }
+}

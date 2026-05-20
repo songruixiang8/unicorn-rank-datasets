@@ -1,0 +1,143 @@
+{
+  "citation_pack_id": "cp_langfuse_f7d864e39cf8",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_langfuse",
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "canonical_url": "https://langfuse.com",
+    "entity_url": "http://localhost:4173/entities/langfuse/"
+  },
+  "rankings": [
+    {
+      "list_id": "eval-observability",
+      "list_name": "评测与可观测性榜",
+      "rank": 1,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/eval-observability/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 16,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 20,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 6,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "open-source-infra",
+      "list_name": "开源基础设施榜",
+      "rank": 10,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/open-source-infra/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 10,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    },
+    {
+      "list_id": "developer-adoption",
+      "list_name": "开发者采用度榜",
+      "rank": 16,
+      "total_score": 77.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/developer-adoption/"
+    }
+  ],
+  "score": 77.9,
+  "confidence": 0.769,
+  "dimensions": {
+    "adoption": 75.5,
+    "momentum": 80.7,
+    "quality": 79.4,
+    "trust": 74.2,
+    "aiReadiness": 80.5
+  },
+  "recommended_citation": "Langfuse. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/langfuse/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_9892e154ba29",
+      "entity_id": "ent_langfuse",
+      "entity_slug": "langfuse",
+      "entity_name": "Langfuse",
+      "claim_type": "github_repo",
+      "claim_text": "Langfuse 是开源项目。",
+      "claim_status": "supported",
+      "confidence": 0.88,
+      "source_id": "src_github",
+      "source_name": "GitHub",
+      "evidence_id": "ev_ent_langfuse_github_repo",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_github_repo",
+      "raw_url": "https://github.com/langfuse/langfuse",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_langfuse_github_repo_snapshot_20260518"
+    },
+    {
+      "id": "claim_f6615794be4f",
+      "entity_id": "ent_langfuse",
+      "entity_slug": "langfuse",
+      "entity_name": "Langfuse",
+      "claim_type": "official_positioning",
+      "claim_text": "Langfuse 是 LLM 可观测和评测平台。",
+      "claim_status": "supported",
+      "confidence": 0.86,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_langfuse_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_official_positioning",
+      "raw_url": "https://langfuse.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_langfuse_official_positioning_snapshot_20260518"
+    },
+    {
+      "id": "claim_e828dc972480",
+      "entity_id": "ent_langfuse",
+      "entity_slug": "langfuse",
+      "entity_name": "Langfuse",
+      "claim_type": "docs_available",
+      "claim_text": "Langfuse 文档可验证。",
+      "claim_status": "supported",
+      "confidence": 0.86,
+      "source_id": "src_official_docs",
+      "source_name": "Official Documentation",
+      "evidence_id": "ev_ent_langfuse_docs_available",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_langfuse_docs_available",
+      "raw_url": "https://langfuse.com/docs",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_langfuse_docs_available_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/langfuse/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/langfuse/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:4d100cd5bd90c225c9d35e3fea2806c462b2f43398f1c959c01d40ac6c900cb4"
+  }
+}

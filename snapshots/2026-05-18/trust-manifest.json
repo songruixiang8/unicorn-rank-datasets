@@ -1,0 +1,204 @@
+{
+  "name": "Unicorn Rank",
+  "description": "可信 AI 工具榜单与证据数据 API",
+  "base_url": "http://localhost:4173",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "generated_by": "ai_pipeline",
+  "methodology_version": "mvp-ai-tools-v1",
+  "trust_contract": [
+    "所有榜单输出必须带 methodology_version 和 snapshot_time",
+    "所有实体详情必须暴露 supporting_evidence",
+    "AI 只给解释性摘要，不隐藏证据来源",
+    "被标记为争议或待复核的数据默认不进入总分，除非复核后恢复",
+    "公开 JSON-LD、OpenAPI、llms.txt 和 trust manifest"
+  ],
+  "machine_readable_endpoints": {
+    "llms_txt": "http://localhost:4173/llms.txt",
+    "openapi": "http://localhost:4173/openapi.json",
+    "lists": "http://localhost:4173/api/v1/lists",
+    "ranking_citation_pattern": "http://localhost:4173/api/v1/lists/%7Bslug%7D/citation",
+    "publication_pack": "http://localhost:4173/api/v1/publication-pack",
+    "dataset_index": "http://localhost:4173/dataset/index.json",
+    "dataset_manifest": "http://localhost:4173/dataset/manifest.json",
+    "categories": "http://localhost:4173/api/v1/categories",
+    "evidence": "http://localhost:4173/api/v1/evidence",
+    "claims": "http://localhost:4173/api/v1/claims",
+    "citation_packs": "http://localhost:4173/api/v1/citation-packs",
+    "snapshot_manifest": "http://localhost:4173/api/v1/snapshot-manifest",
+    "refresh_status": "http://localhost:4173/api/v1/refresh-status",
+    "observations": "http://localhost:4173/api/v1/observations",
+    "review_tasks": "http://localhost:4173/api/v1/review-tasks",
+    "fallback_queue": "http://localhost:4173/api/v1/fallback-queue",
+    "browser_fallback_results": "http://localhost:4173/api/v1/browser-fallback-results",
+    "governance_summary": "http://localhost:4173/api/v1/governance-summary",
+    "sources": "http://localhost:4173/api/v1/sources",
+    "methodology": "http://localhost:4173/api/v1/methodologies/mvp-ai-tools-v1"
+  },
+  "source_registry": [
+    {
+      "id": "src_official_site",
+      "name": "Official Website",
+      "type": "official",
+      "trust_score": 0.88,
+      "collection_method": "ai_browser_extractor"
+    },
+    {
+      "id": "src_official_docs",
+      "name": "Official Documentation",
+      "type": "official_docs",
+      "trust_score": 0.91,
+      "collection_method": "ai_doc_parser"
+    },
+    {
+      "id": "src_github",
+      "name": "GitHub",
+      "type": "developer_platform",
+      "trust_score": 0.86,
+      "collection_method": "api_and_ai_normalizer"
+    },
+    {
+      "id": "src_chrome_store",
+      "name": "Chrome Web Store",
+      "type": "marketplace",
+      "trust_score": 0.78,
+      "collection_method": "ai_marketplace_extractor"
+    },
+    {
+      "id": "src_product_hunt",
+      "name": "Product Hunt",
+      "type": "launch_platform",
+      "trust_score": 0.72,
+      "collection_method": "ai_listing_extractor"
+    },
+    {
+      "id": "src_pricing",
+      "name": "Pricing Page",
+      "type": "official_commercial",
+      "trust_score": 0.82,
+      "collection_method": "ai_page_claim_extractor"
+    },
+    {
+      "id": "src_security",
+      "name": "Security / Privacy Page",
+      "type": "official_trust",
+      "trust_score": 0.84,
+      "collection_method": "ai_policy_extractor"
+    },
+    {
+      "id": "src_llms_probe",
+      "name": "LLMs.txt / Structured Data Probe",
+      "type": "ai_readiness_probe",
+      "trust_score": 0.76,
+      "collection_method": "ai_schema_probe"
+    }
+  ],
+  "category_registry": [
+    {
+      "slug": "ai-coding-tools",
+      "name": "AI 编程工具",
+      "description": "面向 IDE、代码生成、代码搜索、开发工作流和企业研发场景的 AI 工具。",
+      "priority": "核心商业入口",
+      "entity_count": 9,
+      "ranking_count": 1,
+      "evidence_count": 87,
+      "average_confidence": 0.771,
+      "open_review_tasks": 32,
+      "high_risk_tasks": 18
+    },
+    {
+      "slug": "ai-search-tools",
+      "name": "AI 搜索与答案引擎",
+      "description": "面向研究、问答、引用、网页检索和知识发现的 AI 搜索产品。",
+      "priority": "高频用户入口",
+      "entity_count": 7,
+      "ranking_count": 1,
+      "evidence_count": 70,
+      "average_confidence": 0.723,
+      "open_review_tasks": 25,
+      "high_risk_tasks": 11
+    },
+    {
+      "slug": "open-source-ai-projects",
+      "name": "开源 AI 项目",
+      "description": "开源模型应用框架、Agent 框架、LLM 网关、推理服务和本地运行时。",
+      "priority": "证据壁垒入口",
+      "entity_count": 6,
+      "ranking_count": 1,
+      "evidence_count": 64,
+      "average_confidence": 0.769,
+      "open_review_tasks": 17,
+      "high_risk_tasks": 9
+    },
+    {
+      "slug": "rag-data-tools",
+      "name": "RAG 与数据基础设施",
+      "description": "向量数据库、文档解析、检索、知识库和企业数据接入工具。",
+      "priority": "企业落地入口",
+      "entity_count": 5,
+      "ranking_count": 1,
+      "evidence_count": 45,
+      "average_confidence": 0.771,
+      "open_review_tasks": 15,
+      "high_risk_tasks": 8
+    },
+    {
+      "slug": "eval-observability",
+      "name": "评测与可观测性",
+      "description": "LLM 应用评测、Tracing、Prompt 监控、质量分析和实验追踪平台。",
+      "priority": "可信度增强入口",
+      "entity_count": 4,
+      "ranking_count": 1,
+      "evidence_count": 30,
+      "average_confidence": 0.764,
+      "open_review_tasks": 14,
+      "high_risk_tasks": 8
+    },
+    {
+      "slug": "ai-security-governance",
+      "name": "AI 安全与治理",
+      "description": "Prompt 安全、模型风险、红队测试、合规控制和策略防护工具。",
+      "priority": "风险控制入口",
+      "entity_count": 3,
+      "ranking_count": 1,
+      "evidence_count": 43,
+      "average_confidence": 0.779,
+      "open_review_tasks": 9,
+      "high_risk_tasks": 5
+    }
+  ],
+  "evidence_policy": {
+    "evidence_required_for_ranking": true,
+    "evidence_contains_source": true,
+    "evidence_contains_timestamp": true,
+    "evidence_contains_hash": true,
+    "quarantine_supported": true,
+    "generated_evidence_count": 235,
+    "generated_observation_count": 180,
+    "open_review_task_count": 112,
+    "fallback_task_count": 153
+  },
+  "discovery_policy": {
+    "primary_goal": "Be cited by AI answer engines, search engines, enterprise research workflows and RAG systems.",
+    "required_indexing_files": [
+      "robots.txt",
+      "sitemap.xml",
+      "llms.txt",
+      "openapi.json",
+      "trust-manifest.json"
+    ],
+    "recommended_launch_channels": [
+      "Google Search Console",
+      "Bing Webmaster Tools",
+      "IndexNow",
+      "public GitHub dataset snapshots",
+      "weekly evidence-backed ranking reports",
+      "vendor-shareable citation pages"
+    ],
+    "crawler_allowlist_hint": [
+      "OAI-SearchBot",
+      "Googlebot",
+      "Bingbot",
+      "PerplexityBot"
+    ]
+  }
+}

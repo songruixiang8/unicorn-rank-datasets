@@ -1,0 +1,127 @@
+{
+  "citation_pack_id": "cp_kagi_b3fe7c238fef",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_kagi",
+    "slug": "kagi",
+    "name": "Kagi",
+    "canonical_url": "https://kagi.com",
+    "entity_url": "http://localhost:4173/entities/kagi/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-search-tools",
+      "list_name": "AI 搜索工具可信榜",
+      "rank": 5,
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/ai-search-tools/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 34,
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 3,
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 34,
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 13,
+      "total_score": 72.9,
+      "confidence": 0.769,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    }
+  ],
+  "score": 72.9,
+  "confidence": 0.769,
+  "dimensions": {
+    "adoption": 69.3,
+    "momentum": 68.3,
+    "quality": 76.2,
+    "trust": 85,
+    "aiReadiness": 70.4
+  },
+  "recommended_citation": "Kagi. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/kagi/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_386d7e6cb887",
+      "entity_id": "ent_kagi",
+      "entity_slug": "kagi",
+      "entity_name": "Kagi",
+      "claim_type": "pricing_public",
+      "claim_text": "Kagi 价格透明。",
+      "claim_status": "supported",
+      "confidence": 0.87,
+      "source_id": "src_pricing",
+      "source_name": "Pricing Page",
+      "evidence_id": "ev_ent_kagi_pricing_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_pricing_public",
+      "raw_url": "https://kagi.com/pricing",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_kagi_pricing_public_snapshot_20260518"
+    },
+    {
+      "id": "claim_6c055b06f72d",
+      "entity_id": "ent_kagi",
+      "entity_slug": "kagi",
+      "entity_name": "Kagi",
+      "claim_type": "privacy_public",
+      "claim_text": "Kagi 信任材料较强。",
+      "claim_status": "supported",
+      "confidence": 0.86,
+      "source_id": "src_security",
+      "source_name": "Security / Privacy Page",
+      "evidence_id": "ev_ent_kagi_privacy_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_privacy_public",
+      "raw_url": "https://kagi.com/privacy",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_kagi_privacy_public_snapshot_20260518"
+    },
+    {
+      "id": "claim_38cb9734721b",
+      "entity_id": "ent_kagi",
+      "entity_slug": "kagi",
+      "entity_name": "Kagi",
+      "claim_type": "official_positioning",
+      "claim_text": "Kagi 是搜索产品。",
+      "claim_status": "supported",
+      "confidence": 0.85,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_kagi_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_kagi_official_positioning",
+      "raw_url": "https://kagi.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_kagi_official_positioning_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/kagi/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/kagi/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:3787a94dcdf151b9c754da972a5b55fe387ef78f7aa6eae5d3a44809b6795546"
+  }
+}

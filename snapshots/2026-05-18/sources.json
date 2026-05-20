@@ -1,0 +1,85 @@
+{
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "sources": [
+    {
+      "id": "src_official_site",
+      "name": "Official Website",
+      "type": "official",
+      "url": "https://example.com",
+      "trustScore": 0.88,
+      "collectionMethod": "ai_browser_extractor",
+      "updateFrequency": "daily",
+      "licenseNote": "public metadata and product claims only"
+    },
+    {
+      "id": "src_official_docs",
+      "name": "Official Documentation",
+      "type": "official_docs",
+      "url": "https://example.com/docs",
+      "trustScore": 0.91,
+      "collectionMethod": "ai_doc_parser",
+      "updateFrequency": "daily",
+      "licenseNote": "public documentation metadata only"
+    },
+    {
+      "id": "src_github",
+      "name": "GitHub",
+      "type": "developer_platform",
+      "url": "https://github.com",
+      "trustScore": 0.86,
+      "collectionMethod": "api_and_ai_normalizer",
+      "updateFrequency": "daily",
+      "licenseNote": "public repository metadata only"
+    },
+    {
+      "id": "src_chrome_store",
+      "name": "Chrome Web Store",
+      "type": "marketplace",
+      "url": "https://chromewebstore.google.com",
+      "trustScore": 0.78,
+      "collectionMethod": "ai_marketplace_extractor",
+      "updateFrequency": "weekly",
+      "licenseNote": "public listing metadata only"
+    },
+    {
+      "id": "src_product_hunt",
+      "name": "Product Hunt",
+      "type": "launch_platform",
+      "url": "https://www.producthunt.com",
+      "trustScore": 0.72,
+      "collectionMethod": "ai_listing_extractor",
+      "updateFrequency": "weekly",
+      "licenseNote": "public listing metadata only"
+    },
+    {
+      "id": "src_pricing",
+      "name": "Pricing Page",
+      "type": "official_commercial",
+      "url": "https://example.com/pricing",
+      "trustScore": 0.82,
+      "collectionMethod": "ai_page_claim_extractor",
+      "updateFrequency": "weekly",
+      "licenseNote": "public pricing metadata only"
+    },
+    {
+      "id": "src_security",
+      "name": "Security / Privacy Page",
+      "type": "official_trust",
+      "url": "https://example.com/security",
+      "trustScore": 0.84,
+      "collectionMethod": "ai_policy_extractor",
+      "updateFrequency": "monthly",
+      "licenseNote": "public security and privacy metadata only"
+    },
+    {
+      "id": "src_llms_probe",
+      "name": "LLMs.txt / Structured Data Probe",
+      "type": "ai_readiness_probe",
+      "url": "https://example.com/llms.txt",
+      "trustScore": 0.76,
+      "collectionMethod": "ai_schema_probe",
+      "updateFrequency": "daily",
+      "licenseNote": "machine-readable public endpoints only"
+    }
+  ]
+}

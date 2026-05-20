@@ -1,0 +1,57 @@
+{
+  "id": "mvp-ai-tools-v1",
+  "name": "AI/SaaS 工具可信榜单方法论 v1",
+  "snapshotPolicy": "daily-static-snapshot",
+  "generatedBy": "ai_pipeline",
+  "humanAuditMode": "human-reviewable, not human-required for MVP demo",
+  "weights": {
+    "adoption": 0.3,
+    "momentum": 0.25,
+    "quality": 0.2,
+    "trust": 0.15,
+    "aiReadiness": 0.1
+  },
+  "dimensions": [
+    {
+      "key": "adoption",
+      "label": "采用度",
+      "description": "用户采用、开源关注、插件安装、公开客户与市场热度。"
+    },
+    {
+      "key": "momentum",
+      "label": "增长势能",
+      "description": "近期增长、发布频率、讨论增长、合作与产品节奏。"
+    },
+    {
+      "key": "quality",
+      "label": "质量",
+      "description": "文档、稳定性、维护活跃度、用户评价与问题响应。"
+    },
+    {
+      "key": "trust",
+      "label": "可信度",
+      "description": "来源可验证性、团队透明度、定价/隐私/安全说明与争议风险。"
+    },
+    {
+      "key": "aiReadiness",
+      "label": "AI 可读性",
+      "description": "API、SDK、文档、结构化数据、llms.txt 与 Agent 可调用程度。"
+    }
+  ],
+  "totalScoreFormula": "adoption*0.30 + momentum*0.25 + quality*0.20 + trust*0.15 + aiReadiness*0.10",
+  "confidenceFormula": "sourceCoverage*0.35 + sourceAgreement*0.30 + evidenceFreshness*0.20 + reviewStrength*0.15",
+  "quarantineRules": [
+    "单一来源异常暴涨",
+    "证据无法支持 AI 抽取出的 claim",
+    "多个高权重来源互相矛盾",
+    "疑似广告软文、刷量或 affiliate 排名污染",
+    "用户提交的纠错影响评分且初筛合理"
+  ],
+  "aiTrustContract": [
+    "所有榜单输出必须带 methodology_version 和 snapshot_time",
+    "所有实体详情必须暴露 supporting_evidence",
+    "AI 只给解释性摘要，不隐藏证据来源",
+    "被标记为争议或待复核的数据默认不进入总分，除非复核后恢复",
+    "公开 JSON-LD、OpenAPI、llms.txt 和 trust manifest"
+  ]
+}

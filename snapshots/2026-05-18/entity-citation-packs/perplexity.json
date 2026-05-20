@@ -1,0 +1,127 @@
+{
+  "citation_pack_id": "cp_perplexity_5de68c014d8f",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_perplexity",
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "canonical_url": "https://www.perplexity.ai",
+    "entity_url": "http://localhost:4173/entities/perplexity/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-search-tools",
+      "list_name": "AI 搜索工具可信榜",
+      "rank": 1,
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "url": "http://localhost:4173/rankings/ai-search-tools/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 28,
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 25,
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 5,
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 34,
+      "total_score": 79.1,
+      "confidence": 0.657,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    }
+  ],
+  "score": 79.1,
+  "confidence": 0.657,
+  "dimensions": {
+    "adoption": 83.5,
+    "momentum": 80.7,
+    "quality": 77,
+    "trust": 72.7,
+    "aiReadiness": 75.6
+  },
+  "recommended_citation": "Perplexity. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/perplexity/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_073dee9c2e9c",
+      "entity_id": "ent_perplexity",
+      "entity_slug": "perplexity",
+      "entity_name": "Perplexity",
+      "claim_type": "official_positioning",
+      "claim_text": "Perplexity 是 AI 搜索/答案引擎。",
+      "claim_status": "supported",
+      "confidence": 0.88,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_perplexity_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_official_positioning",
+      "raw_url": "https://www.perplexity.ai",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_perplexity_official_positioning_snapshot_20260518"
+    },
+    {
+      "id": "claim_86cc4649ec1d",
+      "entity_id": "ent_perplexity",
+      "entity_slug": "perplexity",
+      "entity_name": "Perplexity",
+      "claim_type": "pricing_public",
+      "claim_text": "Perplexity 价格信息公开。",
+      "claim_status": "supported",
+      "confidence": 0.82,
+      "source_id": "src_pricing",
+      "source_name": "Pricing Page",
+      "evidence_id": "ev_ent_perplexity_pricing_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_pricing_public",
+      "raw_url": "https://www.perplexity.ai/pro",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_perplexity_pricing_public_snapshot_20260518"
+    },
+    {
+      "id": "claim_e6863a2f258d",
+      "entity_id": "ent_perplexity",
+      "entity_slug": "perplexity",
+      "entity_name": "Perplexity",
+      "claim_type": "citation_behavior",
+      "claim_text": "Perplexity 对 AI 引用场景友好。",
+      "claim_status": "supported",
+      "confidence": 0.79,
+      "source_id": "src_llms_probe",
+      "source_name": "LLMs.txt / Structured Data Probe",
+      "evidence_id": "ev_ent_perplexity_citation_behavior",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_perplexity_citation_behavior",
+      "raw_url": "https://www.perplexity.ai",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_perplexity_citation_behavior_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/perplexity/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/perplexity/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:623254bc05d4c4e0add5e8a2af3afad0db04987194698887e0bc0e7ce35330c4"
+  }
+}

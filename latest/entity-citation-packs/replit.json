@@ -1,0 +1,143 @@
+{
+  "citation_pack_id": "cp_replit_1b99a746937b",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_replit",
+    "slug": "replit",
+    "name": "Replit",
+    "canonical_url": "https://replit.com",
+    "entity_url": "http://localhost:4173/entities/replit/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-coding-tools",
+      "list_name": "AI 编程工具可信榜",
+      "rank": 4,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/ai-coding-tools/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 26,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 12,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 28,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "safety-governance",
+      "list_name": "安全治理观察榜",
+      "rank": 8,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/safety-governance/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 22,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    },
+    {
+      "list_id": "developer-adoption",
+      "list_name": "开发者采用度榜",
+      "rank": 5,
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "url": "http://localhost:4173/rankings/developer-adoption/"
+    }
+  ],
+  "score": 78.6,
+  "confidence": 0.758,
+  "dimensions": {
+    "adoption": 85.6,
+    "momentum": 72.9,
+    "quality": 77.8,
+    "trust": 76.1,
+    "aiReadiness": 77.4
+  },
+  "recommended_citation": "Replit. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/replit/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_c1dcf018a09f",
+      "entity_id": "ent_replit",
+      "entity_slug": "replit",
+      "entity_name": "Replit",
+      "claim_type": "official_positioning",
+      "claim_text": "Replit 是带 AI 能力的云开发平台。",
+      "claim_status": "supported",
+      "confidence": 0.85,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_replit_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_official_positioning",
+      "raw_url": "https://replit.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_replit_official_positioning_snapshot_20260518"
+    },
+    {
+      "id": "claim_aef6307bda90",
+      "entity_id": "ent_replit",
+      "entity_slug": "replit",
+      "entity_name": "Replit",
+      "claim_type": "docs_available",
+      "claim_text": "Replit 有公开文档。",
+      "claim_status": "supported",
+      "confidence": 0.84,
+      "source_id": "src_official_docs",
+      "source_name": "Official Documentation",
+      "evidence_id": "ev_ent_replit_docs_available",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_docs_available",
+      "raw_url": "https://docs.replit.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_replit_docs_available_snapshot_20260518"
+    },
+    {
+      "id": "claim_a59aefe70385",
+      "entity_id": "ent_replit",
+      "entity_slug": "replit",
+      "entity_name": "Replit",
+      "claim_type": "pricing_public",
+      "claim_text": "Replit 商业信息透明。",
+      "claim_status": "supported",
+      "confidence": 0.82,
+      "source_id": "src_pricing",
+      "source_name": "Pricing Page",
+      "evidence_id": "ev_ent_replit_pricing_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_replit_pricing_public",
+      "raw_url": "https://replit.com/pricing",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_replit_pricing_public_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/replit/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/replit/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:c8798ec6fec521988b3265813697c56e17720725ebe89ef894dcdcdcabc9bed5"
+  }
+}

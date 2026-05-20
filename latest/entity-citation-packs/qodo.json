@@ -1,0 +1,143 @@
+{
+  "citation_pack_id": "cp_qodo_4b94cd17866c",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_qodo",
+    "slug": "qodo",
+    "name": "Qodo",
+    "canonical_url": "https://www.qodo.ai",
+    "entity_url": "http://localhost:4173/entities/qodo/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-coding-tools",
+      "list_name": "AI 编程工具可信榜",
+      "rank": 9,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/ai-coding-tools/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 32,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 31,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 25,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "safety-governance",
+      "list_name": "安全治理观察榜",
+      "rank": 17,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/safety-governance/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 30,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    },
+    {
+      "list_id": "developer-adoption",
+      "list_name": "开发者采用度榜",
+      "rank": 26,
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "url": "http://localhost:4173/rankings/developer-adoption/"
+    }
+  ],
+  "score": 73.3,
+  "confidence": 0.753,
+  "dimensions": {
+    "adoption": 69.3,
+    "momentum": 76.1,
+    "quality": 77,
+    "trust": 71.4,
+    "aiReadiness": 73.5
+  },
+  "recommended_citation": "Qodo. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/qodo/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_586169871cf2",
+      "entity_id": "ent_qodo",
+      "entity_slug": "qodo",
+      "entity_name": "Qodo",
+      "claim_type": "official_positioning",
+      "claim_text": "Qodo 属于 AI 编程与代码质量工具。",
+      "claim_status": "supported",
+      "confidence": 0.82,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_qodo_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_official_positioning",
+      "raw_url": "https://www.qodo.ai",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_qodo_official_positioning_snapshot_20260518"
+    },
+    {
+      "id": "claim_0e805185d1bf",
+      "entity_id": "ent_qodo",
+      "entity_slug": "qodo",
+      "entity_name": "Qodo",
+      "claim_type": "docs_available",
+      "claim_text": "Qodo 有公开文档。",
+      "claim_status": "supported",
+      "confidence": 0.8,
+      "source_id": "src_official_docs",
+      "source_name": "Official Documentation",
+      "evidence_id": "ev_ent_qodo_docs_available",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_docs_available",
+      "raw_url": "https://docs.qodo.ai",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_qodo_docs_available_snapshot_20260518"
+    },
+    {
+      "id": "claim_0da69d2a82f7",
+      "entity_id": "ent_qodo",
+      "entity_slug": "qodo",
+      "entity_name": "Qodo",
+      "claim_type": "pricing_public",
+      "claim_text": "Qodo 价格信息可验证。",
+      "claim_status": "supported",
+      "confidence": 0.76,
+      "source_id": "src_pricing",
+      "source_name": "Pricing Page",
+      "evidence_id": "ev_ent_qodo_pricing_public",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_qodo_pricing_public",
+      "raw_url": "https://www.qodo.ai/pricing",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_qodo_pricing_public_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/qodo/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/qodo/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:31479ddb3d71dc34023af638de2b11e1f8f62e25c289ad9239ba85a67c920bfd"
+  }
+}

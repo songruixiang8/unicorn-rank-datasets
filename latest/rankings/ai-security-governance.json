@@ -1,0 +1,329 @@
+{
+  "list_id": "ai-security-governance",
+  "name": "AI 安全与治理榜",
+  "description": "比较 Prompt 安全、模型风险、红队测试、策略防护和企业治理工具。",
+  "intent": "帮助安全、合规和平台团队选择更可验证的 AI 风险控制工具。",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "citation_summary": {
+    "ranking_id": "ai-security-governance",
+    "ranking_name": "AI 安全与治理榜",
+    "snapshot_time": "2026-05-18T09:00:00+08:00",
+    "methodology_version": "mvp-ai-tools-v1",
+    "ranking_url": "http://localhost:4173/rankings/ai-security-governance/",
+    "ranking_api": "http://localhost:4173/api/v1/lists/ai-security-governance",
+    "citation_api": "http://localhost:4173/api/v1/lists/ai-security-governance/citation",
+    "evidence_count": 43,
+    "entity_count": 3,
+    "average_confidence": 0.779,
+    "top_entities": [
+      {
+        "rank": 1,
+        "name": "Lakera",
+        "score": 75.8,
+        "confidence": 0.787,
+        "entity_url": "http://localhost:4173/entities/lakera/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/lakera/citation-pack"
+      },
+      {
+        "rank": 2,
+        "name": "Protect AI",
+        "score": 75.4,
+        "confidence": 0.783,
+        "entity_url": "http://localhost:4173/entities/protect-ai/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/protect-ai/citation-pack"
+      },
+      {
+        "rank": 3,
+        "name": "Guardrails AI",
+        "score": 73.4,
+        "confidence": 0.766,
+        "entity_url": "http://localhost:4173/entities/guardrails-ai/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/guardrails-ai/citation-pack"
+      }
+    ],
+    "recommended_citation": "AI 安全与治理榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/ai-security-governance/.",
+    "ai_use_cases": [
+      "Answering questions about AI 安全与治理榜",
+      "Comparing tools with evidence-backed scores",
+      "Building RAG or procurement research context with verifiable source URLs"
+    ],
+    "citation_rules": [
+      "Include ranking_name, snapshot_time and methodology_version.",
+      "Use entity citation-pack APIs for factual product claims.",
+      "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+      "Avoid disputed or needs_review claims unless discussing uncertainty."
+    ]
+  },
+  "citation_url": "http://localhost:4173/api/v1/lists/ai-security-governance/citation",
+  "items": [
+    {
+      "rank": 1,
+      "entity": {
+        "id": "ent_lakera",
+        "slug": "lakera",
+        "name": "Lakera",
+        "url": "http://localhost:4173/entities/lakera/",
+        "canonical_url": "https://www.lakera.ai"
+      },
+      "total_score": 75.8,
+      "confidence": 0.787,
+      "dimensions": {
+        "adoption": 67.7,
+        "momentum": 79.5,
+        "quality": 79.6,
+        "trust": 81.8,
+        "aiReadiness": 74.7
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 68,
+          "momentum": 84,
+          "quality": 80,
+          "trust": 82,
+          "aiReadiness": 76
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 63.8,
+          "quality": 78.3,
+          "trust": 81.3,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 67.7,
+          "momentum": 79.5,
+          "quality": 79.6,
+          "trust": 81.8,
+          "aiReadiness": 74.7
+        },
+        "live_signals": {
+          "okRate": 0.25,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 16,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.3,
+        "current_score": 75.8,
+        "delta": -1.5,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.5
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -1.3
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -0.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "evidence_count": 19,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 2,
+      "entity": {
+        "id": "ent_protect_ai",
+        "slug": "protect-ai",
+        "name": "Protect AI",
+        "url": "http://localhost:4173/entities/protect-ai/",
+        "canonical_url": "https://protectai.com"
+      },
+      "total_score": 75.4,
+      "confidence": 0.783,
+      "dimensions": {
+        "adoption": 69.3,
+        "momentum": 78,
+        "quality": 79.6,
+        "trust": 79.2,
+        "aiReadiness": 73.1
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 70,
+          "momentum": 82,
+          "quality": 80,
+          "trust": 82,
+          "aiReadiness": 74
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 63.8,
+          "quality": 78.3,
+          "trust": 69.3,
+          "aiReadiness": 70
+        },
+        "final_dimensions": {
+          "adoption": 69.3,
+          "momentum": 78,
+          "quality": 79.6,
+          "trust": 79.2,
+          "aiReadiness": 73.1
+        },
+        "live_signals": {
+          "okRate": 0.25,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 14,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.2,
+        "current_score": 75.4,
+        "delta": -1.8,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -2.8
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -0.9
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：25%"
+        ]
+      },
+      "evidence_count": 17,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 3,
+      "entity": {
+        "id": "ent_guardrails_ai",
+        "slug": "guardrails-ai",
+        "name": "Guardrails AI",
+        "url": "http://localhost:4173/entities/guardrails-ai/",
+        "canonical_url": "https://www.guardrailsai.com"
+      },
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "dimensions": {
+        "adoption": 70.8,
+        "momentum": 72.9,
+        "quality": 76.3,
+        "trust": 72.6,
+        "aiReadiness": 78.2
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 72,
+          "momentum": 78,
+          "quality": 80,
+          "trust": 81,
+          "aiReadiness": 85
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 70.8,
+          "momentum": 72.9,
+          "quality": 76.3,
+          "trust": 72.6,
+          "aiReadiness": 78.2
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77.8,
+        "current_score": 73.4,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -8.4
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    }
+  ]
+}

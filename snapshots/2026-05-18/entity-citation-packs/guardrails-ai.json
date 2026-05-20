@@ -1,0 +1,151 @@
+{
+  "citation_pack_id": "cp_guardrails-ai_77fa9247e30e",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "entity": {
+    "id": "ent_guardrails_ai",
+    "slug": "guardrails-ai",
+    "name": "Guardrails AI",
+    "canonical_url": "https://www.guardrailsai.com",
+    "entity_url": "http://localhost:4173/entities/guardrails-ai/"
+  },
+  "rankings": [
+    {
+      "list_id": "ai-security-governance",
+      "list_name": "AI 安全与治理榜",
+      "rank": 3,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/ai-security-governance/"
+    },
+    {
+      "list_id": "ai-readiness",
+      "list_name": "AI 可读性榜",
+      "rank": 25,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/ai-readiness/"
+    },
+    {
+      "list_id": "trust-leaders",
+      "list_name": "可信度领先榜",
+      "rank": 26,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/trust-leaders/"
+    },
+    {
+      "list_id": "momentum-leaders",
+      "list_name": "增长势能榜",
+      "rank": 29,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/momentum-leaders/"
+    },
+    {
+      "list_id": "open-source-infra",
+      "list_name": "开源基础设施榜",
+      "rank": 18,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/open-source-infra/"
+    },
+    {
+      "list_id": "safety-governance",
+      "list_name": "安全治理观察榜",
+      "rank": 14,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/safety-governance/"
+    },
+    {
+      "list_id": "high-confidence",
+      "list_name": "高置信度榜",
+      "rank": 14,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/high-confidence/"
+    },
+    {
+      "list_id": "developer-adoption",
+      "list_name": "开发者采用度榜",
+      "rank": 25,
+      "total_score": 73.4,
+      "confidence": 0.766,
+      "url": "http://localhost:4173/rankings/developer-adoption/"
+    }
+  ],
+  "score": 73.4,
+  "confidence": 0.766,
+  "dimensions": {
+    "adoption": 70.8,
+    "momentum": 72.9,
+    "quality": 76.3,
+    "trust": 72.6,
+    "aiReadiness": 78.2
+  },
+  "recommended_citation": "Guardrails AI. Unicorn Rank evidence-backed ranking packet. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/entities/guardrails-ai/.",
+  "citation_guidance": [
+    "Include snapshot_time and methodology_version when citing this packet.",
+    "Use claim evidence URLs for factual statements.",
+    "Do not cite disputed or needs_review claims as established facts."
+  ],
+  "supported_claims": [
+    {
+      "id": "claim_1174567042bd",
+      "entity_id": "ent_guardrails_ai",
+      "entity_slug": "guardrails-ai",
+      "entity_name": "Guardrails AI",
+      "claim_type": "github_repo",
+      "claim_text": "Guardrails AI 是开源项目。",
+      "claim_status": "supported",
+      "confidence": 0.86,
+      "source_id": "src_github",
+      "source_name": "GitHub",
+      "evidence_id": "ev_ent_guardrails_ai_github_repo",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_github_repo",
+      "raw_url": "https://github.com/guardrails-ai/guardrails",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_guardrails_ai_github_repo_snapshot_20260518"
+    },
+    {
+      "id": "claim_d465833d0b73",
+      "entity_id": "ent_guardrails_ai",
+      "entity_slug": "guardrails-ai",
+      "entity_name": "Guardrails AI",
+      "claim_type": "docs_available",
+      "claim_text": "Guardrails AI 文档可验证。",
+      "claim_status": "supported",
+      "confidence": 0.84,
+      "source_id": "src_official_docs",
+      "source_name": "Official Documentation",
+      "evidence_id": "ev_ent_guardrails_ai_docs_available",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_docs_available",
+      "raw_url": "https://www.guardrailsai.com/docs",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_guardrails_ai_docs_available_snapshot_20260518"
+    },
+    {
+      "id": "claim_f49afd7775fd",
+      "entity_id": "ent_guardrails_ai",
+      "entity_slug": "guardrails-ai",
+      "entity_name": "Guardrails AI",
+      "claim_type": "official_positioning",
+      "claim_text": "Guardrails AI 用于控制和验证 LLM 输出。",
+      "claim_status": "supported",
+      "confidence": 0.82,
+      "source_id": "src_official_site",
+      "source_name": "Official Website",
+      "evidence_id": "ev_ent_guardrails_ai_official_positioning",
+      "evidence_url": "http://localhost:4173/api/v1/evidence/ev_ent_guardrails_ai_official_positioning",
+      "raw_url": "https://www.guardrailsai.com",
+      "captured_at": "2026-05-18T09:00:00+08:00",
+      "content_hash": "sha256:ent_guardrails_ai_official_positioning_snapshot_20260518"
+    }
+  ],
+  "evidence_api": "http://localhost:4173/api/v1/entities/guardrails-ai/evidence",
+  "citation_pack_api": "http://localhost:4173/api/v1/entities/guardrails-ai/citation-pack",
+  "integrity": {
+    "content_hash": "sha256:21c4b66c166c772b2f932d06b5abf1e069abdd422b499570b199d68f865c0f6b"
+  }
+}

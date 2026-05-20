@@ -1,0 +1,873 @@
+{
+  "list_id": "ai-coding-tools",
+  "name": "AI 编程工具可信榜",
+  "description": "比较 AI 编程工具的采用度、增长、质量、可信度与 AI 可读性。",
+  "intent": "帮助开发者、采购团队和 AI Agent 判断哪些 AI 编程工具更值得评估。",
+  "snapshot_time": "2026-05-18T09:00:00+08:00",
+  "methodology_version": "mvp-ai-tools-v1",
+  "citation_summary": {
+    "ranking_id": "ai-coding-tools",
+    "ranking_name": "AI 编程工具可信榜",
+    "snapshot_time": "2026-05-18T09:00:00+08:00",
+    "methodology_version": "mvp-ai-tools-v1",
+    "ranking_url": "http://localhost:4173/rankings/ai-coding-tools/",
+    "ranking_api": "http://localhost:4173/api/v1/lists/ai-coding-tools",
+    "citation_api": "http://localhost:4173/api/v1/lists/ai-coding-tools/citation",
+    "evidence_count": 87,
+    "entity_count": 9,
+    "average_confidence": 0.771,
+    "top_entities": [
+      {
+        "rank": 1,
+        "name": "GitHub Copilot",
+        "score": 87.3,
+        "confidence": 0.863,
+        "entity_url": "http://localhost:4173/entities/github-copilot/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/github-copilot/citation-pack"
+      },
+      {
+        "rank": 2,
+        "name": "Cursor",
+        "score": 83.8,
+        "confidence": 0.77,
+        "entity_url": "http://localhost:4173/entities/cursor/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/cursor/citation-pack"
+      },
+      {
+        "rank": 3,
+        "name": "Windsurf",
+        "score": 80.1,
+        "confidence": 0.757,
+        "entity_url": "http://localhost:4173/entities/windsurf/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/windsurf/citation-pack"
+      },
+      {
+        "rank": 4,
+        "name": "Replit",
+        "score": 78.6,
+        "confidence": 0.758,
+        "entity_url": "http://localhost:4173/entities/replit/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/replit/citation-pack"
+      },
+      {
+        "rank": 5,
+        "name": "Continue",
+        "score": 77.8,
+        "confidence": 0.761,
+        "entity_url": "http://localhost:4173/entities/continue/",
+        "citation_pack_api": "http://localhost:4173/api/v1/entities/continue/citation-pack"
+      }
+    ],
+    "recommended_citation": "AI 编程工具可信榜. Unicorn Rank evidence-backed ranking snapshot. Snapshot 2026-05-18T09:00:00+08:00; methodology mvp-ai-tools-v1; URL: http://localhost:4173/rankings/ai-coding-tools/.",
+    "ai_use_cases": [
+      "Answering questions about AI 编程工具可信榜",
+      "Comparing tools with evidence-backed scores",
+      "Building RAG or procurement research context with verifiable source URLs"
+    ],
+    "citation_rules": [
+      "Include ranking_name, snapshot_time and methodology_version.",
+      "Use entity citation-pack APIs for factual product claims.",
+      "Do not present rankings as absolute truth; cite them as evidence-backed estimates.",
+      "Avoid disputed or needs_review claims unless discussing uncertainty."
+    ]
+  },
+  "citation_url": "http://localhost:4173/api/v1/lists/ai-coding-tools/citation",
+  "items": [
+    {
+      "rank": 1,
+      "entity": {
+        "id": "ent_github_copilot",
+        "slug": "github-copilot",
+        "name": "GitHub Copilot",
+        "url": "http://localhost:4173/entities/github-copilot/",
+        "canonical_url": "https://github.com/features/copilot"
+      },
+      "total_score": 87.3,
+      "confidence": 0.863,
+      "dimensions": {
+        "adoption": 94.8,
+        "momentum": 79.3,
+        "quality": 87.3,
+        "trust": 86.4,
+        "aiReadiness": 86.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 98,
+          "momentum": 84,
+          "quality": 90,
+          "trust": 88,
+          "aiReadiness": 89
+        },
+        "live_dimensions": {
+          "adoption": 83.3,
+          "momentum": 62.8,
+          "quality": 77.9,
+          "trust": 80.6,
+          "aiReadiness": 78
+        },
+        "final_dimensions": {
+          "adoption": 94.8,
+          "momentum": 79.3,
+          "quality": 87.3,
+          "trust": 86.4,
+          "aiReadiness": 86.6
+        },
+        "live_signals": {
+          "okRate": 0.2222222222222222,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": true,
+          "hasPricing": true,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": true,
+          "generatedCount": 19,
+          "sourceCount": 5
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 87.3,
+        "delta": -3.2,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.7
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -3.2
+          },
+          {
+            "key": "quality",
+            "label": "质量",
+            "delta": -2.7
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "存在 API 或机器可调用信号",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：5 类来源",
+          "采集成功率偏低：22%"
+        ]
+      },
+      "evidence_count": 23,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 2,
+      "entity": {
+        "id": "ent_cursor",
+        "slug": "cursor",
+        "name": "Cursor",
+        "url": "http://localhost:4173/entities/cursor/",
+        "canonical_url": "https://cursor.com"
+      },
+      "total_score": 83.8,
+      "confidence": 0.77,
+      "dimensions": {
+        "adoption": 88,
+        "momentum": 83.9,
+        "quality": 82.5,
+        "trust": 77.6,
+        "aiReadiness": 82.9
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 94,
+          "momentum": 92,
+          "quality": 88,
+          "trust": 84,
+          "aiReadiness": 91
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 88,
+          "momentum": 83.9,
+          "quality": 82.5,
+          "trust": 77.6,
+          "aiReadiness": 82.9
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 90.5,
+        "current_score": 83.8,
+        "delta": -6.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.1
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.1
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -6.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 9,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 3,
+      "entity": {
+        "id": "ent_windsurf",
+        "slug": "windsurf",
+        "name": "Windsurf",
+        "url": "http://localhost:4173/entities/windsurf/",
+        "canonical_url": "https://windsurf.com"
+      },
+      "total_score": 80.1,
+      "confidence": 0.757,
+      "dimensions": {
+        "adoption": 80.2,
+        "momentum": 85.4,
+        "quality": 79.4,
+        "trust": 72.9,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 84,
+          "momentum": 94,
+          "quality": 84,
+          "trust": 78,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 80.2,
+          "momentum": 85.4,
+          "quality": 79.4,
+          "trust": 72.9,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 85.8,
+        "current_score": 80.1,
+        "delta": -5.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -8.6
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.1
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 4,
+      "entity": {
+        "id": "ent_replit",
+        "slug": "replit",
+        "name": "Replit",
+        "url": "http://localhost:4173/entities/replit/",
+        "canonical_url": "https://replit.com"
+      },
+      "total_score": 78.6,
+      "confidence": 0.758,
+      "dimensions": {
+        "adoption": 85.6,
+        "momentum": 72.9,
+        "quality": 77.8,
+        "trust": 76.1,
+        "aiReadiness": 77.4
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 91,
+          "momentum": 78,
+          "quality": 82,
+          "trust": 82,
+          "aiReadiness": 84
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 85.6,
+          "momentum": 72.9,
+          "quality": 77.8,
+          "trust": 76.1,
+          "aiReadiness": 77.4
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.9,
+        "current_score": 78.6,
+        "delta": -5.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -6.6
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.9
+          },
+          {
+            "key": "adoption",
+            "label": "采用度",
+            "delta": -5.4
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 5,
+      "entity": {
+        "id": "ent_continue",
+        "slug": "continue",
+        "name": "Continue",
+        "url": "http://localhost:4173/entities/continue/",
+        "canonical_url": "https://continue.dev"
+      },
+      "total_score": 77.8,
+      "confidence": 0.761,
+      "dimensions": {
+        "adoption": 75.5,
+        "momentum": 76.8,
+        "quality": 80.2,
+        "trust": 77.3,
+        "aiReadiness": 83.6
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 78,
+          "momentum": 83,
+          "quality": 85,
+          "trust": 87,
+          "aiReadiness": 92
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 75.5,
+          "momentum": 76.8,
+          "quality": 80.2,
+          "trust": 77.3,
+          "aiReadiness": 83.6
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 83.4,
+        "current_score": 77.8,
+        "delta": -5.6,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9.7
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -8.4
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 6,
+      "entity": {
+        "id": "ent_aider",
+        "slug": "aider",
+        "name": "Aider",
+        "url": "http://localhost:4173/entities/aider/",
+        "canonical_url": "https://aider.chat"
+      },
+      "total_score": 76.1,
+      "confidence": 0.769,
+      "dimensions": {
+        "adoption": 73.9,
+        "momentum": 76.8,
+        "quality": 77.8,
+        "trust": 75,
+        "aiReadiness": 79
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 83,
+          "quality": 82,
+          "trust": 84,
+          "aiReadiness": 86
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 43,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 73.9,
+          "momentum": 76.8,
+          "quality": 77.8,
+          "trust": 75,
+          "aiReadiness": 79
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 4,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 81.1,
+        "current_score": 76.1,
+        "delta": -5.1,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -6.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 7,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 7,
+      "entity": {
+        "id": "ent_sourcegraph_cody",
+        "slug": "sourcegraph-cody",
+        "name": "Sourcegraph Cody",
+        "url": "http://localhost:4173/entities/sourcegraph-cody/",
+        "canonical_url": "https://sourcegraph.com/cody"
+      },
+      "total_score": 75.7,
+      "confidence": 0.757,
+      "dimensions": {
+        "adoption": 73.9,
+        "momentum": 71.4,
+        "quality": 79.4,
+        "trust": 78.5,
+        "aiReadiness": 80.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 76,
+          "momentum": 76,
+          "quality": 84,
+          "trust": 84,
+          "aiReadiness": 88
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 59,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 73.9,
+          "momentum": 71.4,
+          "quality": 79.4,
+          "trust": 78.5,
+          "aiReadiness": 80.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 80,
+        "current_score": 75.7,
+        "delta": -4.3,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -7.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -5.5
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 8,
+      "entity": {
+        "id": "ent_tabnine",
+        "slug": "tabnine",
+        "name": "Tabnine",
+        "url": "http://localhost:4173/entities/tabnine/",
+        "canonical_url": "https://www.tabnine.com"
+      },
+      "total_score": 74.5,
+      "confidence": 0.755,
+      "dimensions": {
+        "adoption": 77.1,
+        "momentum": 69.8,
+        "quality": 75.5,
+        "trust": 76.2,
+        "aiReadiness": 74.3
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 80,
+          "momentum": 74,
+          "quality": 79,
+          "trust": 81,
+          "aiReadiness": 80
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 59,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 77.1,
+          "momentum": 69.8,
+          "quality": 75.5,
+          "trust": 76.2,
+          "aiReadiness": 74.3
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": false,
+          "hasSecurity": true,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 78.5,
+        "current_score": 74.5,
+        "delta": -3.9,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.7
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.8
+          },
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -4.2
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "安全/隐私材料可验证",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    },
+    {
+      "rank": 9,
+      "entity": {
+        "id": "ent_qodo",
+        "slug": "qodo",
+        "name": "Qodo",
+        "url": "http://localhost:4173/entities/qodo/",
+        "canonical_url": "https://www.qodo.ai"
+      },
+      "total_score": 73.3,
+      "confidence": 0.753,
+      "dimensions": {
+        "adoption": 69.3,
+        "momentum": 76.1,
+        "quality": 77,
+        "trust": 71.4,
+        "aiReadiness": 73.5
+      },
+      "score_explanation": {
+        "base_dimensions": {
+          "adoption": 70,
+          "momentum": 82,
+          "quality": 81,
+          "trust": 76,
+          "aiReadiness": 79
+        },
+        "live_dimensions": {
+          "adoption": 66.7,
+          "momentum": 55,
+          "quality": 63,
+          "trust": 55,
+          "aiReadiness": 54
+        },
+        "final_dimensions": {
+          "adoption": 69.3,
+          "momentum": 76.1,
+          "quality": 77,
+          "trust": 71.4,
+          "aiReadiness": 73.5
+        },
+        "live_signals": {
+          "okRate": 0,
+          "githubStars": 0,
+          "daysSincePush": null,
+          "hasDocs": true,
+          "hasApi": false,
+          "hasPricing": true,
+          "hasSecurity": false,
+          "hasLlms": false,
+          "hasJsonLd": false,
+          "generatedCount": 5,
+          "sourceCount": 4
+        },
+        "note": "final_dimensions blend curated baseline with AI-collected evidence signals; live evidence weight is intentionally conservative in MVP."
+      },
+      "score_movement": {
+        "base_score": 77,
+        "current_score": 73.3,
+        "delta": -3.7,
+        "direction": "down",
+        "top_dimension_changes": [
+          {
+            "key": "momentum",
+            "label": "增长势能",
+            "delta": -5.9
+          },
+          {
+            "key": "aiReadiness",
+            "label": "AI 可读性",
+            "delta": -5.5
+          },
+          {
+            "key": "trust",
+            "label": "可信度",
+            "delta": -4.6
+          }
+        ],
+        "drivers": [
+          "公开文档可采集",
+          "来源覆盖较完整：4 类来源",
+          "采集成功率偏低：0%"
+        ]
+      },
+      "evidence_count": 8,
+      "quarantine_count": 0,
+      "methodology_version": "mvp-ai-tools-v1",
+      "snapshot_time": "2026-05-18T09:00:00+08:00"
+    }
+  ]
+}
